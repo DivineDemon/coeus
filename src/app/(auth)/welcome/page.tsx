@@ -1,25 +1,37 @@
-"use client";
+import { notFound, redirect } from "next/navigation";
 
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
-
+import { auth, clerkClient } from "@clerk/nextjs/server";
 import { LucideProps } from "lucide-react";
 
 import Heading from "@/components/heading";
 import LoadingSpinner from "@/components/loading-spinner";
-import { api } from "@/trpc/react";
+import { api } from "@/trpc/server";
 
-const Page = () => {
-  const router = useRouter();
-  const syncUser = api.user.syncUser.useMutation({
-    onSuccess: async () => {
-      router.push("/dashboard");
-    },
+const Page = async () => {
+  const { userId } = await auth();
+
+  if (!userId) {
+    throw new Error("User not Found!");
+  }
+
+  const client = await clerkClient();
+  const user = await client.users.getUser(userId!);
+
+  if (!user.emailAddresses[0]?.emailAddress) {
+    return notFound();
+  }
+
+  const response = await api.user.syncUser({
+    id: userId,
+    lastName: user.lastName ?? "",
+    imageUrl: user.imageUrl ?? "",
+    firstName: user.firstName ?? "",
+    email: user.emailAddresses[0].emailAddress!,
   });
 
-  useEffect(() => {
-    syncUser.mutate();
-  }, []);
+  if (response) {
+    redirect("/dashboard");
+  }
 
   return (
     <div className="flex w-full flex-1 items-center justify-center p-4">
