@@ -16,7 +16,7 @@ const Layout = ({ children }: PropsWithChildren) => {
           <UserButton />
         </div>
         <div className="h-4" />
-        <div className="h-[calc(100vh-79px)] overflow-y-auto rounded-md border border-sidebar-border bg-sidebar p-4 shadow">
+        <div className="h-[calc(100vh-78px)] overflow-y-auto rounded-md border border-sidebar-border bg-sidebar p-4 shadow">
           {children}
         </div>
       </div>

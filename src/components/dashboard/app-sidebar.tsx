@@ -3,9 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+import { PackageCheck, PackageOpen, Plus, Waypoints } from "lucide-react";
+
 import { sidebar_items } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
+import { buttonVariants } from "../ui/button";
 import {
   Sidebar,
   SidebarContent,
@@ -16,14 +19,27 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
+  useSidebar,
 } from "../ui/sidebar";
 
 const AppSidebar = () => {
+  const { open } = useSidebar();
   const pathname = usePathname();
 
   return (
     <Sidebar collapsible="icon" variant="floating">
-      <SidebarHeader>Logo</SidebarHeader>
+      <SidebarHeader>
+        <div className="flex items-center gap-2 text-primary/80">
+          <Waypoints
+            className={cn("size-6 transition-[width]", {
+              "size-8": !open,
+            })}
+          />
+          {open && (
+            <span className="flex-1 text-left text-xl font-bold">Coeus</span>
+          )}
+        </div>
+      </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Application</SidebarGroupLabel>
@@ -45,6 +61,53 @@ const AppSidebar = () => {
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+        <SidebarGroup>
+          <SidebarGroupLabel>Your Projects</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {[...Array(5)].map((_, idx) => (
+                <SidebarMenuItem key={idx}>
+                  <SidebarMenuButton asChild>
+                    <div
+                      className={cn(
+                        "flex w-full items-center justify-center gap-2.5",
+                        {
+                          "bg-primary text-white": idx === 1,
+                        }
+                      )}
+                    >
+                      {idx === 1 ? <PackageOpen /> : <PackageCheck />}
+                      {open && (
+                        <span className="flex-1 text-left">
+                          Project {idx + 1}
+                        </span>
+                      )}
+                    </div>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+              <div className="h-2" />
+              <SidebarMenuItem>
+                <Link
+                  href="/"
+                  className={cn(
+                    "w-fit",
+                    buttonVariants({
+                      variant: "outline",
+                      size: "sm",
+                    }),
+                    {
+                      "size-8": !open,
+                    }
+                  )}
+                >
+                  <Plus />
+                  {open && "Create Project"}
+                </Link>
+              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
