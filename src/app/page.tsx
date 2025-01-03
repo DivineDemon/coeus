@@ -1,7 +1,11 @@
+import { Button } from "@/components/ui/button";
+
 const Page = () => {
   return (
-    <div className="flex w-full items-center justify-center p-5 text-3xl font-bold">
-      Page
+    <div className="flex w-full items-center justify-center p-5 font-bold">
+      <Button type="button" variant="default" size="lg">
+        Page
+      </Button>
     </div>
   );
 };
