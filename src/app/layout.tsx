@@ -4,6 +4,7 @@ import { EB_Garamond, Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 
 import "@/assets/css/globals.css";
+import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
 import { TRPCReactProvider } from "@/trpc/react";
 
@@ -27,7 +28,10 @@ export default function RootLayout({
       <html lang="en" className={cn(inter.variable, eb_garamond.variable)}>
         <body className="flex min-h-[calc(100vh-1px)] flex-col bg-brand-50 font-sans text-brand-950 antialiased">
           <main className="relative flex flex-1 flex-col">
-            <TRPCReactProvider>{children}</TRPCReactProvider>
+            <TRPCReactProvider>
+              <Toaster richColors={true} />
+              {children}
+            </TRPCReactProvider>
           </main>
         </body>
       </html>

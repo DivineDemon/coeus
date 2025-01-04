@@ -51,7 +51,7 @@ const AppSidebar = () => {
                     <Link
                       href={item.url}
                       className={cn({
-                        "bg-primary text-white hover:bg-primary/85 hover:text-white":
+                        "bg-primary text-white hover:bg-primary/80 hover:text-white":
                           pathname === item.url,
                       })}
                     >
@@ -75,7 +75,8 @@ const AppSidebar = () => {
                       className={cn(
                         "flex w-full items-center justify-center gap-2.5",
                         {
-                          "bg-primary text-white": idx === 1,
+                          "bg-primary text-white hover:bg-primary/80 hover:text-white":
+                            idx === 1,
                         }
                       )}
                     >
@@ -92,7 +93,7 @@ const AppSidebar = () => {
               <div className="h-2" />
               <SidebarMenuItem>
                 <Link
-                  href="/"
+                  href="/dashboard/create-project"
                   className={cn(
                     "w-fit",
                     buttonVariants({

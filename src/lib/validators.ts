@@ -7,3 +7,9 @@ export const userSchema = z.object({
   imageUrl: z.string().optional(),
   firstName: z.string().optional(),
 });
+
+export const projectSchema = z.object({
+  name: z.string(),
+  githubUrl: z.string(),
+  githubToken: z.string().optional(),
+});
