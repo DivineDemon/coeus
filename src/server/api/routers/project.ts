@@ -17,4 +17,16 @@ export const projectRouter = createTRPCRouter({
         },
       });
     }),
+  getProjects: privateProcedure.query(async ({ ctx }) => {
+    return ctx.db.project.findMany({
+      where: {
+        UserToProject: {
+          some: {
+            userId: ctx.user.userId!,
+          },
+        },
+        deletedAt: null,
+      },
+    });
+  }),
 });

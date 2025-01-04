@@ -9,6 +9,7 @@ import { toast } from "sonner";
 import CreateImage from "@/assets/img/create-img.svg";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import useRefetch from "@/hooks/use-refetch";
 import { api } from "@/trpc/react";
 
 type FormSchema = {
@@ -18,6 +19,7 @@ type FormSchema = {
 };
 
 const Page = () => {
+  const refetch = useRefetch();
   const createProject = api.project.createProject.useMutation();
   const { register, handleSubmit, reset } = useForm<FormSchema>();
 
@@ -31,6 +33,7 @@ const Page = () => {
       {
         onSuccess: () => {
           toast.success("Project created successfully!");
+          refetch();
           reset();
         },
         onError: (error) => {

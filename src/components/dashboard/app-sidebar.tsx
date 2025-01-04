@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 import { PackageCheck, PackageOpen, Plus, Waypoints } from "lucide-react";
 
+import useProject from "@/hooks/use-project";
 import { sidebar_items } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
@@ -25,11 +26,12 @@ import {
 const AppSidebar = () => {
   const { open } = useSidebar();
   const pathname = usePathname();
+  const { projects, projectId, setProjectId } = useProject();
 
   return (
     <Sidebar collapsible="icon" variant="floating">
       <SidebarHeader>
-        <div className="flex items-center gap-2 text-primary/80">
+        <div className="flex items-center gap-2 text-primary/75">
           <Waypoints
             className={cn("size-6 transition-[width]", {
               "size-8": !open,
@@ -51,7 +53,7 @@ const AppSidebar = () => {
                     <Link
                       href={item.url}
                       className={cn({
-                        "bg-primary text-white hover:bg-primary/80 hover:text-white":
+                        "bg-primary text-white hover:bg-primary/75 hover:text-white":
                           pathname === item.url,
                       })}
                     >
@@ -68,23 +70,26 @@ const AppSidebar = () => {
           <SidebarGroupLabel>Your Projects</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {[...Array(5)].map((_, idx) => (
-                <SidebarMenuItem key={idx}>
+              {projects?.map((project) => (
+                <SidebarMenuItem key={project.id}>
                   <SidebarMenuButton asChild>
                     <div
+                      onClick={() => setProjectId(project.id)}
                       className={cn(
-                        "flex w-full items-center justify-center gap-2.5",
+                        "flex w-full cursor-pointer items-center justify-center gap-2.5",
                         {
-                          "bg-primary text-white hover:bg-primary/80 hover:text-white":
-                            idx === 1,
+                          "bg-primary text-white hover:bg-primary/75 hover:text-white":
+                            project.id === projectId,
                         }
                       )}
                     >
-                      {idx === 1 ? <PackageOpen /> : <PackageCheck />}
+                      {project.id === projectId ? (
+                        <PackageOpen />
+                      ) : (
+                        <PackageCheck />
+                      )}
                       {open && (
-                        <span className="flex-1 text-left">
-                          Project {idx + 1}
-                        </span>
+                        <span className="flex-1 text-left">{project.name}</span>
                       )}
                     </div>
                   </SidebarMenuButton>
