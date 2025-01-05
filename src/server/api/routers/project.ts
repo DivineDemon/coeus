@@ -1,3 +1,4 @@
+import { pollCommits } from "@/lib/github";
 import { projectSchema } from "@/lib/validators";
 import { createTRPCRouter, privateProcedure } from "@/server/api/trpc";
 
@@ -5,7 +6,7 @@ export const projectRouter = createTRPCRouter({
   createProject: privateProcedure
     .input(projectSchema)
     .mutation(async ({ ctx, input }) => {
-      return ctx.db.project.create({
+      const project = await ctx.db.project.create({
         data: {
           name: input.name,
           githubUrl: input.githubUrl,
@@ -16,6 +17,10 @@ export const projectRouter = createTRPCRouter({
           },
         },
       });
+
+      await pollCommits(project.id);
+
+      return project;
     }),
   getProjects: privateProcedure.query(async ({ ctx }) => {
     return ctx.db.project.findMany({

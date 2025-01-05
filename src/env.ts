@@ -10,6 +10,12 @@ export const env = createEnv({
     CLERK_SECRET_KEY: z.string().regex(/^sk_test_[A-Za-z0-9-\.]+$/, {
       message: "Invalid CLERK_SECRET_KEY format",
     }),
+    GITHUB_TOKEN: z.string().regex(/^ghp_[a-zA-Z0-9]{36}$/, {
+      message: "Invalid GitHub personal access token format.",
+    }),
+    GEMINI_KEY: z.string().regex(/^AIza[0-9A-Za-z_-]{35}$/, {
+      message: "Invalid Gemini API key format.",
+    }),
   },
   client: {
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z
@@ -31,6 +37,8 @@ export const env = createEnv({
     NEXT_PUBLIC_CLERK_SIGN_UP_URL: process.env.NEXT_PUBLIC_CLERK_SIGN_UP_URL,
     NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL:
       process.env.NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL,
+    GITHUB_TOKEN: process.env.GITHUB_TOKEN,
+    GEMINI_KEY: process.env.GEMINI_KEY,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,

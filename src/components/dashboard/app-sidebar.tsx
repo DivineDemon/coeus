@@ -31,7 +31,7 @@ const AppSidebar = () => {
   return (
     <Sidebar collapsible="icon" variant="floating">
       <SidebarHeader>
-        <div className="flex items-center gap-2 text-primary/75">
+        <div className="flex items-center gap-2 text-[rgba(37,99,235,0.8)]">
           <Waypoints
             className={cn("size-6 transition-[width]", {
               "size-8": !open,
@@ -53,7 +53,7 @@ const AppSidebar = () => {
                     <Link
                       href={item.url}
                       className={cn({
-                        "bg-primary text-white hover:bg-primary/75 hover:text-white":
+                        "bg-primary text-white hover:bg-[rgba(37,99,235,0.8)] hover:text-white":
                           pathname === item.url,
                       })}
                     >
@@ -78,7 +78,7 @@ const AppSidebar = () => {
                       className={cn(
                         "flex w-full cursor-pointer items-center justify-center gap-2.5",
                         {
-                          "bg-primary text-white hover:bg-primary/75 hover:text-white":
+                          "bg-primary text-white hover:bg-[rgba(37,99,235,0.8)] hover:text-white":
                             project.id === projectId,
                         }
                       )}
