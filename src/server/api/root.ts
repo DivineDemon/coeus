@@ -1,6 +1,7 @@
 import { userRouter } from "@/server/api/routers/user";
 import { createCallerFactory, createTRPCRouter } from "@/server/api/trpc";
 
+import { commitRouter } from "./routers/commit";
 import { projectRouter } from "./routers/project";
 
 /**
@@ -10,6 +11,7 @@ import { projectRouter } from "./routers/project";
  */
 export const appRouter = createTRPCRouter({
   user: userRouter,
+  commit: commitRouter,
   project: projectRouter,
 });
 
