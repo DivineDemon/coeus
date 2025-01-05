@@ -9,7 +9,7 @@ const genAI = new OpenAI({
 
 export const summariseCommit = async (diff: string) => {
   const response = await genAI.chat.completions.create({
-    model: "gpt-4-turbo",
+    model: "chatgpt-4o-latest",
     messages: [
       {
         role: "system",
@@ -46,7 +46,7 @@ export const summariseCode = async (doc: Document) => {
   const code = doc.pageContent.slice(0, 10000);
   try {
     const response = await genAI.chat.completions.create({
-      model: "gpt-4-turbo",
+      model: "chatgpt-4o-latest",
       messages: [
         {
           role: "system",

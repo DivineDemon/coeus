@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { ExternalLink, Github } from "lucide-react";
 
+import AskQuestionCard from "@/components/dashboard/ask-question-card";
 import CommitLog from "@/components/dashboard/commit-log";
 import useProject from "@/hooks/use-project";
 
@@ -39,7 +40,7 @@ const Page = () => {
       </div>
       <div className="mt-4">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-5">
-          {/* AskQuestionCard */}
+          <AskQuestionCard />
           {/* MeetingCard */}
         </div>
       </div>
