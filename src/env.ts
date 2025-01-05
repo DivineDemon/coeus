@@ -13,8 +13,8 @@ export const env = createEnv({
     GITHUB_TOKEN: z.string().regex(/^ghp_[a-zA-Z0-9]{36}$/, {
       message: "Invalid GitHub personal access token format.",
     }),
-    GEMINI_KEY: z.string().regex(/^AIza[0-9A-Za-z_-]{35}$/, {
-      message: "Invalid Gemini API key format.",
+    OPENAI_KEY: z.string().regex(/^sk-[a-zA-Z0-9]{48}$/, {
+      message: "Invalid OpenAI API key format.",
     }),
   },
   client: {
@@ -38,7 +38,7 @@ export const env = createEnv({
     NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL:
       process.env.NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL,
     GITHUB_TOKEN: process.env.GITHUB_TOKEN,
-    GEMINI_KEY: process.env.GEMINI_KEY,
+    OPENAI_KEY: process.env.OPENAI_KEY,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,

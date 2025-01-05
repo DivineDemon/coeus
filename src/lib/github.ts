@@ -3,7 +3,7 @@ import { Octokit } from "octokit";
 import { env } from "@/env";
 import { db } from "@/server/db";
 
-import { summariseCommit } from "./gemini";
+import { summariseCommit } from "./openai";
 
 type GitResponse = {
   commitHash: string;
