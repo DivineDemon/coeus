@@ -13,3 +13,10 @@ export const projectSchema = z.object({
   githubUrl: z.string(),
   githubToken: z.string().optional(),
 });
+
+export const questionSchema = z.object({
+  projectId: z.string(),
+  question: z.string(),
+  answer: z.string(),
+  filesReference: z.any(),
+});

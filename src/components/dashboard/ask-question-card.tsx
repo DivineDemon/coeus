@@ -47,9 +47,11 @@ const AskQuestionCard = () => {
     <>
       <AnswerDialog
         open={open}
-        setOpen={setOpen}
-        answer={answer}
         files={files}
+        answer={answer}
+        setOpen={setOpen}
+        question={question}
+        projectId={project?.id ?? ""}
       />
       <Card className="relative col-span-3">
         <CardHeader>
