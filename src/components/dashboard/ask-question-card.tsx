@@ -24,7 +24,6 @@ const AskQuestionCard = () => {
   const onSubmit = async () => {
     setLoading(true);
     setFiles([]);
-    setQuestion("");
 
     if (!project?.id) {
       return;
@@ -51,6 +50,7 @@ const AskQuestionCard = () => {
         answer={answer}
         setOpen={setOpen}
         question={question}
+        setQuestion={setQuestion}
         projectId={project?.id ?? ""}
       />
       <Card className="relative col-span-3">

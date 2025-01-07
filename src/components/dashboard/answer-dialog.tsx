@@ -6,6 +6,7 @@ import MDEditor from "@uiw/react-md-editor";
 import { Waypoints } from "lucide-react";
 import { toast } from "sonner";
 
+import useRefetch from "@/hooks/use-refetch";
 import { api } from "@/trpc/react";
 
 import { Button } from "../ui/button";
@@ -19,6 +20,7 @@ interface AnswerDialogProps {
   projectId: string;
   files: StreamFileOutput[];
   setOpen: Dispatch<SetStateAction<boolean>>;
+  setQuestion: Dispatch<SetStateAction<string>>;
 }
 
 const AnswerDialog = ({
@@ -28,7 +30,9 @@ const AnswerDialog = ({
   setOpen,
   question,
   projectId,
+  setQuestion,
 }: AnswerDialogProps) => {
+  const refetch = useRefetch();
   const saveAnswer = api.question.saveAnswer.useMutation();
 
   return (
@@ -53,6 +57,8 @@ const AnswerDialog = ({
                   },
                   {
                     onSuccess: () => {
+                      refetch();
+                      setQuestion("");
                       toast.success("Answer Saved!");
                     },
                     onError: () => {

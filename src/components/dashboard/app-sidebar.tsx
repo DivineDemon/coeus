@@ -52,8 +52,8 @@ const AppSidebar = () => {
                   <SidebarMenuButton asChild>
                     <Link
                       href={item.url}
-                      className={cn({
-                        "bg-primary text-white hover:bg-[rgba(37,99,235,0.8)] hover:text-white":
+                      className={cn("hover:shadow-md", {
+                        "bg-primary text-white hover:bg-primary hover:text-white":
                           pathname === item.url,
                       })}
                     >
@@ -76,9 +76,9 @@ const AppSidebar = () => {
                     <div
                       onClick={() => setProjectId(project.id)}
                       className={cn(
-                        "flex w-full cursor-pointer items-center justify-center gap-2.5",
+                        "flex w-full cursor-pointer items-center justify-center gap-2.5 hover:shadow-md",
                         {
-                          "bg-primary text-white hover:bg-[rgba(37,99,235,0.8)] hover:text-white":
+                          "bg-primary text-white hover:bg-primary hover:text-white":
                             project.id === projectId,
                         }
                       )}
