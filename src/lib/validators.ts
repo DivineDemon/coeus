@@ -20,3 +20,9 @@ export const questionSchema = z.object({
   answer: z.string(),
   filesReference: z.any(),
 });
+
+export const meetingSchema = z.object({
+  projectId: z.string(),
+  meetingUrl: z.string().url(),
+  name: z.string(),
+});
