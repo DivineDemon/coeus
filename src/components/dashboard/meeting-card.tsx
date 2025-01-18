@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
+import { useMutation } from "@tanstack/react-query";
 import { Presentation, Upload } from "lucide-react";
 import { useDropzone } from "react-dropzone";
 import { toast } from "sonner";
@@ -18,6 +19,19 @@ import { Card } from "../ui/card";
 const MeetingCard = () => {
   const router = useRouter();
   const { projectId } = useProject();
+  const processMeeting = useMutation({
+    mutationFn: async (data: { meetingUrl: string; meetingId: string }) => {
+      const response = await fetch("/api/process-meeting", {
+        method: "POST",
+        body: JSON.stringify({
+          meetingId: data.meetingId,
+          meetingUrl: data.meetingUrl,
+        }),
+      });
+
+      return await response.json();
+    },
+  });
   const [progress, setProgress] = useState(0);
   const [isUploading, setIsUploading] = useState(false);
   const uploadMeeting = api.meeting.uploadMeeting.useMutation();
@@ -49,9 +63,13 @@ const MeetingCard = () => {
           name: file.name,
         },
         {
-          onSuccess: () => {
+          onSuccess: (meeting) => {
             toast.success("Meeting Uploaded Successfully!");
             router.push("/dashboard/meetings");
+            processMeeting.mutateAsync({
+              meetingId: meeting.id,
+              meetingUrl: downloadUrl as string,
+            });
           },
           onError: () => {
             toast.error("Something went wrong, Please try again!");

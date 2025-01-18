@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { Loader2, Music } from "lucide-react";
+import { Loader2, Music, OctagonAlert } from "lucide-react";
 
 import MeetingCard from "@/components/dashboard/meeting-card";
 import { Badge } from "@/components/ui/badge";
@@ -27,9 +27,21 @@ const Page = () => {
       <div className="h-6" />
       <span className="text-xl font-semibold">Meetings</span>
       <div className="h-6" />
-      {meetings && meetings.length === 0 && "No Meetings Found!"}
+      {meetings && meetings.length === 0 && (
+        <div className="flex w-full flex-col items-center justify-center rounded-lg border bg-white p-10 shadow">
+          <OctagonAlert className="mb-5 size-20 text-primary" />
+          <span className="w-full text-center text-lg font-semibold text-gray-700">
+            No Meetings Found!
+          </span>
+          <span className="w-full text-center text-sm text-gray-500">
+            Start by Uploading a Meeting!
+          </span>
+        </div>
+      )}
       {isLoading ? (
-        <Loader2 className="size-10 animate-spin" />
+        <div className="flex w-full items-center justify-center">
+          <Loader2 className="size-10 animate-spin text-primary" />
+        </div>
       ) : (
         <ul className="flex flex-col items-start gap-y-5 divide-y divide-gray-200">
           {meetings?.map((meeting) => (
