@@ -21,6 +21,9 @@ export const meetingRouter = createTRPCRouter({
         where: {
           projectId: input.projectId,
         },
+        include: {
+          Issue: true,
+        },
       });
     }),
 });
