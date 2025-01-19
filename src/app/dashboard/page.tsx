@@ -3,13 +3,20 @@
 import Link from "next/link";
 import { useState } from "react";
 
-import { Archive, ExternalLink, Github } from "lucide-react";
+import { Archive, Clipboard, ExternalLink, Github } from "lucide-react";
 import { toast } from "sonner";
 
 import AskQuestionCard from "@/components/dashboard/ask-question-card";
 import CommitLog from "@/components/dashboard/commit-log";
 import MeetingCard from "@/components/dashboard/meeting-card";
 import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import WarningModal from "@/components/warning-modal";
 import useProject from "@/hooks/use-project";
 import useRefetch from "@/hooks/use-refetch";
@@ -19,10 +26,39 @@ const Page = () => {
   const refetch = useRefetch();
   const { project } = useProject();
   const [warn, setWarn] = useState<boolean>(false);
+  const [invite, setInvite] = useState<boolean>(false);
   const archiveProject = api.project.archiveProject.useMutation();
 
   return (
     <>
+      <Dialog open={invite} onOpenChange={setInvite}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Invite Members</DialogTitle>
+            <DialogDescription>
+              Ask them to copy and paste this link.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="flex w-full items-center justify-center gap-2.5 rounded-lg bg-gray-100 px-2.5 py-1.5">
+            <span className="flex-1 text-left text-sm font-medium">
+              {window.location.origin}/join/{project?.id}
+            </span>
+            <Button
+              onClick={() => {
+                navigator.clipboard.writeText(
+                  `${window.location.origin}/join/${project?.id}`
+                );
+                toast.success("Copied to Clipboard!");
+              }}
+              type="button"
+              variant="default"
+              size="icon"
+            >
+              <Clipboard />
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
       <WarningModal
         open={warn}
         setOpen={setWarn}
@@ -65,7 +101,13 @@ const Page = () => {
         <div className="h-4" />
         <div className="flex items-center gap-4">
           {/* TeamMembers */}
-          {/* InviteButton */}
+          <Button
+            onClick={() => setInvite(true)}
+            type="button"
+            className="h-[44px]"
+          >
+            Invite Members
+          </Button>
           <Button
             type="button"
             onClick={() => setWarn(true)}
