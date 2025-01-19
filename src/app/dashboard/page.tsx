@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -28,6 +29,9 @@ const Page = () => {
   const [warn, setWarn] = useState<boolean>(false);
   const [invite, setInvite] = useState<boolean>(false);
   const archiveProject = api.project.archiveProject.useMutation();
+  const { data: members } = api.project.getTeamMembers.useQuery({
+    projectId: project?.id!,
+  });
 
   return (
     <>
@@ -100,7 +104,18 @@ const Page = () => {
         </div>
         <div className="h-4" />
         <div className="flex items-center gap-4">
-          {/* TeamMembers */}
+          <div className="flex items-center -space-x-2">
+            {members?.map((member) => (
+              <Image
+                key={member.id}
+                src={`${member.user.imageUrl}`}
+                alt="team-member-image"
+                width={30}
+                height={30}
+                className="rounded-full border-2 border-gray-200"
+              />
+            ))}
+          </div>
           <Button
             onClick={() => setInvite(true)}
             type="button"
