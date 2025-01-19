@@ -53,7 +53,7 @@ const AppSidebar = () => {
                     <Link
                       href={item.url}
                       className={cn("hover:shadow-md", {
-                        "bg-primary text-white hover:bg-primary hover:text-white":
+                        "bg-primary text-white hover:text-primary":
                           pathname === item.url,
                       })}
                     >
@@ -78,7 +78,7 @@ const AppSidebar = () => {
                       className={cn(
                         "flex w-full cursor-pointer items-center justify-center gap-2.5 hover:shadow-md",
                         {
-                          "bg-primary text-white hover:bg-primary hover:text-white":
+                          "bg-primary text-white hover:text-primary":
                             project.id === projectId,
                         }
                       )}

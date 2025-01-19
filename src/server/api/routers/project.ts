@@ -1,3 +1,5 @@
+import { z } from "zod";
+
 import { pollCommits } from "@/lib/github";
 import { indexGithubRepo } from "@/lib/github-loader";
 import { projectSchema } from "@/lib/validators";
@@ -36,4 +38,16 @@ export const projectRouter = createTRPCRouter({
       },
     });
   }),
+  archiveProject: privateProcedure
+    .input(z.object({ projectId: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      return await ctx.db.project.update({
+        where: {
+          id: input.projectId,
+        },
+        data: {
+          deletedAt: new Date(),
+        },
+      });
+    }),
 });

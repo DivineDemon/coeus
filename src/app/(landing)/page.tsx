@@ -7,14 +7,14 @@ import ShinyButton from "@/components/shiny-button";
 const App = () => {
   return (
     <>
-      <section className="relative bg-brand-25 py-24 sm:py-32">
+      <section className="bg-gray-25 relative py-24 sm:py-32">
         <MaxWidthWrapper className="text-center">
           <div className="relative mx-auto flex flex-col items-center gap-10 text-center">
             <div className="">
               <Heading>
                 <span>Real-Time SaaS Insights,</span>
                 <br />
-                <span className="relative bg-gradient-to-r from-brand-700 to-brand-800 bg-clip-text text-transparent">
+                <span className="relative bg-gradient-to-r from-primary/70 to-primary bg-clip-text text-transparent">
                   Delivered to your Discord
                 </span>
               </Heading>
@@ -34,7 +34,7 @@ const App = () => {
                 "Track sales, new users, or any other event",
               ].map((item, idx) => (
                 <li key={idx} className="flex items-center gap-1.5 text-left">
-                  <Check className="size-5 shrink-0 text-brand-700" />
+                  <Check className="size-5 shrink-0 text-primary" />
                   {item}
                 </li>
               ))}

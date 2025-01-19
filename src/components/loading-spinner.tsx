@@ -3,7 +3,7 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const spinnerVariants = cva(
-  "border-4 rounded-full border-brand-200 border-t-brand-700 animate-spin duration-700",
+  "border-4 rounded-full border-primary/20 border-t-primary/70 animate-spin duration-700",
   {
     variants: {
       size: {

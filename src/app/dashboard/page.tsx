@@ -1,19 +1,49 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 
-import { ExternalLink, Github } from "lucide-react";
+import { Archive, ExternalLink, Github } from "lucide-react";
+import { toast } from "sonner";
 
 import AskQuestionCard from "@/components/dashboard/ask-question-card";
 import CommitLog from "@/components/dashboard/commit-log";
 import MeetingCard from "@/components/dashboard/meeting-card";
+import { Button } from "@/components/ui/button";
+import WarningModal from "@/components/warning-modal";
 import useProject from "@/hooks/use-project";
+import useRefetch from "@/hooks/use-refetch";
+import { api } from "@/trpc/react";
 
 const Page = () => {
+  const refetch = useRefetch();
   const { project } = useProject();
+  const [warn, setWarn] = useState<boolean>(false);
+  const archiveProject = api.project.archiveProject.useMutation();
 
   return (
     <>
+      <WarningModal
+        open={warn}
+        setOpen={setWarn}
+        loading={archiveProject.isPending}
+        message={`archive ${project?.name}`}
+        cta={() =>
+          archiveProject.mutate(
+            { projectId: project!.id },
+            {
+              onSuccess: () => {
+                toast.success("Project Archived Successfully!");
+                setWarn(false);
+                refetch();
+              },
+              onError: () => {
+                toast.error("Failed to archive project!");
+              },
+            }
+          )
+        }
+      />
       <div className="flex flex-wrap items-center justify-between gap-y-4">
         <div className="w-fit rounded-md bg-primary px-4 py-3">
           <div className="flex items-center">
@@ -36,7 +66,14 @@ const Page = () => {
         <div className="flex items-center gap-4">
           {/* TeamMembers */}
           {/* InviteButton */}
-          {/* ArchiveButton */}
+          <Button
+            type="button"
+            onClick={() => setWarn(true)}
+            variant="destructive"
+            className="h-[44px]"
+          >
+            <Archive />
+          </Button>
         </div>
       </div>
       <div className="mt-4">

@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" className={cn(inter.variable, eb_garamond.variable)}>
-        <body className="flex min-h-[calc(100vh-1px)] flex-col bg-brand-50 font-sans text-brand-950 antialiased">
+        <body className="flex min-h-[calc(100vh-1px)] flex-col bg-gray-50 font-sans antialiased">
           <main className="relative flex flex-1 flex-col">
             <TRPCReactProvider>
               <Toaster richColors={true} />
