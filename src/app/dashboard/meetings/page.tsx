@@ -2,18 +2,21 @@
 
 import Link from "next/link";
 
-import { Loader2, Music, OctagonAlert } from "lucide-react";
+import { Loader2, Music, OctagonAlert, Trash } from "lucide-react";
+import { toast } from "sonner";
 
 import MeetingCard from "@/components/dashboard/meeting-card";
-import { Badge } from "@/components/ui/badge";
-import { buttonVariants } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import Indicator from "@/components/ui/indicator";
 import useProject from "@/hooks/use-project";
+import useRefetch from "@/hooks/use-refetch";
 import { cn } from "@/lib/utils";
 import { api } from "@/trpc/react";
 
 const Page = () => {
+  const refetch = useRefetch();
   const { projectId } = useProject();
+  const deleteMeeting = api.meeting.deleteMeeting.useMutation();
   const { data: meetings, isLoading } = api.meeting.getMeetings.useQuery(
     { projectId },
     {
@@ -67,17 +70,41 @@ const Page = () => {
                   </span>
                 </div>
               </div>
-              <Link
-                href={`/dashboard/meetings/${meeting.id}`}
-                className={cn(
-                  buttonVariants({
-                    variant: "outline",
-                    size: "lg",
-                  })
-                )}
-              >
-                View Meeting
-              </Link>
+              <div className="flex items-center justify-center gap-2.5">
+                <Link
+                  href={`/dashboard/meetings/${meeting.id}`}
+                  className={cn(
+                    buttonVariants({
+                      variant: "outline",
+                      size: "lg",
+                    })
+                  )}
+                >
+                  View Meeting
+                </Link>
+                <Button
+                  onClick={() =>
+                    deleteMeeting.mutate(
+                      { meetingId: meeting.id },
+                      {
+                        onSuccess: () => {
+                          toast.success("Successfully Deleted Meeting!");
+                          refetch();
+                        },
+                        onError: () => {
+                          toast.error(
+                            "Something went wrong, Please try again!"
+                          );
+                        },
+                      }
+                    )
+                  }
+                  variant="destructive"
+                  size="icon"
+                >
+                  <Trash />
+                </Button>
+              </div>
             </li>
           ))}
         </ul>
