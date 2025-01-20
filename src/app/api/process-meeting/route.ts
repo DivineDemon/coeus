@@ -11,7 +11,7 @@ const bodyParser = z.object({
   meetingId: z.string(),
 });
 
-export const maxDuration = 300; // Function Timeout Limit Defined due to Vercel Limitations. (5 Minutes)
+export const maxDuration = 60; // Function Timeout Limit Defined due to Vercel Free Plan Limitations.
 
 export async function POST(req: NextRequest) {
   const { userId } = await auth();
