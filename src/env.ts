@@ -34,7 +34,7 @@ export const env = createEnv({
     STRIPE_WEBHOOK_SECRET: z
       .string()
       .regex(
-        /^whsec_[a-zA-Z0-9]{64}$/,
+        /^whsec_[a-zA-Z0-9]{32}$/,
         "Invalid Stripe Webhook Secret Format!"
       ),
   },
