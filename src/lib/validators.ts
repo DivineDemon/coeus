@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { string, z } from "zod";
 
 export const userSchema = z.object({
   id: z.string(),
@@ -25,4 +25,9 @@ export const meetingSchema = z.object({
   projectId: z.string(),
   meetingUrl: z.string().url(),
   name: z.string(),
+});
+
+export const creditSchema = z.object({
+  githubUrl: z.string(),
+  githubToken: z.string().optional(),
 });

@@ -19,6 +19,24 @@ export const env = createEnv({
     ASSEMBLY_AI_KEY: z.string().regex(/^[a-f0-9]{32}$/, {
       message: "Invalid Assembly AI key format.",
     }),
+    STRIPE_SECRET_KEY: z
+      .string()
+      .regex(
+        /^sk_(test|live)_[0-9a-zA-Z]{24,}$/,
+        "Invalid Stripe secret key format"
+      ),
+    STRIPE_PUBLISHABLE_KEY: z
+      .string()
+      .regex(
+        /^pk_(test|live)_[0-9a-zA-Z]{24,}$/,
+        "Invalid Stripe secret key format"
+      ),
+    STRIPE_WEBHOOK_SECRET: z
+      .string()
+      .regex(
+        /^whsec_[a-zA-Z0-9]{64}$/,
+        "Invalid Stripe Webhook Secret Format!"
+      ),
   },
   client: {
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z
@@ -42,6 +60,7 @@ export const env = createEnv({
       message: "messagingSenderId must be a numeric string",
     }),
     NEXT_PUBLIC_FIREBASE_APP_ID: z.string(),
+    NEXT_PUBLIC_APP_URL: z.string(),
   },
   runtimeEnv: {
     DATABASE_URL: process.env.DATABASE_URL,
@@ -66,6 +85,10 @@ export const env = createEnv({
     NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET:
       process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
     NEXT_PUBLIC_FIREBASE_APP_ID: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+    STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
+    STRIPE_PUBLISHABLE_KEY: process.env.STRIPE_PUBLISHABLE_KEY,
+    STRIPE_WEBHOOK_SECRET: process.env.STRIPE_WEBHOOK_SECRET,
+    NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,

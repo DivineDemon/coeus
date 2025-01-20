@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { pollCommits } from "@/lib/github";
+import { checkCredits, pollCommits } from "@/lib/github";
 import { indexGithubRepo } from "@/lib/github-loader";
 import { projectSchema } from "@/lib/validators";
 import { createTRPCRouter, privateProcedure } from "@/server/api/trpc";
@@ -9,6 +9,26 @@ export const projectRouter = createTRPCRouter({
   createProject: privateProcedure
     .input(projectSchema)
     .mutation(async ({ ctx, input }) => {
+      const user = await ctx.db.user.findUnique({
+        where: {
+          id: ctx.user.userId!,
+        },
+        select: {
+          credits: true,
+        },
+      });
+
+      if (!user) {
+        throw new Error("User not found");
+      }
+
+      const currentCredits = user.credits || 0;
+      const fileCount = await checkCredits(input.githubUrl, input.githubToken);
+
+      if (currentCredits < fileCount) {
+        throw new Error("Not enough credits");
+      }
+
       const project = await ctx.db.project.create({
         data: {
           name: input.name,
@@ -23,6 +43,16 @@ export const projectRouter = createTRPCRouter({
 
       await indexGithubRepo(project.id, input.githubUrl, input.githubToken);
       await pollCommits(project.id);
+      await ctx.db.user.update({
+        where: {
+          id: ctx.user.userId!,
+        },
+        data: {
+          credits: {
+            decrement: fileCount,
+          },
+        },
+      });
 
       return project;
     }),

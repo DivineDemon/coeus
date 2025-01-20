@@ -1,7 +1,12 @@
 import { z } from "zod";
 
-import { userSchema } from "@/lib/validators";
-import { createTRPCRouter, publicProcedure } from "@/server/api/trpc";
+import { checkCredits } from "@/lib/github";
+import { creditSchema, userSchema } from "@/lib/validators";
+import {
+  createTRPCRouter,
+  privateProcedure,
+  publicProcedure,
+} from "@/server/api/trpc";
 
 export const userRouter = createTRPCRouter({
   syncUser: publicProcedure
@@ -43,5 +48,33 @@ export const userRouter = createTRPCRouter({
           id: input.id,
         },
       });
+    }),
+  getMyCredits: privateProcedure.query(async ({ ctx }) => {
+    return await ctx.db.user.findUnique({
+      where: {
+        id: ctx.user.userId!,
+      },
+      select: {
+        credits: true,
+      },
+    });
+  }),
+  seeCredits: privateProcedure
+    .input(creditSchema)
+    .mutation(async ({ ctx, input }) => {
+      const fileCount = await checkCredits(input.githubUrl, input.githubToken);
+      const userCredits = await ctx.db.user.findUnique({
+        where: {
+          id: ctx.user.userId!,
+        },
+        select: {
+          credits: true,
+        },
+      });
+
+      return {
+        fileCount,
+        userCredits: userCredits?.credits || 0,
+      };
     }),
 });

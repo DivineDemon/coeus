@@ -22,10 +22,11 @@ model User {
   lastName  String?
   credits   Int     @default(150)
 
-  createdAt     DateTime        @default(now())
-  updatedAt     DateTime        @updatedAt
-  UserToProject UserToProject[]
-  Question      Question[]
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
+  UserToProject     UserToProject[]
+  Question          Question[]
+  StripeTransaction StripeTransaction[]
 }
 
 model Project {
@@ -123,6 +124,17 @@ model Issue {
   meetingId String
 
   meeting Meeting @relation(fields: [meetingId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model StripeTransaction {
+  id      String @id @default(cuid())
+  userId  String
+  credits Int
+
+  user User @relation(fields: [userId], references: [id])
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
