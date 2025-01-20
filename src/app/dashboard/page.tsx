@@ -19,6 +19,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import WarningModal from "@/components/warning-modal";
+import { env } from "@/env";
 import useProject from "@/hooks/use-project";
 import useRefetch from "@/hooks/use-refetch";
 import { api } from "@/trpc/react";
@@ -45,12 +46,12 @@ const Page = () => {
           </DialogHeader>
           <div className="flex w-full items-center justify-center gap-2.5 rounded-lg bg-gray-100 px-2.5 py-1.5">
             <span className="flex-1 text-left text-sm font-medium">
-              {window.location.origin}/join/{project?.id}
+              {env.NEXT_PUBLIC_APP_URL}/join/{project?.id}
             </span>
             <Button
               onClick={() => {
                 navigator.clipboard.writeText(
-                  `${window.location.origin}/join/${project?.id}`
+                  `${env.NEXT_PUBLIC_APP_URL}/join/${project?.id}`
                 );
                 toast.success("Copied to Clipboard!");
               }}
