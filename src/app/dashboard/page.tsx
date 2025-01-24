@@ -30,9 +30,14 @@ const Page = () => {
   const [warn, setWarn] = useState<boolean>(false);
   const [invite, setInvite] = useState<boolean>(false);
   const archiveProject = api.project.archiveProject.useMutation();
-  const { data: members } = api.project.getTeamMembers.useQuery({
-    projectId: project?.id!,
-  });
+  const { data: members } = api.project.getTeamMembers.useQuery(
+    {
+      projectId: project?.id!,
+    },
+    {
+      enabled: !!project,
+    }
+  );
 
   return (
     <>

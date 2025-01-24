@@ -38,16 +38,25 @@ const Page = () => {
             refetch();
             reset();
           },
-          onError: (error) => {
-            toast.error(error.message);
+          onError: () => {
+            toast.error(
+              "Please verify if your repository is public. If it is private or it belongs to an organization, please provide a valid GitHub token."
+            );
           },
         }
       );
     } else {
-      checkCredits.mutate({
-        githubUrl: data.repoUrl,
-        githubToken: data.githubToken,
-      });
+      checkCredits.mutate(
+        {
+          githubUrl: data.repoUrl,
+          githubToken: data.githubToken,
+        },
+        {
+          onError: () => {
+            toast.error("Not enough credits!");
+          },
+        }
+      );
     }
   };
 
