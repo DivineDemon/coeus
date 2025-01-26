@@ -35,7 +35,7 @@ const Page = async () => {
 
   return (
     <div className="flex w-full flex-1 items-center justify-center p-4">
-      <BackgroundPattern className="absolute inset-0 left-1/2 z-0 -translate-x-1/2 opacity-75" />
+      <BackgroundPattern className="absolute inset-0 left-1/2 z-0 -translate-x-1/2 opacity-35" />
       <div className="relative z-10 flex -translate-y-1/2 flex-col items-center gap-6 text-center">
         <LoadingSpinner />
         <Heading>Creating your Account...</Heading>

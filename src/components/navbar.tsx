@@ -11,7 +11,7 @@ const Navbar = async () => {
   const user = await currentUser();
 
   return (
-    <nav className="sticky inset-x-0 top-0 z-[100] h-16 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all">
+    <nav className="fixed inset-x-0 top-0 z-[100] h-16 w-full bg-white/80 backdrop-blur-lg transition-all">
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="z-40 flex font-semibold">
@@ -37,15 +37,6 @@ const Navbar = async () => {
               </>
             ) : (
               <>
-                <Link
-                  href="/pricing"
-                  className={buttonVariants({
-                    size: "sm",
-                    variant: "ghost",
-                  })}
-                >
-                  Pricing
-                </Link>
                 <Link
                   href="/sign-in"
                   className={buttonVariants({

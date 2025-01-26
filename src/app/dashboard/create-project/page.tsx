@@ -100,7 +100,7 @@ const Page = () => {
               <div className="flex items-center gap-2">
                 <Info className="size-4" />
                 <p className="text-sm">
-                  You will be charged{" "}
+                  You will be charged&nbsp;
                   <strong>{checkCredits.data?.fileCount}</strong>&nbsp;credits.
                 </p>
               </div>
