@@ -46,9 +46,6 @@ const Page = () => {
             />
             <Clerk.FieldError className="mt-2 block text-xs text-red-600" />
           </Clerk.Field>
-          <SignIn.Step name="sso-callback">
-            <SignIn.Captcha className="empty:hidden" />
-          </SignIn.Step>
           <SignIn.Action
             submit
             className={cn(
