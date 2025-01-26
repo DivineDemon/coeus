@@ -39,9 +39,7 @@ const Page = () => {
             reset();
           },
           onError: () => {
-            toast.error(
-              "Please verify if your repository is public. If it is private or it belongs to an organization, please provide a valid GitHub token."
-            );
+            toast.error("Not enough credits!");
           },
         }
       );
@@ -53,7 +51,9 @@ const Page = () => {
         },
         {
           onError: () => {
-            toast.error("Not enough credits!");
+            toast.error(
+              "Please verify if your repository is public. If it is private or it belongs to an organization, please provide a valid GitHub token."
+            );
           },
         }
       );
