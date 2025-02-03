@@ -44,20 +44,20 @@ export const env = createEnv({
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: z.string().startsWith("/"),
     NEXT_PUBLIC_CLERK_SIGN_UP_URL: z.string().startsWith("/"),
     NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL: z.string().startsWith("/"),
-    NEXT_PUBLIC_FIREBASE_API_KEY: z
-      .string()
-      .min(39)
-      .regex(/^AIza[0-9A-Za-z-_]{35}$/),
-    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: z.string(),
-    NEXT_PUBLIC_FIREBASE_PROJECT_ID: z
-      .string()
-      .min(1, "Project ID is required"),
-    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: z.string(),
-    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: z.string().regex(/^\d+$/, {
-      message: "messagingSenderId must be a numeric string",
-    }),
-    NEXT_PUBLIC_FIREBASE_APP_ID: z.string(),
     NEXT_PUBLIC_APP_URL: z.string(),
+    NEXT_PUBLIC_SUPABASE_URL: z
+      .string()
+      .url()
+      .regex(
+        /^https:\/\/[a-zA-Z0-9\-]+\.supabase\.co$/,
+        "Invalid Supabase project URL"
+      ),
+    NEXT_PUBLIC_SUPABASE_ANON_KEY: z
+      .string()
+      .regex(
+        /^eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+$/,
+        "Invalid Supabase anon key"
+      ),
   },
   runtimeEnv: {
     DATABASE_URL: process.env.DATABASE_URL,
@@ -71,20 +71,12 @@ export const env = createEnv({
       process.env.NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL,
     OPENAI_KEY: process.env.OPENAI_KEY,
     ASSEMBLY_AI_KEY: process.env.ASSEMBLY_AI_KEY,
-    NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN:
-      process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID:
-      process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-    NEXT_PUBLIC_FIREBASE_PROJECT_ID:
-      process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET:
-      process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-    NEXT_PUBLIC_FIREBASE_APP_ID: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
     STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
     STRIPE_PUBLISHABLE_KEY: process.env.STRIPE_PUBLISHABLE_KEY,
     STRIPE_WEBHOOK_SECRET: process.env.STRIPE_WEBHOOK_SECRET,
     NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
+    NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
+    NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,

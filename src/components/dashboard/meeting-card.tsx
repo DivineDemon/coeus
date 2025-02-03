@@ -4,13 +4,12 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { useMutation } from "@tanstack/react-query";
-import { Presentation, Upload } from "lucide-react";
+import { Loader2, Presentation, Upload } from "lucide-react";
 import { useDropzone } from "react-dropzone";
 import { toast } from "sonner";
 
 import useProject from "@/hooks/use-project";
-import { uploadFile } from "@/lib/firebase";
-import { cn } from "@/lib/utils";
+import { uploadFile } from "@/lib/supabase";
 import { api } from "@/trpc/react";
 
 import { Button } from "../ui/button";
@@ -32,7 +31,6 @@ const MeetingCard = () => {
       return await response.json();
     },
   });
-  const [progress, setProgress] = useState(0);
   const [isUploading, setIsUploading] = useState(false);
   const uploadMeeting = api.meeting.uploadMeeting.useMutation();
 
@@ -55,7 +53,12 @@ const MeetingCard = () => {
         return;
       }
 
-      const downloadUrl = await uploadFile(file as File, setProgress);
+      const downloadUrl = await uploadFile({
+        file,
+        bucket: "coeus",
+        folder: "meetings",
+      });
+
       uploadMeeting.mutate(
         {
           projectId,
@@ -107,11 +110,7 @@ const MeetingCard = () => {
         </>
       ) : (
         <div className="flex w-full flex-col items-center justify-center gap-2">
-          <div className="h-3 w-full rounded-full bg-gray-100">
-            <div
-              className={cn("h-3 rounded-full bg-primary", `w-[${progress}%]`)}
-            />
-          </div>
+          <Loader2 className="size-10 animate-spin text-primary" />
           <span className="text-center text-sm text-gray-500">
             Uploading your Meeting...
           </span>
