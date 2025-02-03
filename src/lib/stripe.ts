@@ -2,7 +2,7 @@
 
 import { redirect } from "next/navigation";
 
-import { auth } from "@clerk/nextjs/server";
+import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import Stripe from "stripe";
 
 import { env } from "@/env";
@@ -12,9 +12,10 @@ const stripe = new Stripe(env.STRIPE_SECRET_KEY, {
 });
 
 export async function createCheckoutSession(credits: number) {
-  const { userId } = await auth();
+  const { getUser } = getKindeServerSession();
+  const user = await getUser();
 
-  if (!userId) {
+  if (!user) {
     throw new Error("Unauthorized!");
   }
 
@@ -36,7 +37,7 @@ export async function createCheckoutSession(credits: number) {
     mode: "payment",
     success_url: `${env.NEXT_PUBLIC_APP_URL}/dashboard/create-project`,
     cancel_url: `${env.NEXT_PUBLIC_APP_URL}/dashboard/billing`,
-    client_reference_id: userId.toString(),
+    client_reference_id: `${user.id}`,
     metadata: {
       credits,
     },

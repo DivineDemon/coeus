@@ -11,7 +11,7 @@ export const projectRouter = createTRPCRouter({
     .mutation(async ({ ctx, input }) => {
       const user = await ctx.db.user.findUnique({
         where: {
-          id: ctx.user.userId!,
+          id: ctx.user.id,
         },
         select: {
           credits: true,
@@ -36,7 +36,7 @@ export const projectRouter = createTRPCRouter({
           githubToken: input.githubToken,
           UserToProject: {
             create: {
-              userId: ctx.user.userId!,
+              userId: ctx.user.id,
             },
           },
         },
@@ -46,7 +46,7 @@ export const projectRouter = createTRPCRouter({
       await pollCommits(project.id, input.githubToken);
       await ctx.db.user.update({
         where: {
-          id: ctx.user.userId!,
+          id: ctx.user.id,
         },
         data: {
           credits: {
@@ -62,7 +62,7 @@ export const projectRouter = createTRPCRouter({
       where: {
         UserToProject: {
           some: {
-            userId: ctx.user.userId!,
+            userId: ctx.user.id,
           },
         },
         deletedAt: null,

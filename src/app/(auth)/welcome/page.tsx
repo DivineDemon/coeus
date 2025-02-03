@@ -1,6 +1,6 @@
 import { notFound, redirect } from "next/navigation";
 
-import { auth, clerkClient } from "@clerk/nextjs/server";
+import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
 import Heading from "@/components/heading";
 import LoadingSpinner from "@/components/loading-spinner";
@@ -8,25 +8,25 @@ import BackgroundPattern from "@/components/ui/background-pattern";
 import { api } from "@/trpc/server";
 
 const Page = async () => {
-  const { userId } = await auth();
+  const { getUser } = getKindeServerSession();
+  const user = await getUser();
 
-  if (!userId) {
-    throw new Error("User not Found!");
-  }
-
-  const client = await clerkClient();
-  const user = await client.users.getUser(userId!);
-
-  if (!user.emailAddresses[0]?.emailAddress) {
+  if (!user) {
     return notFound();
   }
 
+  const checkUser = await api.user.findUser();
+
+  if (checkUser) {
+    redirect("/dashboard");
+  }
+
   const response = await api.user.syncUser({
-    id: userId,
-    lastName: user.lastName ?? "",
-    imageUrl: user.imageUrl ?? "",
-    firstName: user.firstName ?? "",
-    email: user.emailAddresses[0].emailAddress!,
+    id: user.id,
+    email: user.email!,
+    imageUrl: user.picture!,
+    firstName: user.given_name!,
+    lastName: user.family_name!,
   });
 
   if (response) {

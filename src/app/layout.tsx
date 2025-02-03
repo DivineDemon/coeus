@@ -1,9 +1,8 @@
 import { type Metadata } from "next";
 import { EB_Garamond, Inter } from "next/font/google";
 
-import { ClerkProvider } from "@clerk/nextjs";
-
 import "@/assets/css/globals.css";
+import { AuthProvider } from "@/components/auth-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
 import { TRPCReactProvider } from "@/trpc/react";
@@ -24,7 +23,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <ClerkProvider>
+    <AuthProvider>
       <html lang="en" className={cn(inter.variable, eb_garamond.variable)}>
         <body className="flex min-h-[calc(100vh-1px)] flex-col font-sans antialiased">
           <main className="relative flex flex-1 flex-col">
@@ -35,6 +34,6 @@ export default function RootLayout({
           </main>
         </body>
       </html>
-    </ClerkProvider>
+    </AuthProvider>
   );
 }

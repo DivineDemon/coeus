@@ -1,14 +1,17 @@
 import Link from "next/link";
 
-import { SignOutButton } from "@clerk/nextjs";
-import { currentUser } from "@clerk/nextjs/server";
+import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
+import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { ArrowRight } from "lucide-react";
 
+import { cn } from "@/lib/utils";
+
 import MaxWidthWrapper from "./max-width-wrapper";
-import { Button, buttonVariants } from "./ui/button";
+import { buttonVariants } from "./ui/button";
 
 const Navbar = async () => {
-  const user = await currentUser();
+  const { getUser } = getKindeServerSession();
+  const user = await getUser();
 
   return (
     <nav className="fixed inset-x-0 top-0 z-[100] h-16 w-full bg-white/80 backdrop-blur-lg transition-all">
@@ -20,11 +23,13 @@ const Navbar = async () => {
           <div className="flex h-full items-center space-x-4">
             {user ? (
               <>
-                <SignOutButton>
-                  <Button size="sm" variant="ghost">
-                    Sign Out
-                  </Button>
-                </SignOutButton>
+                <LogoutLink
+                  className={cn(
+                    buttonVariants({ size: "sm", variant: "ghost" })
+                  )}
+                >
+                  Sign out
+                </LogoutLink>
                 <Link
                   href="/dashboard"
                   className={buttonVariants({
@@ -39,10 +44,9 @@ const Navbar = async () => {
               <>
                 <Link
                   href="/sign-in"
-                  className={buttonVariants({
-                    size: "sm",
-                    variant: "ghost",
-                  })}
+                  className={cn(
+                    buttonVariants({ size: "sm", variant: "ghost" })
+                  )}
                 >
                   Sign in
                 </Link>

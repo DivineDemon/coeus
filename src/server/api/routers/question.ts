@@ -10,7 +10,7 @@ export const questionRouter = createTRPCRouter({
       return ctx.db.question.create({
         data: {
           answer: input.answer,
-          userId: ctx.user.userId!,
+          userId: ctx.user.id,
           question: input.question,
           projectId: input.projectId,
           fileReferences: input.filesReference,

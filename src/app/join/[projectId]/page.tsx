@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 
-import { auth, clerkClient } from "@clerk/nextjs/server";
+import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
 import Heading from "@/components/heading";
 import LoadingSpinner from "@/components/loading-spinner";
@@ -12,25 +12,23 @@ interface PageProps {
 }
 
 const Page = async (props: PageProps) => {
-  const { userId } = await auth();
+  const { getUser } = getKindeServerSession();
   const { projectId } = await props.params;
+  const user = await getUser();
 
-  if (!userId) {
+  if (!user) {
     return redirect("/sign-in");
   }
 
-  const dbUser = await api.user.getUser({ id: userId });
-
-  const client = await clerkClient();
-  const user = await client.users.getUser(userId!);
+  const dbUser = await api.user.getUser({ id: user.id });
 
   if (!dbUser) {
     await api.user.syncUser({
-      id: userId,
-      lastName: user.lastName ?? "",
-      imageUrl: user.imageUrl ?? "",
-      firstName: user.firstName ?? "",
-      email: user.emailAddresses[0]?.emailAddress ?? "",
+      id: user.id,
+      lastName: user.family_name ?? "",
+      imageUrl: user.picture ?? "",
+      firstName: user.family_name ?? "",
+      email: user.email ?? "",
     });
   }
 
@@ -41,7 +39,7 @@ const Page = async (props: PageProps) => {
   }
 
   const response = await api.user.linkToProject({
-    userId,
+    userId: user.id,
     projectId,
   });
 

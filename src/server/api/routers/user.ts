@@ -30,6 +30,13 @@ export const userRouter = createTRPCRouter({
         },
       });
     }),
+  findUser: privateProcedure.query(async ({ ctx }) => {
+    return await ctx.db.user.findUnique({
+      where: {
+        id: ctx.user.id,
+      },
+    });
+  }),
   linkToProject: publicProcedure
     .input(z.object({ userId: z.string(), projectId: z.string() }))
     .mutation(async ({ ctx, input }) => {
@@ -52,7 +59,7 @@ export const userRouter = createTRPCRouter({
   getMyCredits: privateProcedure.query(async ({ ctx }) => {
     return await ctx.db.user.findUnique({
       where: {
-        id: ctx.user.userId!,
+        id: ctx.user.id,
       },
       select: {
         credits: true,
@@ -65,7 +72,7 @@ export const userRouter = createTRPCRouter({
       const fileCount = await checkCredits(input.githubUrl, input.githubToken);
       const userCredits = await ctx.db.user.findUnique({
         where: {
-          id: ctx.user.userId!,
+          id: ctx.user.id,
         },
         select: {
           credits: true,

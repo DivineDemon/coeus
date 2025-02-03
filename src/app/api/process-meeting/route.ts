@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { auth } from "@clerk/nextjs/server";
+import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { z } from "zod";
 
 import { processMeeting } from "@/lib/assembly";
@@ -14,9 +14,10 @@ const bodyParser = z.object({
 export const maxDuration = 60; // Function Timeout Limit Defined due to Vercel Free Plan Limitations.
 
 export async function POST(req: NextRequest) {
-  const { userId } = await auth();
+  const { getUser } = getKindeServerSession();
+  const user = await getUser();
 
-  if (!userId) {
+  if (!user) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
