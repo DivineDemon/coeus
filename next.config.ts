@@ -24,6 +24,10 @@ const config = {
         protocol: "https",
         hostname: "gravatar.com",
       },
+      {
+        protocol: "https",
+        hostname: "ui.shadcn.com",
+      },
     ],
   },
   experimental: {
