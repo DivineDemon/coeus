@@ -20,7 +20,7 @@ const Page = () => {
       <form className="flex w-1/5 flex-col items-center justify-center gap-5 p-5">
         <Waypoints className="size-12 text-primary" />
         <span className="w-full text-center text-2xl font-semibold">
-          Sign in to <span className="text-primary">GPT Chat</span>
+          Sign in to <span className="text-primary">Coeus</span>
         </span>
         <div className="flex w-full flex-col items-center justify-center gap-1.5">
           <Label

@@ -24,7 +24,11 @@ const Layout = ({ children }: PropsWithChildren) => {
           {user && (
             <LogoutLink onClick={clearLocalStorage}>
               <Image
-                src={`${user?.picture}`}
+                src={
+                  user?.picture
+                    ? user?.picture
+                    : "https://ui.shadcn.com/avatars/04.png"
+                }
                 alt="user-image"
                 width={28}
                 height={28}

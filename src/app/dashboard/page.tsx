@@ -114,7 +114,11 @@ const Page = () => {
             {members?.map((member) => (
               <Image
                 key={member.id}
-                src={`${member.user.imageUrl}`}
+                src={
+                  member.user.imageUrl
+                    ? member.user.imageUrl
+                    : "https://ui.shadcn.com/avatars/04.png"
+                }
                 alt="team-member-image"
                 width={30}
                 height={30}
