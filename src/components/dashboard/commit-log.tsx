@@ -9,7 +9,10 @@ import { api } from "@/trpc/react";
 
 export default function CommitLog() {
   const { projectId, project } = useProject();
-  const { data: commits } = api.commit.getCommits.useQuery({ projectId });
+  const { data: commits } = api.commit.getCommits.useQuery({
+    projectId,
+    githubToken: `${project?.githubToken}`,
+  });
 
   return (
     <ul className="space-y-6">

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Fragment, useState } from "react";
 
 import MDEditor from "@uiw/react-md-editor";
+import { OctagonAlert } from "lucide-react";
 
 import AskQuestionCard from "@/components/dashboard/ask-question-card";
 import CodeReferences from "@/components/dashboard/code-references";
@@ -29,6 +30,17 @@ const Page = () => {
       <h1 className="text-xl font-semibold">Saved Questions</h1>
       <div className="h-2" />
       <div className="flex flex-col gap-2">
+        {questions && questions.length === 0 && (
+          <div className="flex w-full flex-col items-center justify-center rounded-lg border bg-white p-10 shadow">
+            <OctagonAlert className="mb-5 size-20 text-primary" />
+            <span className="w-full text-center text-lg font-semibold text-gray-700">
+              No Questions Found!
+            </span>
+            <span className="w-full text-center text-sm text-gray-500">
+              Start by Asking a Question!
+            </span>
+          </div>
+        )}
         {questions?.map((question, idx) => {
           return (
             <Fragment key={question.id}>

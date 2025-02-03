@@ -23,10 +23,10 @@ const generateEmbeddings = async (docs: Document[]) => {
 
 export const loadGithubRepo = async (
   githubUrl: string,
-  githubToken?: string
+  githubToken: string
 ) => {
   const loader = new GithubRepoLoader(githubUrl, {
-    accessToken: githubToken || "",
+    accessToken: githubToken,
     branch: "main",
     ignoreFiles: [
       "package-lock.json",
@@ -47,7 +47,7 @@ export const loadGithubRepo = async (
 export const indexGithubRepo = async (
   projectId: string,
   githubUrl: string,
-  githubToken?: string
+  githubToken: string
 ) => {
   const docs = await loadGithubRepo(githubUrl, githubToken);
   const allEmbeddings = await generateEmbeddings(docs);

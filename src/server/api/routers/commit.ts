@@ -5,9 +5,9 @@ import { createTRPCRouter, privateProcedure } from "@/server/api/trpc";
 
 export const commitRouter = createTRPCRouter({
   getCommits: privateProcedure
-    .input(z.object({ projectId: z.string() }))
+    .input(z.object({ projectId: z.string(), githubToken: z.string() }))
     .query(async ({ ctx, input }) => {
-      pollCommits(input.projectId)
+      pollCommits(input.projectId, input.githubToken)
         .then()
         .catch((error) => {
           throw new Error(error);

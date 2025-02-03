@@ -1,6 +1,5 @@
 import { Octokit } from "octokit";
 
-import { env } from "@/env";
 import { db } from "@/server/db";
 
 import { summariseCommit } from "./openai";
@@ -108,13 +107,11 @@ async function callSummarizer(githubUrl: string, commitHash: string) {
   return (await summariseCommit(await data.text())) || "";
 }
 
-export const octokit = new Octokit({
-  auth: env.GITHUB_TOKEN,
-});
-
 export const getCommitHashes = async (
-  githubUrl: string
+  githubUrl: string,
+  githubToken: string
 ): Promise<GitResponse[]> => {
+  const octokit = new Octokit({ auth: githubToken });
   const [owner, repo] = githubUrl.split("/").slice(-2);
 
   if (!owner || !repo) {
@@ -141,9 +138,9 @@ export const getCommitHashes = async (
   }));
 };
 
-export const pollCommits = async (projectId: string) => {
+export const pollCommits = async (projectId: string, githubToken: string) => {
   const { githubUrl } = await fetchProjectGithubUrl(projectId);
-  const commitHashes = await getCommitHashes(githubUrl);
+  const commitHashes = await getCommitHashes(githubUrl, githubToken);
   const unprocessedCommits = await filterUnprocessedCommits(
     projectId,
     commitHashes
@@ -178,7 +175,7 @@ export const pollCommits = async (projectId: string) => {
   return createCommits;
 };
 
-export const checkCredits = async (githubUrl: string, githubToken?: string) => {
+export const checkCredits = async (githubUrl: string, githubToken: string) => {
   const octokit = new Octokit({ auth: githubToken });
   const githubOwner = githubUrl.split("/")[3];
   const githubRepo = githubUrl.split("/")[4];

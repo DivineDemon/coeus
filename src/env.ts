@@ -10,9 +10,6 @@ export const env = createEnv({
     CLERK_SECRET_KEY: z.string().regex(/^sk_test_[A-Za-z0-9-\.]+$/, {
       message: "Invalid CLERK_SECRET_KEY format",
     }),
-    GITHUB_TOKEN: z.string().regex(/^ghp_[a-zA-Z0-9]{36}$/, {
-      message: "Invalid GitHub personal access token format.",
-    }),
     OPENAI_KEY: z.string().regex(/^sk-[a-zA-Z0-9]{48}$/, {
       message: "Invalid OpenAI API key format.",
     }),
@@ -72,7 +69,6 @@ export const env = createEnv({
     NEXT_PUBLIC_CLERK_SIGN_UP_URL: process.env.NEXT_PUBLIC_CLERK_SIGN_UP_URL,
     NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL:
       process.env.NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL,
-    GITHUB_TOKEN: process.env.GITHUB_TOKEN,
     OPENAI_KEY: process.env.OPENAI_KEY,
     ASSEMBLY_AI_KEY: process.env.ASSEMBLY_AI_KEY,
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,

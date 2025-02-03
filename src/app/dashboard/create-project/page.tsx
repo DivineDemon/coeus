@@ -15,7 +15,7 @@ import { api } from "@/trpc/react";
 type FormSchema = {
   repoUrl: string;
   projectName: string;
-  githubToken?: string;
+  githubToken: string;
 };
 
 const Page = () => {
@@ -92,7 +92,8 @@ const Page = () => {
           <div className="h-2" />
           <Input
             {...register("githubToken")}
-            placeholder="Github Token (Optional)"
+            required={true}
+            placeholder="Github Personal Access Token (Fine-Grained)"
             type="text"
           />
           {!!checkCredits.data && (

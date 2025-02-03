@@ -1,5 +1,8 @@
+import Image from "next/image";
+
 import { Check, Waypoints } from "lucide-react";
 
+import Feature from "@/assets/img/feature.png";
 import Heading from "@/components/heading";
 import MaxWidthWrapper from "@/components/max-width-wrapper";
 import ShinyButton from "@/components/shiny-button";
@@ -45,11 +48,17 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section className="relative bg-primary/75 pb-4">
+      <section className="relative pb-4">
         <div className="absolute inset-x-0 bottom-24 top-24 bg-primary" />
         <div className="relative mx-auto">
           <MaxWidthWrapper className="relative">
-            <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4"></div>
+            <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+              <Image
+                src={Feature}
+                alt="feature-project"
+                className="rounded-lg"
+              />
+            </div>
           </MaxWidthWrapper>
         </div>
       </section>

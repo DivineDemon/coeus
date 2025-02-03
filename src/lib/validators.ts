@@ -11,7 +11,7 @@ export const userSchema = z.object({
 export const projectSchema = z.object({
   name: z.string(),
   githubUrl: z.string(),
-  githubToken: z.string().optional(),
+  githubToken: z.string(),
 });
 
 export const questionSchema = z.object({
@@ -29,5 +29,5 @@ export const meetingSchema = z.object({
 
 export const creditSchema = z.object({
   githubUrl: z.string(),
-  githubToken: z.string().optional(),
+  githubToken: z.string(),
 });
