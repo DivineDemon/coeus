@@ -1,0 +1,21 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.DS_Store
+tools/coeus-memory/.chroma/
+tools/coeus-memory/.venv/
+
+# Sensitive personal documents — local only, never push to GitHub
+02-areas/finance/
+02-areas/career/companies/
+02-areas/career/education/
+02-areas/musings/
+02-areas/personal-notes/
+03-resources/travel/
+03-resources/colab-notebooks/
+03-resources/ai-experiments/
+03-resources/infrastructure/n8n-videos/
+00-inbox/
+
+# MemPalace per-project files (issue #185)
+mempalace.yaml
+entities.json
