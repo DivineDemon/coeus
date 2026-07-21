@@ -1,7 +1,7 @@
 {
-  "theme": "moonstone",
+  "theme": "system",
   "cssTheme": "",
   "baseFontSize": 16,
   "translucency": false,
-  "accentColor": "#7c3aed"
+  "accentColor": "#c23030"
 }

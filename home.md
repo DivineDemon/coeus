@@ -4,7 +4,6 @@ status: active
 tags: [moc, home]
 aliases: [Dashboard, Index]
 ---
-
 # Coeus
 
 Personal second brain for career, startups, projects, and technical knowledge. Built on the [PARA method](https://fortelabs.com/blog/para/) and synced from GitHub, Vercel, and other external sources.
