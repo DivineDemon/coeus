@@ -29,7 +29,7 @@ All 9 Drive folders moved from inbox to PARA destinations. Binary files are **gi
 1. Drop new exports in `00-inbox/`
 2. Process → move to destination above
 3. Update index note
-4. Re-index: `python tools/coeus-memory/index.py`
+4. Re-index: `mempalace mine /Users/mushood/Documents/code/coeus`
 
 ## Related
 

@@ -14,7 +14,6 @@ Start from **[[home]]** inside Obsidian for the full navigation dashboard.
 | `03-resources/` | Reference — `github-repos/`, `resumes/`, `social-profiles/`, `skills-matrix/`, `infrastructure/` |
 | `04-archives/` | Completed or inactive items |
 | `templates/` | Note scaffolds |
-| `tools/coeus-memory/` | Local Ollama RAG harness |
 
 > **Note:** Top-level PARA folders use numbered prefixes (`00-inbox`, etc.) for sort order. All subfolders and files use **kebab-case** (`career-overview.md`, `github-repos/`).
 

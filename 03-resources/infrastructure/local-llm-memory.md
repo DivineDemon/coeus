@@ -10,14 +10,14 @@ last_synced: 2026-07-21
 
 Free, local memory over this vault using [MemPalace](https://github.com/MemPalace/mempalace) — no API costs for retrieval.
 
-## Why MemPalace (not custom RAG)
+## Why MemPalace
 
-| | MemPalace | `tools/coeus-memory` (legacy) |
-|--|-----------|-------------------------------|
-| Retrieval | Structured wings/rooms/drawers, hybrid search | Flat Chroma chunks |
-| Cursor integration | MCP server + auto-save hooks | Manual CLI only |
-| Re-index | `mempalace mine` | `python index.py` |
-| Cost | Free, local | Free, local |
+| Capability | Details |
+|------------|---------|
+| Retrieval | Structured wings/rooms/drawers, hybrid search |
+| Cursor integration | MCP server + auto-save hooks |
+| Re-index | `mempalace mine` after vault updates |
+| Cost | Free, local |
 
 ## Current setup
 
@@ -73,10 +73,6 @@ Employment docs, degrees, etc. stay out of git but can be indexed locally:
 uv tool install 'mempalace[extract]'
 mempalace mine /Users/mushood/Documents/code/coeus/02-areas/career/companies --mode extract --wing coeus
 ```
-
-## Legacy
-
-[[../../tools/coeus-memory/README|coeus-memory]] — minimal fallback if MemPalace is unavailable.
 
 ## Related
 

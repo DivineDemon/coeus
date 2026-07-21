@@ -1,8 +1,6 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .DS_Store
-tools/coeus-memory/.chroma/
-tools/coeus-memory/.venv/
 
 # Sensitive personal documents — local only, never push to GitHub
 02-areas/finance/
