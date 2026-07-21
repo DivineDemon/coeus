@@ -15,7 +15,7 @@ Free, local memory over this vault using [MemPalace](https://github.com/MemPalac
 | Capability | Details |
 |------------|---------|
 | Retrieval | Structured wings/rooms/drawers, hybrid search |
-| Cursor integration | MCP server + auto-save hooks |
+| Agent UI | [Goose](https://github.com/aaif-goose/goose) + MemPalace MCP + Ollama (free, local) |
 | Re-index | `mempalace mine` after vault updates |
 | Cost | Free, local |
 
@@ -38,13 +38,33 @@ mempalace mine /Users/mushood/Documents/code/coeus
 # Search vault
 mempalace search "what stack does Clearbeam use?" --wing coeus
 
-# Context for new Cursor session
+# Context for new Cursor session (optional)
 mempalace wake-up --wing coeus
 ```
 
-## Cursor MCP (free)
+## Agent chat (Goose — recommended)
 
-Add to Cursor MCP settings:
+Free local agent with chat UI. Replaces Cursor for palace-aware work.
+
+**Config:** `~/.config/goose/config.yaml` (Ollama + MemPalace MCP + vault filesystem)  
+**Launch:** `tools/coeus-goose/start.sh` or open **Goose.app** with this vault as the project
+
+```bash
+# Terminal session (from vault root)
+tools/coeus-goose/start.sh
+
+# Or open Goose desktop → Ollama qwen3:8b → chat in this folder
+```
+
+After vault edits: `mempalace mine /Users/mushood/Documents/code/coeus`
+
+See [[../../tools/coeus-goose/README|coeus-goose]] for troubleshooting.
+
+Goose is configured to **search MemPalace first** (not `kg_query` on `"mushood"`). Routing rules: `tools/coeus-goose/mempalace-routing.md` + `.goosehints`.
+
+## Cursor MCP (optional)
+
+Add to Cursor MCP settings if you still use Cursor for coding:
 
 ```json
 "mempalace": {
@@ -55,7 +75,7 @@ Add to Cursor MCP settings:
 
 Then Cursor can search your vault memory directly in chat.
 
-## Optional: Ollama for chat / rerank
+## Optional: Ollama only (no agent)
 
 Retrieval needs no API key. For richer answers, use Ollama separately:
 

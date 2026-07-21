@@ -14,6 +14,7 @@ Start from **[[home]]** inside Obsidian for the full navigation dashboard.
 | `03-resources/` | Reference — `github-repos/`, `resumes/`, `social-profiles/`, `skills-matrix/`, `infrastructure/` |
 | `04-archives/` | Completed or inactive items |
 | `templates/` | Note scaffolds |
+| `tools/coeus-goose/` | Goose agent launcher (Ollama + MemPalace) |
 
 > **Note:** Top-level PARA folders use numbered prefixes (`00-inbox`, etc.) for sort order. All subfolders and files use **kebab-case** (`career-overview.md`, `github-repos/`).
 
@@ -37,16 +38,16 @@ Start from **[[home]]** inside Obsidian for the full navigation dashboard.
 
 ## Local AI memory (free — MemPalace)
 
-Uses [MemPalace](https://github.com/MemPalace/mempalace) — local semantic search + Cursor MCP. No API costs.
+Uses [MemPalace](https://github.com/MemPalace/mempalace) for retrieval and [Goose](https://github.com/aaif-goose/goose) for local agent chat — no API costs.
 
 ```bash
 uv tool install mempalace
 mempalace mine /Users/mushood/Documents/code/coeus   # re-run after vault updates
 mempalace search "What startups am I building?" --wing coeus
-mempalace wake-up --wing coeus                        # session context for Cursor
+tools/coeus-goose/start.sh                            # agent chat (Ollama + MemPalace)
 ```
 
-See [[03-resources/infrastructure/local-llm-memory]] for MCP setup and optional Ollama chat.
+See [[03-resources/infrastructure/local-llm-memory]] for Goose setup and optional Cursor MCP.
 
 ## Sync cadence
 
