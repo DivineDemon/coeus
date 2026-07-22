@@ -3,7 +3,7 @@ type: resource
 status: active
 tags: [infrastructure, n8n, automation]
 url: https://n8n.io
-last_synced: 2026-07-21
+last_synced: 2026-07-22
 aliases: [n8n Integrations, n8n Inventory]
 ---
 
@@ -14,8 +14,8 @@ n8n workspace inventory and integration snapshot. This note documents workflow c
 ## Profile summary
 
 - Identity context: **Verified n8n Creator** — [[03-resources/social-profiles/n8n-creator|Creator profile]]
-- Workspace workflows discovered: **6**
-- Active workflows: **1**
+- Workspace workflows discovered: **11**
+- Active workflows: **6**
 - Stored credentials discovered: **8**
 
 ## Credential inventory (names only)
@@ -36,6 +36,11 @@ n8n workspace inventory and integration snapshot. This note documents workflow c
 | Workflow | Status | Purpose |
 |----------|--------|---------|
 | Haga Social Autopilot | active | Daily research, draft, verify, and queue social posts |
+| Secretary: Search | active | Webhook — Serper search for Goose recipes |
+| Secretary: Enrich | active | Webhook — Hunter domain/email enrichment |
+| Secretary: Email | active | Webhook — Gmail auto-send with caps + audit |
+| Secretary: LinkedIn | active | Webhook — LinkedIn publish with caps + audit |
+| Secretary: Log | active | Webhook — immutable audit (Data Table + Neon) |
 | Duqm WF1: Company Discovery | inactive | Daily company discovery pipeline |
 | Duqm WF2: POC Enrichment | inactive | Lead and contact enrichment |
 | Duqm Data Cleanup | inactive | One-time cleanup utility |
@@ -43,6 +48,24 @@ n8n workspace inventory and integration snapshot. This note documents workflow c
 | Duqm Sheet Restructure | inactive | One-time sheet schema setup |
 
 ## Integration overview
+
+### Secretary webhooks (active)
+
+Goose **hands** for full auto-send. Base URL: `https://self8n.sv.mushoodhanif.com/webhook/`. Full contracts: [[tools/coeus-goose/n8n/secretary-webhooks|secretary-webhooks.md]].
+
+| Path | Action | Integrations |
+|------|--------|--------------|
+| `secretary-search` | Web search | Google Serper |
+| `secretary-enrich` | Contact enrich | Hunter.io |
+| `secretary-email` | Auto-send email | Gmail |
+| `secretary-linkedin` | Publish post | LinkedIn OAuth |
+| `secretary-log` | Audit log | Data Table + Neon `secretary_actions` |
+
+**Daily caps** (UTC, enforced on send webhooks): cold email 20, job-apply 10, LinkedIn post 5, social queue 3. See [[02-areas/secretary/rate-limits|rate limits]].
+
+**Audit:** n8n Data Table `Secretary Audit Log` (`LmL4cznvDtTDvFe7`). Neon mirror uses portfolio DB table `secretary_actions` — enable the disabled Postgres node in Secretary: Log after adding a **Portfolio Neon** credential.
+
+**Safety:** `personalization_hooks` required on sends; suppression checked on email; cap returns HTTP 429.
 
 ### Haga Social Autopilot (active)
 

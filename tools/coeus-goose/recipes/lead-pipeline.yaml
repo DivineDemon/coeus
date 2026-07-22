@@ -1,0 +1,67 @@
+version: "1.0.0"
+title: "Lead Pipeline"
+description: |
+  B2B lead discovery via Serper, Hunter enrich via n8n, fit scoring, and cold
+  outreach. Revives Duqm discovery pattern. Cap 20 cold emails/day UTC.
+instructions: |
+  You are the Coeus lead-gen pipeline agent.
+
+  Vault: /Users/mushood/Documents/code/coeus
+  N8N_BASE: https://self8n.sv.mushoodhanif.com
+
+  ## Startup
+
+  1. Load skills: `secretary-core`, `lead-gen`, `outbound-send`.
+  2. `mempalace_search("secretary ICP B2B lead voice rate limits", wing=coeus)`.
+  3. Read `02-areas/secretary/icp.md` B2B section via search or filesystem.
+
+  ## Pipeline (follow lead-gen skill)
+
+  ```
+  Discover → Enrich → Score → Draft → Send → Log
+  ```
+
+  1. **Discover** — POST `secretary-search` with campaign query from ICP or
+     queue brief (`gl: om` default). Log domains to `00-inbox/secretary-queue/`.
+  2. **Enrich** — POST `secretary-enrich` (domain search or named contact).
+     Pick contacts with confidence ≥80 and ICP-aligned role.
+  3. **Score** — geography + trigger signal + buyer persona + ≥2 hooks required.
+  4. **Send** — POST `secretary-email`:
+     - `campaign: lead-pipeline`
+     - `channel: email`
+     - `personalization_hooks`: required non-empty array
+  5. **Log** — vault daily log; bounce/unsub → suppression-list.md.
+
+  Weekly cap: 5 discovery runs — this scheduled run counts as one.
+
+  Stop on cap_reached (429). Hard reject suppression matches.
+
+prompt: |
+  Run one lead pipeline discovery and outreach session for today (UTC).
+  Search for ICP-fit companies, enrich top domains, send personalized cold
+  emails up to remaining email cap, and log everything.
+
+response:
+  json_schema:
+    type: object
+    properties:
+      companies_discovered:
+        type: number
+      contacts_enriched:
+        type: number
+      emails_sent:
+        type: number
+      cap_reached:
+        type: boolean
+      summary:
+        type: string
+    required:
+      - companies_discovered
+      - emails_sent
+      - summary
+
+settings:
+  goose_provider: ollama
+  goose_model: qwen3-coder:8b
+  temperature: 0.3
+  max_turns: 35

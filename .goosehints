@@ -34,6 +34,10 @@ Use `mempalace_kg_query` only when the user names a **specific KG entity** (pers
 | GitHub repos / stack | `mempalace_search("{repo or topic} stack", wing=coeus)` |
 | Deployments / projects | `mempalace_search("{project} deployment vercel", wing=coeus)` |
 | General "what do I…" | `mempalace_search("{user question keywords}", wing=coeus)` |
+| Secretary / outreach / ICP / caps | `mempalace_search("secretary ICP voice rate limits suppression", wing=coeus)` |
+| Job hunt queue | `mempalace_search("secretary queue job hunt", wing=coeus)` |
+| Investor outreach | `mempalace_search("secretary investor ICP Haga Clearbeam Ezra", wing=coeus)` |
+| Send logs / audit | `mempalace_search("secretary log outreach sent", wing=coeus)` |
 
 ### Rule 4 — Session start
 
@@ -49,11 +53,34 @@ Use **coeus-filesystem** only when the user asks to read/edit a specific file pa
 
 Do not list directories when `mempalace_search` would answer the question.
 
+### Rule 7 — Secretary skills
+
+Load playbooks from the **skills** extension before secretary work:
+
+1. `secretary-core` — always first for outreach/job/social recipes
+2. Channel skill: `job-hunt`, `investor-outreach`, `lead-gen`, `social-ops`, or `outbound-send`
+3. `extension-routing` when configuring or debugging recipe extensions
+
+Skills live in `tools/coeus-goose/skills/` (discovered via `.goose/skills` symlink). **Never use Goose Memory** — skills reinforce MemPalace + vault only.
+
+### Rule 8 — Secretary ops (outreach, job hunt, leads, social)
+
+When running secretary recipes or any auto-send workflow:
+
+1. **MemPalace only** — never enable or use Goose Memory; durable prefs live in `02-areas/secretary/`.
+2. **Before send:** search ICP + voice + suppression + rate limits; reject if cap hit or recipient listed.
+3. **Queue:** pending candidates in `00-inbox/secretary-queue/`; processed items → `03-resources/secretary-log/`.
+4. **Hands:** Gmail/LinkedIn/Serper/Hunter via n8n webhooks — Goose plans and personalizes; n8n sends.
+5. **After sends:** log via n8n audit + append vault log; update suppression on bounce/unsubscribe.
+6. **After vault edits** to secretary notes: `mempalace mine /Users/mushood/Documents/code/coeus`
+
 ---
 
 ## Known vault facts (use search to verify — do not treat as sole source)
 
 Startups index: `02-areas/startups/startups-overview.md` — Haga, Clearbeam, Ezra Bid Assistant (active), Scintia (draft).
+
+Secretary ops: `02-areas/secretary/secretary-overview.md` — ICP, voice, rate limits, suppression; queue `00-inbox/secretary-queue/`; log `03-resources/secretary-log/`.
 
 Re-index after vault edits: `mempalace mine /Users/mushood/Documents/code/coeus`
 
@@ -61,10 +88,10 @@ Re-index after vault edits: `mempalace mine /Users/mushood/Documents/code/coeus`
 
 ## PARA layout
 
-- `00-inbox/` — captures
+- `00-inbox/` — captures; **`secretary-queue/`** — today's outreach candidates
 - `01-projects/` — live deployments
-- `02-areas/` — career, **startups**, immigration
-- `03-resources/` — github-repos, resumes, social-profiles, infrastructure
+- `02-areas/` — career, **startups**, **secretary** (ICP, voice, caps, suppression), immigration
+- `03-resources/` — github-repos, resumes, social-profiles, infrastructure, **secretary-log**
 - `04-archives/` — inactive
 
 ## Sensitive (gitignored, local only)

@@ -1,0 +1,68 @@
+version: "1.0.0"
+title: "Daily Job Hunt"
+description: |
+  Scheduled job hunt: discover listings, score against resume notes, queue top
+  matches, apply via email (n8n) or Playwright forms. Cap 10 job-apply/day UTC.
+instructions: |
+  You are the Coeus daily job-hunt agent.
+
+  Vault: /Users/mushood/Documents/code/coeus
+  N8N_BASE: https://self8n.sv.mushoodhanif.com
+
+  ## Startup
+
+  1. Load skills: `secretary-core`, `job-hunt`, `outbound-send`.
+  2. `mempalace_search("secretary job hunt resume career voice rate limits", wing=coeus)`.
+  3. Read suppression list and rate limits before any send.
+
+  ## Workflow (follow job-hunt skill)
+
+  1. **Discover** — `secretary-search` webhook and/or Playwright on LinkedIn,
+     Wellfound, YC jobs, remote boards. Target: AI Engineer, ML Engineer,
+     full-stack with AI/agentic focus; remote or UAE-friendly required.
+  2. **Score** each listing (≥5 → queue, 3–4 → research, <3 → skip).
+  3. **Queue** top candidates in `00-inbox/secretary-queue/` using the
+     job-hunt queue template (frontmatter: channel job-apply, status pending).
+  4. **Apply** for queued items with score ≥5:
+     - Email/recruiter: draft per voice.md, ≥2 personalization_hooks,
+       POST `secretary-email` with `channel: job-apply`, `campaign: daily-job-hunt`.
+     - Form apply: Playwright fill when email path unavailable; log in queue note.
+  5. **Stop** when job-apply cap (10/day) returns HTTP 429 — queue remainder.
+  6. **Log** — append `03-resources/secretary-log/YYYY-MM-DD-log.md`;
+     `mempalace_diary_write` brief summary.
+
+  Resume paths:
+  - AI/ML heavy → `03-resources/resumes/resume-ai-engineer.md`
+  - Full-stack + product → `03-resources/resumes/resume-fullstack.md`
+
+  Never bypass caps. Never use Goose Memory.
+
+prompt: |
+  Run the daily job hunt end-to-end for today (UTC).
+  Discover listings, score against resume notes, queue top matches, send up to
+  the remaining job-apply cap via n8n, and log results. Stop on cap_reached.
+
+response:
+  json_schema:
+    type: object
+    properties:
+      listings_reviewed:
+        type: number
+      queued:
+        type: number
+      applications_sent:
+        type: number
+      cap_reached:
+        type: boolean
+      summary:
+        type: string
+    required:
+      - listings_reviewed
+      - applications_sent
+      - summary
+
+settings:
+  goose_provider: ollama
+  goose_model: qwen3-coder:8b
+  temperature: 0.3
+  max_turns: 35

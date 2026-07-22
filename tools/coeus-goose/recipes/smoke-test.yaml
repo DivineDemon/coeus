@@ -1,0 +1,68 @@
+version: "1.0.0"
+title: "Secretary E2E Smoke Test"
+description: |
+  End-to-end verification: self-send via n8n Gmail webhook, audit log to
+  Sheets/Neon, vault daily rollup. Run manually before opening production caps.
+instructions: |
+  You are running the Coeus Secretary end-to-end smoke test.
+
+  Vault: /Users/mushood/Documents/code/coeus
+  N8N_BASE: https://self8n.sv.mushoodhanif.com
+  Self-send target: supame123@gmail.com (override via recipe param `to`)
+
+  ## Startup
+
+  1. Load skills: `secretary-core`, `outbound-send`.
+  2. Confirm recipient is NOT on suppression list.
+  3. Confirm cold-email cap has headroom (need 1 send).
+
+  ## Steps
+
+  1. **Draft** — short HTML smoke-test body citing today's UTC timestamp.
+  2. **Send** — POST `$N8N_BASE/webhook/secretary-email`:
+     - `to`: supame123@gmail.com (self-send; set SECRETARY_SMOKE_EMAIL env to override)
+     - `subject`: `[Coeus Secretary Smoke Test]` plus UTC timestamp from shell
+     - `campaign`: `smoke-test`
+     - `channel`: `email`
+     - `personalization_hooks`: `["e2e smoke test", "secretary stack verification"]`
+  3. **Verify** — response must have `ok: true`, `sent: true`, `gmail_message_id`.
+  4. **Vault log** — append row to `03-resources/secretary-log/{{ date }}-log.md`
+     (create from template in secretary-log-overview if missing).
+  5. **Diary** — `mempalace_diary_write` one-line AAAK summary.
+
+  Do NOT send to anyone except the self-send address. One email only.
+
+parameters:
+  - key: date
+    input_type: string
+    requirement: optional
+    default: ""
+    description: UTC date YYYY-MM-DD for vault log filename
+
+prompt: |
+  Run the secretary e2e smoke test. Send one personalized email to supame123@gmail.com
+  via secretary-email webhook, verify audit response, write vault daily log, diary summary.
+
+response:
+  json_schema:
+    type: object
+    properties:
+      sent:
+        type: boolean
+      gmail_message_id:
+        type: string
+      audit_row_id:
+        type: string
+      vault_log_path:
+        type: string
+      summary:
+        type: string
+    required:
+      - sent
+      - summary
+
+settings:
+  goose_provider: ollama
+  goose_model: qwen3-coder:8b
+  temperature: 0.1
+  max_turns: 15

@@ -3,7 +3,7 @@ type: resource
 status: active
 tags: [infrastructure, neon, database]
 url: https://console.neon.tech
-last_synced: 2026-07-21
+last_synced: 2026-07-22
 aliases: [Neon Inventory, Neon Databases]
 ---
 
@@ -38,6 +38,7 @@ Schemas and tables:
 - `public.clients`
 - `public.n8n_workflows`
 - `public.projects`
+- `public.secretary_actions`
 - `public._prisma_migrations`
 - `drizzle.__drizzle_migrations`
 
@@ -74,7 +75,7 @@ Schemas and tables:
 
 ## High-level schema notes
 
-- **Portfolio DB** stores site-managed content for projects, workflows, blog, and testimonials.
+- **Portfolio DB** stores site-managed content for projects, workflows, blog, and testimonials. `secretary_actions` is the immutable outreach audit log (mirrors n8n Secretary Audit Log data table).
 - **Clearbeam DB** contains product analytics domain entities (events, categories, dashboards, segments, users, quotas).
 - **Suraya DB** contains salon operations entities (services, categories, sales, expenses, attendance, employees, branches).
 
