@@ -55,13 +55,22 @@ Do not list directories when `mempalace_search` would answer the question.
 
 ### Rule 7 — Secretary skills
 
-Load playbooks from the **skills** extension before secretary work:
+Load playbooks via the native **`loadSkill`** tool (one call per skill) — **never** inside `execute_typescript` / `code_execution` (skills are not JS functions).
 
-1. `secretary-core` — always first for outreach/job/social recipes
+1. `secretary-core` — always first for outreach/job/social
 2. Channel skill: `job-hunt`, `investor-outreach`, `lead-gen`, `social-ops`, or `outbound-send`
 3. `extension-routing` when configuring or debugging recipe extensions
 
-Skills live in `tools/coeus-goose/skills/` (discovered via `.goose/skills` symlink). **Never use Goose Memory** — skills reinforce MemPalace + vault only.
+**Prefer headless recipes** for full runs (most reliable on local 8B):
+
+```bash
+goose run --recipe tools/coeus-goose/recipes/investor-cold-email.yaml --no-session -q
+goose run --recipe tools/coeus-goose/recipes/lead-pipeline.yaml --no-session -q
+```
+
+**Chat path after loading skills:** `mempalace_search` → update vault if needed → **`shell` curl** to n8n webhooks (see `outbound-send` skill) → log + `mempalace_diary_write`.
+
+Skills live in `tools/coeus-goose/skills/` (`.goose/skills` symlink). **Never use Goose Memory.**
 
 ### Rule 8 — Secretary ops (outreach, job hunt, leads, social)
 

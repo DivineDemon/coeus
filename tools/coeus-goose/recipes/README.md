@@ -10,8 +10,8 @@ Goose YAML recipes for headless secretary workflows. Designed for local Ollama
 | `secretary.yaml` | Interactive router → sub-recipes | qwen3-coeus-agent | global core |
 | `morning-brief.yaml` | Queue/cap digest (no sends) | qwen3-coeus-agent | global core |
 | `daily-job-hunt.yaml` | Search, score, apply | qwen3-coder:8b | global core |
-| `investor-cold-email.yaml` | Investor research + send | qwen3-coder:8b | core + PDF Reader |
-| `lead-pipeline.yaml` | B2B discover → outreach | qwen3-coder:8b | global core |
+| `investor-cold-email.yaml` | Investor research + send | qwen3-coeus-agent | core + PDF Reader |
+| `lead-pipeline.yaml` | B2B discover → outreach | qwen3-coeus-agent | global core |
 | `social-publish.yaml` | LinkedIn draft + publish | qwen3-coeus-agent | global core |
 | `smoke-test.yaml` | E2E self-send + audit verification | qwen3-coder:8b | global core |
 
@@ -78,10 +78,21 @@ goose schedule run-now secretary-morning-brief
 goose schedule remove secretary-morning-brief
 ```
 
+## Local 8B notes
+
+- **Do not** use `response.json_schema` in recipes — causes `final_output` loops on Ollama 8B.
+- **Do not** call `loadSkill` inside recipes — instructions are self-contained; use `loadSkill` only in desktop chat.
+- If `goose run` exits with "empty response", seed the queue with Serper first:
+
+```bash
+tools/coeus-goose/scripts/haga-leads-bootstrap.sh
+```
+
+Then continue in Goose chat: enrich queue items → draft → `secretary-email` webhook.
+
 ## Skills
 
-Each recipe instructs the agent to load skills from `tools/coeus-goose/skills/`
-via the Goose skills extension. See [[../skills/README|skills README]].
+Skills in `tools/coeus-goose/skills/` are for **desktop chat** (`loadSkill` native tool). Headless recipes embed workflow + curl examples inline. See [[../skills/README|skills README]].
 
 ## Related
 

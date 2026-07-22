@@ -71,9 +71,20 @@ Recipe files: `tools/coeus-goose/recipes/`. Schedules: `install-schedules.sh`.
 
 Set via `GOOSE_MODEL` in `tools/coeus-goose/start.sh`.
 
+## Code execution vs native tools
+
+| Use | Tool |
+|-----|------|
+| Load skills | **`loadSkill`** (native) — never inside `execute_typescript` |
+| n8n webhooks (search/enrich/send/log) | **`shell`** curl batches — OK inside `code_execution` if batched |
+| MemPalace / vault | **`mempalace_search`**, **`coeus-filesystem`** (native) |
+| Full secretary run | **`goose run --recipe`** (headless) — most reliable on 8B |
+
+`code_execution` is for **curl/shell batches only**, not for skill loading or MCP tool calls.
+
 ## Troubleshooting tool bloat
 
 1. Disable recipe-scoped extensions not needed for current task
-2. Load skills via `loadSkill` instead of dumping all instructions in prompt
-3. Use `code_execution` for multi-step shell instead of many developer tool calls
+2. Load skills via **`loadSkill`** (native tool) instead of dumping all instructions in prompt
+3. Use `code_execution` only for batched **curl** to n8n — not for `loadSkill` or MemPalace
 4. Never enable `memory` to "remember" secretary prefs — write vault notes instead

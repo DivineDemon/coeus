@@ -7,6 +7,16 @@ description: Coeus secretary persona, vault paths, MemPalace-first memory (never
 
 Foundation playbook for Coeus secretary recipes. Load this before channel-specific skills.
 
+## How to load skills (critical — do not use Code Mode)
+
+Skills are **markdown playbooks**, not JavaScript functions. There is no `investorColdEmail()` or `load_skill()` in code.
+
+1. Call the **`loadSkill`** tool (skills extension) once per skill — **top-level tool call only**.
+2. **Never** call `loadSkill`, `load_skill`, or skill names inside **`execute_typescript` / `code_execution`** — the sandbox has no Goose tools (`ReferenceError: load_skill is not defined`).
+3. For full outreach runs, prefer **`goose run --recipe`** (recipes embed instructions; loading skills in chat is optional).
+
+**Chat sequence:** `loadSkill` → `secretary-core` → channel skill → `outbound-send` → `mempalace_search` → **`shell` curl** to n8n webhooks.
+
 ## Memory plane (critical)
 
 - **MemPalace + Obsidian only** — search `wing: coeus` before drafting or sending.

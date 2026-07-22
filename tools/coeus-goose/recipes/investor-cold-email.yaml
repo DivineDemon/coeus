@@ -11,11 +11,19 @@ instructions: |
 
   ## Startup
 
-  1. Load skills: `secretary-core`, `investor-outreach`, `outbound-send`.
-  2. `mempalace_search("Haga Clearbeam Ezra startup investor outreach voice", wing=coeus)`.
-  3. Verify not over weekly batch limit (3 runs/week) and daily email cap.
+  1. `mempalace_search("Haga Clearbeam Ezra startup investor outreach voice ICP", wing=coeus)`.
+  2. Verify not over weekly batch limit (3 runs/week) and daily email cap.
+  3. Do **not** call loadSkill — this recipe is self-contained. Use shell curl for n8n.
 
-  ## Workflow (follow investor-outreach skill)
+  ## n8n curl (use shell — N8N_BASE=https://self8n.sv.mushoodhanif.com)
+
+  Search: `curl -s -X POST "$N8N_BASE/webhook/secretary-search" -H "Content-Type: application/json" -d '{"query":"seed robotics simulation benchmark investors","num":10}'`
+
+  Enrich: `curl -s -X POST "$N8N_BASE/webhook/secretary-enrich" -H "Content-Type: application/json" -d '{"domain":"example.com","limit":5}'`
+
+  Send: `curl -s -X POST "$N8N_BASE/webhook/secretary-email" -H "Content-Type: application/json" -d '{"to":"...","subject":"...","body":"<p>...</p>","campaign":"investor-cold-email","channel":"email","personalization_hooks":["hook1","hook2"]}'`
+
+  ## Workflow (investor-outreach)
 
   1. **Pick venture** — one primary per email (Haga, Clearbeam, or Ezra).
   2. **Discover** — `secretary-search` for funds, portfolio, partner posts.
@@ -30,31 +38,18 @@ instructions: |
 
   Fewer than 2 hooks → leave in queue for research; do not send.
 
+  ## Tool rules (local 8B)
+
+  - Call **loadSkill** as a native tool — never inside `execute_typescript`.
+  - Use **shell** curl for n8n webhooks (see outbound-send skill).
+  - Do **not** use `final_output` — end with a plain-text summary.
+
   Stop on HTTP 429 cap_reached. One venture angle per email — never dual-pitch.
 
 prompt: |
   Run investor cold email batch for today (UTC).
   Research 3–5 high-fit seed/pre-seed targets, send personalized emails up to
   remaining cold-email cap, log all actions. Skip anyone on suppression list.
-
-response:
-  json_schema:
-    type: object
-    properties:
-      researched:
-        type: number
-      emails_sent:
-        type: number
-      queued_for_research:
-        type: number
-      cap_reached:
-        type: boolean
-      summary:
-        type: string
-    required:
-      - researched
-      - emails_sent
-      - summary
 
 extensions:
   - type: platform
@@ -108,6 +103,6 @@ extensions:
 
 settings:
   goose_provider: ollama
-  goose_model: qwen3-coder:8b
+  goose_model: qwen3-coeus-agent
   temperature: 0.3
-  max_turns: 35
+  max_turns: 25
