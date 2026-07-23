@@ -46,7 +46,7 @@ For venture-specific outreach, optional one-liner under signature linking the re
 
 - "Revolutionary", "game-changing", "synergy", "leverage" (verb)
 - Fake urgency ("limited slots")
-- Mentioning MemPalace, Goose, or internal tooling to external recipients
+- Mentioning Hermes, n8n, or internal tooling to external recipients
 - Copy-paste templates without per-recipient customization
 - Dual venture pitch in one email — one primary angle per message
 

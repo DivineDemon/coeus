@@ -18,7 +18,7 @@ Personal second brain for career, startups, projects, and technical knowledge. B
 | [[02-areas/career/career-overview\|Career]] | Resumes, timeline, employers, education |
 | [[03-resources/github-repos/github-overview\|GitHub Repos]] | README snapshots (13 repos) |
 | [[03-resources/social-profiles/social-overview\|Social Profiles]] | LinkedIn, GitHub, website, etc. |
-| [[03-resources/infrastructure/neon-overview\|Neon]] · [[03-resources/infrastructure/n8n-overview\|n8n]] · [[03-resources/infrastructure/local-llm-memory\|Local LLM]] | Infrastructure |
+| [[03-resources/infrastructure/neon-overview\|Neon]] · [[03-resources/infrastructure/n8n-overview\|n8n]] · [[tools/coeus-hermes/README\|Hermes]] | Infrastructure |
 | [[02-areas/immigration/immigration-overview\|Immigration]] | Private scaffold |
 | [[03-resources/skills-matrix/skills-overview\|Skills Matrix]] | Skills with evidence links |
 | [[04-archives]] | Completed or inactive material |

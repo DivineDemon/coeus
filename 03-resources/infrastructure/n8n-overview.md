@@ -36,7 +36,7 @@ n8n workspace inventory and integration snapshot. This note documents workflow c
 | Workflow | Status | Purpose |
 |----------|--------|---------|
 | Haga Social Autopilot | active | Daily research, draft, verify, and queue social posts |
-| Secretary: Search | active | Webhook — Serper search for Goose recipes |
+| Secretary: Search | active | Webhook — Serper search for Hermes secretary |
 | Secretary: Enrich | active | Webhook — Hunter domain/email enrichment |
 | Secretary: Email | active | Webhook — Gmail auto-send with caps + audit |
 | Secretary: LinkedIn | active | Webhook — LinkedIn publish with caps + audit |
@@ -51,7 +51,7 @@ n8n workspace inventory and integration snapshot. This note documents workflow c
 
 ### Secretary webhooks (active)
 
-Goose **hands** for full auto-send. Base URL: `https://self8n.sv.mushoodhanif.com/webhook/`. Full contracts: [[tools/coeus-goose/n8n/secretary-webhooks|secretary-webhooks.md]].
+Hermes **hands** for full auto-send. Base URL: `https://self8n.sv.mushoodhanif.com/webhook/`. Full contracts: [[tools/coeus-hermes/n8n/secretary-webhooks|secretary-webhooks.md]].
 
 | Path | Action | Integrations |
 |------|--------|--------------|

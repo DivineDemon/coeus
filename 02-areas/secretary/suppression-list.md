@@ -12,7 +12,7 @@ Recipients and domains that must **never** receive automated outreach. Check bef
 
 ## How to use
 
-1. Goose / recipes search this file via MemPalace before drafting.
+1. Hermes searches this file (and the vault) before drafting.
 2. n8n `secretary-email` webhook should reject if `to` matches any entry.
 3. On bounce or unsubscribe — add immediately; log to [[03-resources/secretary-log/secretary-log-overview|secretary log]].
 

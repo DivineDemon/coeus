@@ -10,11 +10,11 @@ Start from **[[home]]** inside Obsidian for the full navigation dashboard.
 |--------|---------|
 | `00-inbox/` | Unsorted captures — process weekly into PARA folders |
 | `01-projects/` | Active work with a deadline or live deployment |
-| `02-areas/` | Ongoing responsibilities (`career/`, `startups/`, `immigration/`) |
-| `03-resources/` | Reference — `github-repos/`, `resumes/`, `social-profiles/`, `skills-matrix/`, `infrastructure/` |
+| `02-areas/` | Ongoing responsibilities (`career/`, `startups/`, `secretary/`, `immigration/`) |
+| `03-resources/` | Reference — `github-repos/`, `resumes/`, `social-profiles/`, `skills-matrix/`, `infrastructure/`, `secretary-log/` |
 | `04-archives/` | Completed or inactive items |
 | `templates/` | Note scaffolds |
-| `tools/coeus-goose/` | Goose agent launcher (Ollama + MemPalace) |
+| `tools/coeus-hermes/` | Hermes secretary skills + n8n webhook contracts |
 
 > **Note:** Top-level PARA folders use numbered prefixes (`00-inbox`, etc.) for sort order. All subfolders and files use **kebab-case** (`career-overview.md`, `github-repos/`).
 
@@ -36,18 +36,22 @@ Start from **[[home]]** inside Obsidian for the full navigation dashboard.
 | Wikilinks | prefer full path for duplicates | `[[02-areas/startups/haga]]` vs `[[03-resources/github-repos/haga]]` |
 | Frontmatter | `type`, `status`, `tags`, `url`, `last_synced` | on every note |
 
-## Local AI memory (free — MemPalace)
+## Second brain (Hermes)
 
-Uses [MemPalace](https://github.com/MemPalace/mempalace) for retrieval and [Goose](https://github.com/aaif-goose/goose) for local agent chat — no API costs.
+[Hermes Agent](https://hermes-agent.nousresearch.com/) is the secretary brain over this vault. Outbound hands are n8n webhooks.
 
 ```bash
-uv tool install mempalace
-mempalace mine /Users/mushood/Documents/code/coeus   # re-run after vault updates
-mempalace search "What startups am I building?" --wing coeus
-tools/coeus-goose/start.sh                            # agent chat (Ollama + MemPalace)
+hermes                                                    # interactive (project Coeus)
+hermes -z 'What is Haga? Answer from the vault only.' --yolo
 ```
 
-See [[03-resources/infrastructure/local-llm-memory]] for Goose setup and optional Cursor MCP.
+| Layer | Role |
+|-------|------|
+| Hermes | Plan, research, draft, write vault notes |
+| Obsidian vault | Only durable memory |
+| n8n (`self8n.sv.mushoodhanif.com`) | Search, enrich, email, LinkedIn, audit |
+
+Skills live in `tools/coeus-hermes/skills/` (symlinked into `~/.hermes/skills/coeus`). Setup notes: [[tools/coeus-hermes/README|tools/coeus-hermes]]. Secretary config: [[02-areas/secretary/secretary-overview|secretary overview]].
 
 ## Sync cadence
 

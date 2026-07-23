@@ -1,6 +1,6 @@
 # Secretary n8n webhooks
 
-Goose calls these webhooks as **hands** for search, enrichment, send, and audit. Base URL:
+Hermes calls these webhooks as **hands** for search, enrichment, send, and audit. Base URL:
 
 `https://self8n.sv.mushoodhanif.com/webhook/`
 
@@ -174,7 +174,7 @@ Explicit audit entry (email/LinkedIn workflows also log on successful send).
 
 **Response (200):** `{ "ok": true, "logged": true, "data_table_row_id": 1, ... }`
 
-## Goose curl examples
+## Curl examples
 
 ```bash
 # Search
@@ -193,7 +193,7 @@ curl -s -X POST "$N8N_BASE/webhook/secretary-log" \
   -d '{"channel":"email","recipient":"a@b.com","campaign":"test","subject_or_title":"Hi","personalization_hooks":["x"],"status":"sent"}'
 ```
 
-Set `N8N_BASE=https://self8n.sv.mushoodhanif.com` in Goose env or skills.
+Set `N8N_BASE=https://self8n.sv.mushoodhanif.com` in Hermes env or skills.
 
 ## Setup checklist
 

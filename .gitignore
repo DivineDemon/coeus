@@ -13,7 +13,3 @@
 03-resources/ai-experiments/
 03-resources/infrastructure/n8n-videos/
 00-inbox/
-
-# MemPalace per-project files (issue #185)
-mempalace.yaml
-entities.json

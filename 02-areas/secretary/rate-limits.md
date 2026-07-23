@@ -8,7 +8,7 @@ aliases: [Daily Caps, Send Limits]
 
 # Rate limits
 
-Hard daily caps for full auto-send. n8n webhooks should enforce these; Goose must not attempt to bypass.
+Hard daily caps for full auto-send. n8n webhooks should enforce these; Hermes must not attempt to bypass.
 
 ## Daily caps (UTC day)
 
@@ -31,7 +31,7 @@ Hard daily caps for full auto-send. n8n webhooks should enforce these; Goose mus
 
 1. Stop sending for that channel until next UTC midnight.
 2. Move remaining queue items to next day — do not delete.
-3. Log `cap_reached` in n8n audit + diary entry via `mempalace_diary_write`.
+3. Log `cap_reached` in n8n audit + vault rollup in `03-resources/secretary-log/`.
 4. Morning brief recipe should surface cap status.
 
 ## Warm-up (new accounts or after pause)

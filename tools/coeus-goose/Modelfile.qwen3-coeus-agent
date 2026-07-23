@@ -1,7 +1,0 @@
-# Coeus secretary agent model — larger context + calmer sampling for tool loops.
-# Build: ollama create qwen3-coeus-agent -f tools/coeus-goose/Modelfile.qwen3-coeus-agent
-FROM qwen3:8b
-
-PARAMETER num_ctx 32768
-PARAMETER temperature 0.3
-PARAMETER num_predict 4096
