@@ -27,13 +27,17 @@ Installed via symlink: `~/.hermes/skills/coeus` → `tools/coeus-hermes/skills/`
 
 ## Daily use
 
-```bash
-hermes
+**Preferred UI:** open [http://127.0.0.1:9119](http://127.0.0.1:9119) → **Chat** tab. The dashboard runs as LaunchAgent `ai.nousresearch.hermes-dashboard` (not tied to a terminal).
 
+**WhatsApp (Baileys):** gateway LaunchAgent `ai.hermes.gateway` — message yourself on WhatsApp (`self-chat`, allowlist `923268860405`). Status: `hermes gateway status`.
+
+```bash
 hermes -z 'What is Haga? Answer from the vault only.' --yolo
 ```
 
-Working directory for terminal tools is the vault. Prefer reading `02-areas/secretary/` and `02-areas/startups/` before drafting outreach.
+Terminal cwd for agent tools is the vault (`config.yaml` → `terminal.cwd`). Prefer reading `02-areas/secretary/` and `02-areas/startups/` before drafting outreach.
+
+Desktop Electron (`hermes desktop`) was removed — it dies with the parent terminal; use the dashboard instead.
 
 ## Webhooks
 

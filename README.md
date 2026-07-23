@@ -40,9 +40,16 @@ Start from **[[home]]** inside Obsidian for the full navigation dashboard.
 
 [Hermes Agent](https://hermes-agent.nousresearch.com/) is the secretary brain over this vault. Outbound hands are n8n webhooks.
 
+**Chat UI:** browser dashboard at [http://127.0.0.1:9119](http://127.0.0.1:9119) (LaunchAgent `ai.nousresearch.hermes-dashboard` — survives closing Terminal). Use the **Chat** tab for the full agent TUI in-browser.
+
 ```bash
-hermes                                                    # interactive (project Coeus)
+# One-shots / scripting
 hermes -z 'What is Haga? Answer from the vault only.' --yolo
+
+# Dashboard service (macOS)
+launchctl kickstart -k "gui/$(id -u)/ai.nousresearch.hermes-dashboard"
+# Do not run `hermes dashboard --stop` while the LaunchAgent is loaded — use:
+launchctl bootout "gui/$(id -u)/ai.nousresearch.hermes-dashboard"
 ```
 
 | Layer | Role |
