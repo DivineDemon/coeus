@@ -52,7 +52,7 @@ For venture-specific outreach, optional one-liner under signature linking the re
 
 ## Personalization checklist
 
-Before send, confirm:
+Before send, self-check (do **not** ask Mushood — auto-send when these pass):
 
 - [ ] Recipient name and company spelled correctly
 - [ ] At least two ICP personalization hooks (see [[02-areas/secretary/icp|ICP]])

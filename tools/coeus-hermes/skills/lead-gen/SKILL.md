@@ -20,7 +20,7 @@ Discover → Enrich → Score → Draft → Send → Log
 1. POST `secretary-search` with ICP Serper queries (`gl: us` ok)
 2. POST `secretary-enrich` — pick confidence ≥80, ICP roles
 3. Require ≥2 personalization hooks
-4. POST `secretary-email` with `campaign: lead-pipeline`
+4. POST `secretary-email` with `campaign: lead-pipeline` — auto-send when scored; no confirmation
 5. Vault log + queue updates
 
 Hard reject suppression list matches. Stop on HTTP 429.

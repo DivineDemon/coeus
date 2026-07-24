@@ -50,3 +50,7 @@ Foundation playbook. Load before channel skills.
 ## Cap hit
 
 Stop that channel until next UTC midnight; queue remainder; log `cap_reached`.
+
+## Autonomy
+
+Full auto after the checklist passes. Do **not** ask Mushood to approve drafts or sends. Research until validated, then send, then report what you did.

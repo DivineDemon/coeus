@@ -29,7 +29,14 @@ Recipients and domains that must **never** receive automated outreach. Check bef
 
 | Email or domain | Reason | Added |
 |-----------------|--------|-------|
-| *(none yet)* | — | — |
+| contact@notablecap.com | invalid recipient / not found | 2026-07-23 |
+| *@notablecap.com | block domain pending review | 2026-07-23 |
+| investors@categoryvc.com | campaign reset — revisit later | 2026-07-23 |
+|| *@categoryvc.com | campaign reset — revisit later | 2026-07-23 |
+|| hello@greenfield-growth.com | hard bounce | 2026-07-24 |
+|| *@greenfield-growth.com | hard bounce | 2026-07-24 |
+|| tone@abstract.com | hard bounce | 2026-07-24 |
+|| *@abstract.com | hard bounce | 2026-07-24 |
 
 ## Auto-add rules
 

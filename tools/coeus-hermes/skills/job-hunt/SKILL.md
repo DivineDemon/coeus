@@ -16,5 +16,5 @@ ICP: `02-areas/secretary/icp.md` (Job hunt). Resumes: `03-resources/resumes/`.
 1. Read ICP + pick resume (AI engineer vs fullstack)
 2. `secretary-search` / browse for listings
 3. Score fit; queue ≥5 in `00-inbox/secretary-queue/`
-4. Apply/email via `secretary-email` with `channel: job-apply` (cap 10/day)
+4. Apply/email via `secretary-email` with `channel: job-apply` (cap 10/day) — auto-send when fit score is clear; no approval gate
 5. Log to `03-resources/secretary-log/`
