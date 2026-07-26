@@ -6,7 +6,7 @@ url: https://github.com/DivineDemon/haga-core
 stack: [Python, pytest, Jupyter, GitHub Actions]
 deployed: true
 private: true
-last_synced: 2026-07-21
+last_synced: 2026-07-26
 aliases: [haga-core]
 ---
 

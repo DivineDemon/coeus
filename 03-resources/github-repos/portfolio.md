@@ -6,7 +6,7 @@ url: https://github.com/DivineDemon/portfolio
 stack: [Next.js 16, React 19, Tailwind CSS 4, shadcn/ui, Prisma 7, Neon, Bun, Biome]
 deployed: true
 private: false
-last_synced: 2026-07-21
+last_synced: 2026-07-26
 aliases: [portfolio-site]
 ---
 
@@ -71,8 +71,6 @@ Designed for [Vercel](https://vercel.com). Neon Postgres integration. `bun run b
 
 ## Related
 
-- Backend: [[03-resources/github-repos/portfolio-backend|portfolio-backend]]
-- Admin panel: [[03-resources/github-repos/portfolio-panel|portfolio-panel]]
 - Project: [[01-projects/portfolio|portfolio]]
 - Database: [[03-resources/infrastructure/neon-overview|Neon — portfolio]]
 - Deployed at: https://mushoodhanif.com

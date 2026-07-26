@@ -6,7 +6,7 @@ url: https://github.com/DivineDemon/salon-pos
 stack: [Bun, Next.js, Drizzle, Neon, next-intl, TypeScript]
 deployed: true
 private: false
-last_synced: 2026-07-21
+last_synced: 2026-07-26
 aliases: [Salon POS Repo]
 ---
 

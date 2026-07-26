@@ -6,7 +6,7 @@ url: https://github.com/DivineDemon/haga-web
 stack: [Next.js, TypeScript, pnpm, Turborepo, Auth.js, MDX]
 deployed: true
 private: true
-last_synced: 2026-07-21
+last_synced: 2026-07-26
 aliases: []
 ---
 

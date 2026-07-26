@@ -1,10 +1,9 @@
 ---
 type: project
 status: archived
-vercel_url: https://www.ezraglobal.co.za
 github_repo: DivineDemon/ezra-global
-tags: [project, deployed, startup, ezra, private]
-last_synced: 2026-07-21
+tags: [project, startup, ezra, private]
+last_synced: 2026-07-26
 aliases: [Ezra Global Site]
 ---
 
@@ -12,20 +11,20 @@ aliases: [Ezra Global Site]
 
 ## Summary
 
-Creative agency portfolio site for the Ezra ecosystem. Private Next.js project deployed from the [[03-resources/github-repos/ezra-global|ezra-global]] repo.
+Creative agency portfolio site for the Ezra ecosystem. Private Next.js project deployed from the [[03-resources/github-repos/ezra-global|ezra-global]] repo. Status archived; retained as a reference deployment note.
 
 ## Deployment
 
-| Field | Value |
-|-------|-------|
-| Vercel project | `ezra-global` (`prj_iJGGqNfEwzzMLZlJHoU2hGojHzSO`) |
-| Production URL | https://www.ezraglobal.co.za |
-| GitHub repo | [[03-resources/github-repos/ezra-global\|ezra-global]] |
-| Framework | Next.js |
-| Node version | 24.x |
-| Project created | 2025-12-27 |
-| Last deployed | 2026-06-26 (READY) |
-| Deployment ID | `dpl_CZiSVq9gkYsAVHR7xgLDcYaRzCkP` |
+|| Field | Value |
+||-------|-------|
+|| Former Vercel project | `ezra-global` |
+|| Former production URL | https://www.ezraglobal.co.za |
+|| GitHub repo | [[03-resources/github-repos/ezra-global|ezra-global]] |
+|| Framework | Next.js |
+|| Node version | 24.x |
+|| Project created | 2025-12-27 |
+|| Last known deployment | 2026-06-26 (READY) |
+|| Deployment ID | `dpl_CZiSVq9gkYsAVHR7xgLDcYaRzCkP` |
 
 ### Domains
 

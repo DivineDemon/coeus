@@ -4,7 +4,7 @@ status: active
 vercel_url: https://surayasalon.vercel.app
 github_repo: DivineDemon/salon-pos
 tags: [project, deployed, nextjs]
-last_synced: 2026-07-21
+last_synced: 2026-07-26
 aliases: [Salon POS, Suraya Beauty Point Salon]
 ---
 
@@ -18,7 +18,7 @@ Bilingual (EN/AR) point-of-sale system for **Suraya Beauty Point Salon** — emp
 
 | Field | Value |
 |-------|-------|
-| Vercel project | `salon-pos` (`prj_hnpmhPGtmWoRjoNG2V2qAuBiFMmk`) |
+| Vercel project | `salon-pos` |
 | Production URL | https://surayasalon.vercel.app |
 | GitHub repo | [[03-resources/github-repos/salon-pos\|salon-pos]] |
 | Framework | Next.js |

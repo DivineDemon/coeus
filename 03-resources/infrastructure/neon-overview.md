@@ -87,7 +87,5 @@ Schemas and tables:
 
 ## Related
 
-- Projects: [[01-projects/portfolio|portfolio]], [[01-projects/clearbeam|clearbeam]], [[01-projects/salon-pos|salon-pos]]
-- Repos: [[03-resources/github-repos/portfolio|portfolio]], [[03-resources/github-repos/clearbeam|clearbeam]], [[03-resources/github-repos/salon-pos|salon-pos]]
 - Index: [[03-resources/infrastructure/n8n-overview|n8n Overview]]
 - Home: [[home]]

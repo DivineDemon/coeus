@@ -4,7 +4,7 @@ status: active
 vercel_url: https://eba.ezraglobal.co.za
 github_repo: DivineDemon/ezra-bid-assistant
 tags: [project, deployed, startup, ezra, ai, private]
-last_synced: 2026-07-21
+last_synced: 2026-07-26
 aliases: [Ezra Backend, EBA API]
 ---
 
@@ -18,7 +18,7 @@ Next.js API backend for the Ezra Bid Assistant Chrome extension — generates Fr
 
 | Field | Value |
 |-------|-------|
-| Vercel project | `ezra-bid-assistant-backend` (`prj_kaAebUMqGmBCmQt1IoBg7JWk9PSm`) |
+|| Vercel project | `ezra-bid-assistant-backend` ||
 | Production URL | https://eba.ezraglobal.co.za |
 | GitHub repo | [[03-resources/github-repos/ezra-bid-assistant\|ezra-bid-assistant]] (`backend/`) |
 | Framework | Next.js |

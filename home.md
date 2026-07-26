@@ -16,7 +16,7 @@ Personal second brain for career, startups, projects, and technical knowledge. B
 | [[01-projects/projects-overview\|Projects]] | Live Vercel deployments |
 | [[02-areas/startups/startups-overview\|Startups]] | Haga, Clearbeam, Ezra, Scintia |
 | [[02-areas/career/career-overview\|Career]] | Resumes, timeline, employers, education |
-| [[03-resources/github-repos/github-overview\|GitHub Repos]] | README snapshots (13 repos) |
+| [[03-resources/github-repos/github-overview|GitHub Repos]] | README snapshots for owned + sourced repos |
 | [[03-resources/social-profiles/social-overview\|Social Profiles]] | LinkedIn, GitHub, website, etc. |
 | [[03-resources/infrastructure/neon-overview\|Neon]] · [[03-resources/infrastructure/n8n-overview\|n8n]] · [[tools/coeus-hermes/README\|Hermes]] | Infrastructure |
 | [[02-areas/immigration/immigration-overview\|Immigration]] | Private scaffold |

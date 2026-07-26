@@ -6,7 +6,7 @@ url: https://github.com/DivineDemon/ezra-bid-assistant
 stack: [Bun, Next.js, Chrome MV3, Gemini, TypeScript]
 deployed: true
 private: false
-last_synced: 2026-07-21
+last_synced: 2026-07-26
 aliases: [Ezra Bid Assistant Repo]
 ---
 
