@@ -1,0 +1,34 @@
+{
+  "project": "haga",
+  "repo": "DivineDemon/haga-web",
+  "site": "haga.mushoodhanif.com",
+  "current_focus": "capital/revenue operations",
+  "paths": {
+    "grants": {
+      "primary": "Emergent Ventures",
+      "status": "Passed/Closed on 2026-07-27 — no response after 8 days; removed from active tracking",
+      "rule": "Inbound only; do not chase"
+    },
+    "survival_lane": {
+      "status": "Ready",
+      "limit": "≤10 asks",
+      "gate": "Path A/B payment gate before quoting/cash"
+    },
+    "soft_raise": {
+      "status": "Blocked until evidence trigger lands",
+      "trigger_requires": "grant award, soft commitment, design-partner dialogue, external artifact, or multi-model held-out result"
+    }
+  },
+  "immediate_deadlines": [
+    {"date": "2026-07-27", "item": "Y Combinator F26"},
+    {"date": "2026-08-02", "item": "Hub71+ AI Cohort 20 and SPC Fellowship F26"},
+    {"date": "2026-08-21", "item": "Berkeley SkyDeck Batch 23"},
+    {"date": "2026-08-30", "item": "EF / Bridge SF Fall 26"}
+  ],
+  "revenue_actions": [
+    "Reply same-day to any submitted-program inbound",
+    "Log real demand-signal conversations in dataroom PIPELINE_LOG",
+    "Do not invent LOIs, customers, or outreach replies",
+    "Do not re-engage cold investor chase until an evidence trigger lands"
+  ]
+}

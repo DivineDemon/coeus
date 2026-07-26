@@ -36,6 +36,7 @@ Haga is an independent verification startup focused on robotics and physical-AI 
 - Repo note: `[[03-resources/github-repos/haga|haga-core]]`
 - Related projects: `[[01-projects/haga-web-site]]`, `[[01-projects/haga-web-dataroom]]`
 - Related skills: `[[03-resources/skills-matrix/skills-overview|Skills Matrix]]`
+- Deployment steps: `[[01-projects/haga-web-site-steps|haga-web-site-steps]]`
 
 ## Risks and notes
 
