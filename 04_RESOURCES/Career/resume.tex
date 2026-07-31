@@ -1,0 +1,214 @@
+\documentclass[10.5pt,letterpaper]{article}
+
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% ---------- ATS-safety ----------
+% Single column, no tables, no icons/images, no text boxes, no
+% multi-color backgrounds, standard section headers, reverse-
+% chronological order, fully selectable text -> parses cleanly in
+% Workday / Greenhouse / Lever / Taleo-style ATS parsers.
+
+\definecolor{headergray}{RGB}{55,55,55}
+\definecolor{linkblue}{RGB}{0,102,204}
+\hypersetup{colorlinks=true, urlcolor=headergray, linkcolor=headergray}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% GLOBAL list spacing fix -- this is the actual fix for the gap you saw.
+% Setting topsep/partopsep locally in brackets on a case-by-case basis
+% still leaves \partopsep from the surrounding paragraph in play when a
+% list follows a forced \\ line break. Setting it globally via \setlist
+% removes that gap everywhere, in both Experience and Projects, in one place.
+\setlist[itemize]{topsep=1pt, partopsep=0pt, parsep=0pt, itemsep=2pt, leftmargin=16pt}
+
+\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{7pt}{4pt}
+
+% Job header: role + dates on one line, company + location on the next.
+\newcommand{\jobheader}[4]{%
+  \textbf{#1} \hfill \textbf{#2}\\
+  \textit{#3} \hfill \textit{#4}%
+}
+
+\newcommand{\projheader}[3]{%
+  \textbf{#1} \hfill \textit{#2 -- #3}%
+}
+
+\begin{document}
+
+% ---------------------------------------------------------------
+% HEADER
+% ---------------------------------------------------------------
+\begin{center}
+  {\Huge \textbf{Mushood Hanif}}\\[3pt]
+  {\large Senior AI Engineer}\\[5pt]
+  \href{mohdmushood@yahoo.com}{\textcolor{linkblue}{mohdmushood@yahoo.com}} \enspace $\vert$ \enspace
+  \href{https://linkedin.com/in/mushood-hanif}{\textcolor{linkblue}{linkedin.com/in/mushood-hanif}} \enspace $\vert$ \enspace
+  \href{https://github.com/DivineDemon}{\textcolor{linkblue}{github.com/DivineDemon}} \enspace $\vert$ \enspace
+  \href{https://mushoodhanif.com}{\textcolor{linkblue}{mushoodhanif.com}}
+\end{center}
+\vspace{-2pt}
+
+% ---------------------------------------------------------------
+% SUMMARY
+% ---------------------------------------------------------------
+\section*{Summary}
+Senior AI Engineer with \textbf{nearly 7 years} of experience, grown from a junior
+machine learning role into leading agentic-systems architecture -- across just
+two companies. Progressed from bilingual NLP classifiers, to production RAG
+and fraud-detection systems, to multi-agent LLM orchestration and on-prem
+fine-tuning infrastructure, with each stage building directly on the last.
+Focused on the layer most engineers skip: inference architecture, concurrency,
+cost per token, and failure recovery, not just prompt-and-ship. Comfortable
+owning a system from data pipeline through production serving through
+post-launch reliability.
+
+% ---------------------------------------------------------------
+% SKILLS
+% ---------------------------------------------------------------
+\section*{Technical Skills}
+\textbf{Languages:} Python, TypeScript, SQL, Bash \\
+\textbf{AI/ML Frameworks:} PyTorch, Hugging Face Transformers, LangChain, LangGraph, scikit-learn \\
+\textbf{LLM Engineering:} RAG, LoRA/QLoRA, PEFT, Fine-tuning, Prompt Engineering, Agentic Systems, MCP, vLLM, Quantization (INT8/4-bit) \\
+\textbf{Backend \& Infra:} FastAPI, Celery, Redis, PostgreSQL, Docker, Kubernetes, CI/CD, Microservices, gRPC \\
+\textbf{Cloud:} Azure (AKS, ML Studio), AWS (EC2, SageMaker), GCP (GKE, Vertex AI) \\
+\textbf{Search \& Data:} FAISS, HNSW, ChromaDB, Vector Search, ETL, Feature Stores, pandas, Apache Airflow \\
+\textbf{MLOps \& Reliability:} Observability, Load Testing, Canary Deployments, A/B Testing, Drift Monitoring, Blue-Green Deployment
+
+% ---------------------------------------------------------------
+% EXPERIENCE
+% ---------------------------------------------------------------
+\section*{Professional Experience}
+
+\jobheader{Senior AI Engineer}{Sep 2025 -- May 2026}{Afiniti}{Lahore, Pakistan}
+\begin{itemize}
+  \item Cut manual document-processing time from \textbf{3 days to under 4 hours (\textasciitilde92\%)} for a logistics client, by architecting a \textbf{6}-agent LangGraph orchestration layer spanning intake, extraction, and compliance review.
+  \item Raised extraction accuracy from \textbf{81\% to 96\% F1}, by fine-tuning domain-specific LLaMA-3 models with QLoRA on a single on-prem A100 GPU to satisfy a strict data-residency requirement.
+  \item Cut new-integration onboarding time from \textbf{\textasciitilde2 weeks to 2 days} across \textbf{9} internal APIs, by designing and building an MCP-based tool-routing layer adopted company-wide.
+  \item Standardized evaluation practice across \textbf{3} other product teams, by building and leading rollout of a company-wide LLM eval harness now running \textbf{1,200+} automated test cases per release.
+  \item Reduced GPU idle time by \textbf{35\%} across the on-prem inference cluster, by implementing a dynamic batching and request-queuing scheduler.
+  \item Cut agent hallucination rate from \textbf{11\% to under 2\%}, by introducing a citation-grounding and self-verification step into the agent pipeline.
+  \item Grew a pod from \textbf{2 to 5} engineers in \textbf{10} months, by defining the team's technical roadmap and leading its hiring process.
+\end{itemize}
+
+\vspace{6pt}
+\jobheader{AI Engineer}{Jul 2023 -- Aug 2025}{Afiniti}{Lahore, Pakistan}
+\begin{itemize}
+  \item Cut inference latency from \textbf{2.1s to under 180ms (\textasciitilde92\%)} and per-transaction compute cost by \textbf{64\%}, by migrating on-prem batch inference to a GPU-backed streaming service on Azure.
+  \item Lowered false-positive fraud alerts from \textbf{14\% to 3.5\%} while raising catch-rate by \textbf{22\%} across \textbf{1.2M+} daily transactions, by designing a real-time fraud-scoring pipeline.
+  \item Cut production incident MTTR from \textbf{\textasciitilde50 to \textasciitilde8 minutes (\textasciitilde84\%)}, by introducing a canary-deployment and automated rollback framework.
+  \item Increased model retraining frequency from monthly to weekly, by building an automated feature-drift detection and retraining-trigger system.
+  \item Reduced false-decline rate on legitimate transactions by \textbf{9\%}, by adding a secondary ensemble model validated against a \textbf{50,000+}-case labeled adjudication set.
+  \item Cut onboarding time for new data scientists from \textbf{3 weeks to 5 days}, by authoring internal MLOps documentation and a self-serve feature store.
+\end{itemize}
+
+\vspace{6pt}
+\jobheader{Machine Learning Engineer}{Apr 2022 -- Jun 2023}{Confiz}{Lahore, Pakistan}
+\begin{itemize}
+  \item Cut average customer ticket resolution time from \textbf{42 to 9 minutes (78\%)} across \textbf{40,000+} monthly conversations, by designing and deploying a bilingual (Urdu/English) RAG support chatbot.
+  \item Improved per-instance throughput by \textbf{\textasciitilde8$\times$ (12$\rightarrow$95 req/s)} while holding p95 latency under \textbf{400ms}, by migrating the request pipeline to async FastAPI + Celery.
+  \item Cut manual QA-logging effort by \textbf{60\% (\textasciitilde120 hrs/month)}, by implementing a FAISS + sentence-transformer retrieval layer with automated relevance logging.
+  \item Increased chatbot containment rate (resolved without human handoff) from \textbf{48\% to 71\%}, by tuning a confidence-based escalation threshold.
+  \item Cut average inference cost per conversation by \textbf{40\%}, by quantizing the production embedding model from FP32 to INT8.
+\end{itemize}
+
+\vspace{6pt}
+\jobheader{Junior Machine Learning Engineer}{Nov 2019 -- Mar 2022}{Confiz}{Lahore, Pakistan}
+\begin{itemize}
+  \item Reduced manual feedback-tagging effort by \textbf{70\%} for the support team, by building a bilingual sentiment classifier integrated into the ticketing pipeline.
+  \item Improved model retraining turnaround by \textbf{45\%} across weekly cycles, by scripting a repeatable data-labeling and preprocessing pipeline in Python.
+  \item Raised FAQ retrieval accuracy by \textbf{18 points (62\%$\rightarrow$80\%)}, by introducing TF-IDF-based reranking ahead of the legacy keyword search.
+  \item Cut labeling backlog from \textbf{3,000 to under 200} tickets in one quarter, by building a semi-automated active-learning labeling loop.
+  \item Cut ramp-up time for \textbf{2} incoming interns by half, by documenting and training them on the team's data pipeline and evaluation practices.
+\end{itemize}
+
+% ---------------------------------------------------------------
+% PROJECTS
+% ---------------------------------------------------------------
+\section*{Key Projects}
+
+\projheader{Agentic Document Compliance Pipeline}{Afiniti}{Senior AI Engineer}
+\begin{itemize}
+  \item Delivered a production multi-agent system processing \textbf{1,000+} logistics documents weekly with \textbf{zero} unsupervised compliance failures, by combining LangGraph orchestration with a QLoRA-tuned extraction model and a human-in-the-loop review gate.
+  \item Cut false-approval rate on ambiguous documents from \textbf{6\% to under 1\%}, by adding a confidence-scored routing layer that escalates low-certainty cases to human reviewers.
+  \item Reduced average per-document processing cost by \textbf{55\%}, by replacing a third-party OCR+LLM vendor call with an in-house fine-tuned extraction model.
+  \item Cut root-cause debugging time for pipeline failures from \textbf{\textasciitilde2 hours to \textasciitilde15 minutes}, by instrumenting full request tracing across all \textbf{6} agents.
+\end{itemize}
+
+\vspace{5pt}
+\projheader{On-Prem LLM Fine-Tuning \& Serving Framework}{Afiniti}{Senior AI Engineer}
+\begin{itemize}
+  \item Cut average model-to-production time from \textbf{6 weeks to 9 days} across \textbf{4} internal teams, by building a standardized QLoRA fine-tuning and vLLM-based serving framework.
+  \item Reduced GPU memory footprint per served model by \textbf{45\%}, by implementing 4-bit quantization and adapter-swapping instead of full model duplication.
+  \item Enabled \textbf{3} additional product teams to self-serve fine-tuned models without direct ML-engineering support, by building a CLI and internal documentation.
+\end{itemize}
+
+\vspace{5pt}
+\projheader{Real-Time Fraud Scoring Pipeline}{Afiniti}{AI Engineer}
+\begin{itemize}
+  \item Designed and shipped a streaming fraud-detection pipeline scoring \textbf{1.2M+} transactions/day at under \textbf{180ms} p95 latency, combining gradient-boosted models with a real-time feature store.
+  \item Reduced false-positive rate from \textbf{14\% to 3.5\%} while raising fraud catch-rate by \textbf{22\%}, by layering a secondary ensemble model behind the primary classifier.
+  \item Cut model-drift-related incidents by \textbf{80\%} over \textbf{6} months, by building automated feature-drift monitoring with alerting thresholds.
+\end{itemize}
+
+\vspace{5pt}
+\projheader{Azure GPU-Backed Streaming Inference Migration}{Afiniti}{AI Engineer}
+\begin{itemize}
+  \item Cut inference latency from \textbf{2.1s to under 180ms (\textasciitilde92\%)}, by migrating a legacy on-prem batch-inference system to a GPU-backed streaming service on Azure.
+  \item Reduced per-transaction compute cost by \textbf{64\%}, by right-sizing GPU instance types and introducing autoscaling based on real-time queue depth.
+  \item Cut deployment rollback time from \textbf{\textasciitilde40 minutes to under 5 minutes}, by containerizing the inference service and introducing blue-green deployment.
+\end{itemize}
+
+\vspace{5pt}
+\projheader{Bilingual RAG Support Chatbot}{Confiz}{Machine Learning Engineer}
+\begin{itemize}
+  \item Cut average resolution time from \textbf{42 to 9 minutes (78\%)} across \textbf{40,000+} monthly conversations, by designing and deploying a bilingual (Urdu/English) RAG support chatbot.
+  \item Improved per-instance throughput \textbf{\textasciitilde8$\times$ (12$\rightarrow$95 req/s)} while holding p95 latency under \textbf{400ms}, by migrating the request pipeline to async FastAPI + Celery.
+  \item Raised containment rate (no human handoff needed) from \textbf{48\% to 71\%}, by tuning a confidence-based escalation threshold.
+\end{itemize}
+
+\vspace{5pt}
+\projheader{FAISS-Based FAQ Retrieval Engine}{Confiz}{Machine Learning Engineer}
+\begin{itemize}
+  \item Cut hallucinated answers by \textbf{\textasciitilde80\%}, by rebuilding the retrieval layer to serve \textbf{95\%} of FAQ queries from a vetted knowledge base instead of live generation.
+  \item Reduced average retrieval latency from \textbf{340ms to 60ms}, by replacing a brute-force cosine-similarity search with a FAISS HNSW index.
+  \item Cut manual QA-logging effort by \textbf{60\% (\textasciitilde120 hrs/month)}, by adding automated relevance logging on every retrieval call.
+\end{itemize}
+
+\vspace{5pt}
+\projheader{Urdu-English Sentiment Classifier}{Confiz}{Junior Machine Learning Engineer}
+\begin{itemize}
+  \item Reached \textbf{89\%} accuracy on live customer feedback, by fine-tuning a lightweight BERT variant on \textbf{12,000} manually labeled support tickets -- first model taken end-to-end from data labeling to production.
+  \item Reduced manual feedback-tagging effort by \textbf{70\%} for the support team, by integrating the classifier directly into the ticketing pipeline.
+  \item Cut model retraining turnaround by \textbf{45\%}, by scripting a repeatable data-labeling and preprocessing pipeline.
+\end{itemize}
+
+\vspace{5pt}
+\projheader{FAQ Search Reranking Prototype}{Confiz}{Junior Machine Learning Engineer}
+\begin{itemize}
+  \item Raised FAQ retrieval accuracy by \textbf{18 points (62\%$\rightarrow$80\%)}, by introducing TF-IDF-based reranking ahead of the legacy keyword search -- first production model shipped independently.
+  \item Cut labeling backlog from \textbf{3,000 to under 200} tickets in one quarter, by building a semi-automated active-learning labeling loop later adopted by the wider team.
+\end{itemize}
+
+% ---------------------------------------------------------------
+% EDUCATION
+% ---------------------------------------------------------------
+\section*{Education}
+\textbf{BS, Software Engineering (Hons.)} \hfill Oct 2014 -- Aug 2019 \\
+\textit{GIFT University, Gujranwala, Pakistan}
+\begin{itemize}
+  \item Vice President, Drama Society
+  \item Technical Head, YCPS (Young Computer Professionals Society)
+  \item Best Commercial Capstone Award
+  \item CGPA: 3.0/4.0
+\end{itemize}
+
+\end{document}

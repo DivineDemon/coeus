@@ -1,0 +1,5 @@
+00_SYSTEM/Credentials/
+.DS_Store
+*.env
+*.env.local
+node_modules/
