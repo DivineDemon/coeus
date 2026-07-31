@@ -46,3 +46,14 @@ This document consolidates personal branding, public bio data, and communication
   - 6-Agent LangGraph Document Processing Pipeline.
   - Real-time Fraud Detection Pipeline at <180ms p95.
   - Haga World Model Consistency Verifier.
+
+---
+
+## 5. n8n Creator Profile & Automations (`n8n.io/creators/divinedemon`)
+- **Creator Handle**: `divinedemon`
+- **Creator Page**: [n8n.io/creators/divinedemon](https://n8n.io/creators/divinedemon/)
+- **Published Workflows & Templates**:
+  - **Product-Aware B2B Lead & Outreach Automation**:
+    - **URL**: [Generate product-aware B2B leads and outreach emails with Gemini, Pinecone and Gmail](https://n8n.io/workflows/13119-generate-product-aware-b2b-leads-and-outreach-emails-with-gemini-pinecone-and-gmail/)
+    - **Tech Stack**: n8n, Google Gemini AI, Pinecone Vector DB, Gmail API.
+    - **Description**: An automated sales agent workflow that deeply analyzes product specifications stored in Pinecone vector embeddings to identify exact target ICP matches, generate product-aware B2B lead lists, and craft hyper-personalized email outreach sequences delivered via Gmail.
