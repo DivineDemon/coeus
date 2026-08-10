@@ -743,11 +743,19 @@ def enrich_contacts_leadfinder(domain: str, names: List[str], redis_client: Opti
         contacts = []
         for r in result.get('results', []):
             if 'error' not in r:
+                # Try to extract position from the name if it looks like a role
+                name = r.get('name', '')
+                position = ''
+                # Check if name is a known role title
+                role_keywords = ['cto', 'vp', 'head', 'lead', 'principal', 'director', 'manager', 'engineer', 'research', 'science', 'robotics', 'ai', 'ml', 'technical', 'founder', 'ceo', 'cofounder', 'president']
+                name_lower = name.lower()
+                if any(kw in name_lower for kw in role_keywords):
+                    position = name
                 contacts.append({
                     'email': r.get('email'),
                     'first_name': r.get('name', '').split()[0] if r.get('name') else '',
                     'last_name': ' '.join(r.get('name', '').split()[1:]) if r.get('name') else '',
-                    'position': '',
+                    'position': position,
                     'department': '',
                     'confidence': 80,
                     'source': 'leadfinder',
@@ -1378,11 +1386,15 @@ def main():
         
         # Leadfinder verification (for names we found via SearXNG)
         leadfinder_names = []
+        name_to_role = {}  # Map name -> role from SearXNG
         for e in all_emails:
             if e.get('first_name') or e.get('last_name'):
                 name = f"{e.get('first_name','')} {e.get('last_name','')}".strip()
                 if name:
                     leadfinder_names.append(name)
+                    # Preserve the role from SearXNG
+                    if e.get('position'):
+                        name_to_role[name] = e['position']
         
         # Add common role-based names
         leadfinder_names.extend(['CTO', 'VP Engineering', 'Head of Engineering', 'Engineering Manager',
@@ -1396,6 +1408,10 @@ def main():
             stats["leadfinder_calls"] += 1
             for e in lf_emails:
                 e['source'] = 'leadfinder'
+                # Preserve role from SearXNG if available
+                name = f"{e.get('first_name','')} {e.get('last_name','')}".strip()
+                if name in name_to_role and not e.get('position'):
+                    e['position'] = name_to_role[name]
             all_emails.extend(lf_emails)
             print(f"      🔍 Leadfinder emails: {len(lf_emails)}")
         
