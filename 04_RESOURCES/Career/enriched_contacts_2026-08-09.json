@@ -1,0 +1,1917 @@
+{
+  "date": "2026-08-09",
+  "timestamp": "2026-08-09T13:54:22.961023",
+  "contacts": {
+    "JBS Applied A.I & Robotics Research Ltd": {
+      "domain": "jbs-ai-robotics.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Shadow Robot Company Ltd.": {
+      "domain": "shadowrobot.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "robert@shadowrobot.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 94,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20robert%20warburton%20shadowrobot",
+              "extracted_on": "2025-11-10",
+              "last_seen_on": "2026-07-26",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Robert",
+          "last_name": "Warburton",
+          "position": "Robotics Engineer",
+          "position_raw": "Robotics Design Engineer",
+          "seniority": null,
+          "department": "it",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/robert-warburton-824a3823",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        },
+        {
+          "value": "andy@shadowrobot.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 94,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20andy%20shariff%20shadowrobot",
+              "extracted_on": "2025-11-03",
+              "last_seen_on": "2026-08-03",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Andy",
+          "last_name": "Shariff",
+          "position": "IT Technician",
+          "position_raw": "I t. technician",
+          "seniority": null,
+          "department": "it",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/andy-shariff-118a48125",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        },
+        {
+          "value": "toni@shadowrobot.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 93,
+          "sources": [
+            {
+              "domain": "repositories.ros.org",
+              "uri": "https://repositories.ros.org/status_page/ros_lunar_default.html",
+              "extracted_on": "2019-01-31",
+              "last_seen_on": "2026-08-03",
+              "still_on_page": true
+            },
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20toni%20duran%20shadowrobot",
+              "extracted_on": "2025-01-13",
+              "last_seen_on": "2026-07-28",
+              "still_on_page": true
+            },
+            {
+              "domain": "ros.org",
+              "uri": "https://ros.org/news/jobs",
+              "extracted_on": "2016-06-27",
+              "last_seen_on": "2026-05-23",
+              "still_on_page": true
+            },
+            {
+              "domain": "docs.ros.org",
+              "uri": "https://docs.ros.org/lunar/api/combined_robot_hw/html",
+              "extracted_on": "2019-07-23",
+              "last_seen_on": "2026-04-26",
+              "still_on_page": false
+            },
+            {
+              "domain": "docs.ros.org",
+              "uri": "https://docs.ros.org/lunar/api/combined_robot_hw_tests/html",
+              "extracted_on": "2019-10-16",
+              "last_seen_on": "2026-04-18",
+              "still_on_page": false
+            },
+            {
+              "domain": "docs.ros.org",
+              "uri": "https://docs.ros.org/melodic/api/combined_robot_hw_tests/html",
+              "extracted_on": "2019-12-25",
+              "last_seen_on": "2026-04-09",
+              "still_on_page": false
+            },
+            {
+              "domain": "ros.org",
+              "uri": "https://ros.org/news/2016/06/shadow-robot---looking-for-a-new-software-engineer-1.html",
+              "extracted_on": "2017-11-23",
+              "last_seen_on": "2026-04-04",
+              "still_on_page": false
+            },
+            {
+              "domain": "ros.org",
+              "uri": "https://ros.org/news/2016/06",
+              "extracted_on": "2016-09-16",
+              "last_seen_on": "2026-04-03",
+              "still_on_page": false
+            },
+            {
+              "domain": "docs.ros.org",
+              "uri": "https://docs.ros.org/en/hydro/api/sr_hand/html/hand__commander_8cpp.html",
+              "extracted_on": "2021-09-16",
+              "last_seen_on": "2026-03-18",
+              "still_on_page": false
+            },
+            {
+              "domain": "docs.ros.org",
+              "uri": "https://docs.ros.org/en/noetic/api/combined_robot_hw_tests/html",
+              "extracted_on": "2020-12-14",
+              "last_seen_on": "2025-12-14",
+              "still_on_page": false
+            },
+            {
+              "domain": "discourse.ros.org",
+              "uri": "https://discourse.ros.org/t/shadow-robot-looking-for-a-new-software-engineer/303",
+              "extracted_on": "2020-04-17",
+              "last_seen_on": "2025-04-20",
+              "still_on_page": false
+            },
+            {
+              "domain": "repositories.ros.org",
+              "uri": "https://repositories.ros.org/status_page/ros_noetic_ufv8.html",
+              "extracted_on": "2020-04-24",
+              "last_seen_on": "2020-07-27",
+              "still_on_page": false
+            },
+            {
+              "domain": "repositories.ros.org",
+              "uri": "https://repositories.ros.org/status_page/ros_noetic_dbv8.html",
+              "extracted_on": "2020-04-25",
+              "last_seen_on": "2020-07-26",
+              "still_on_page": false
+            },
+            {
+              "domain": "repositories.ros.org",
+              "uri": "https://repositories.ros.org/status_page/ros_melodic_default.html",
+              "extracted_on": "2018-09-14",
+              "last_seen_on": "2019-05-18",
+              "still_on_page": false
+            },
+            {
+              "domain": "repositories.ros.org",
+              "uri": "https://repositories.ros.org/status_page/ros_melodic_ubhf.html",
+              "extracted_on": "2019-02-03",
+              "last_seen_on": "2019-05-18",
+              "still_on_page": false
+            },
+            {
+              "domain": "nootrix.com",
+              "uri": "https://nootrix.com/jobs/shadow-robot-is-looking-for-a-software-engineer-london-uk",
+              "extracted_on": "2016-07-11",
+              "last_seen_on": "2019-02-13",
+              "still_on_page": false
+            },
+            {
+              "domain": "planet.ros.org",
+              "uri": "https://planet.ros.org",
+              "extracted_on": "2016-07-12",
+              "last_seen_on": "2016-07-12",
+              "still_on_page": false
+            },
+            {
+              "domain": "ros.org",
+              "uri": "https://ros.org/news",
+              "extracted_on": "2016-06-23",
+              "last_seen_on": "2016-07-06",
+              "still_on_page": false
+            }
+          ],
+          "first_name": "Toni",
+          "last_name": "Duran",
+          "position": "Chief Technology Officer",
+          "position_raw": "Chief Technical Architect",
+          "seniority": "executive",
+          "department": "it",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/antolidur",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-04",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "Apollo Research AI Ltd": {
+      "domain": "apolloresearch.ai",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "marius@apolloresearch.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "apolloresearch.ai",
+              "uri": "https://apolloresearch.ai/team",
+              "extracted_on": "2024-09-21",
+              "last_seen_on": "2024-09-21",
+              "still_on_page": true
+            },
+            {
+              "domain": "blog.bluedot.org",
+              "uri": "https://blog.bluedot.org/p/implementing-a-deception-eval-with-the-uk-aisis-inspect-framework",
+              "extracted_on": "2026-05-04",
+              "last_seen_on": "2026-05-04",
+              "still_on_page": true
+            },
+            {
+              "domain": "unfilteredreporting.com",
+              "uri": "https://unfilteredreporting.com/2025/06/29/advanced-ai-threatening-makers-exhibiting-worrisome-attributes",
+              "extracted_on": "2026-06-01",
+              "last_seen_on": "2026-06-01",
+              "still_on_page": true
+            },
+            {
+              "domain": "forum.effectivealtruism.org",
+              "uri": "https://forum.effectivealtruism.org/posts/ysC6crBKhDBGZfob3/announcing-apollo-research",
+              "extracted_on": "2026-06-16",
+              "last_seen_on": "2026-06-16",
+              "still_on_page": true
+            },
+            {
+              "domain": "alignmentforum.org",
+              "uri": "https://alignmentforum.org/posts/FG6icLPKizEaWHex5/announcing-apollo-research",
+              "extracted_on": "2026-06-16",
+              "last_seen_on": "2026-06-16",
+              "still_on_page": true
+            },
+            {
+              "domain": "manifund.org",
+              "uri": "https://manifund.org/projects/apollo-research-scale-up-interpretability--behavioral-model-evals-research",
+              "extracted_on": "2024-04-03",
+              "last_seen_on": "2026-06-24",
+              "still_on_page": true
+            },
+            {
+              "domain": "lesswrong.com",
+              "uri": "https://lesswrong.com/posts/FG6icLPKizEaWHex5/announcing-apollo-research",
+              "extracted_on": "2026-07-14",
+              "last_seen_on": "2026-07-14",
+              "still_on_page": true
+            },
+            {
+              "domain": "lesswrong.com",
+              "uri": "https://lesswrong.com/posts/fnc6Sgt3CGCdFmmgX/we-need-a-science-of-evals",
+              "extracted_on": "2026-07-16",
+              "last_seen_on": "2026-07-16",
+              "still_on_page": true
+            },
+            {
+              "domain": "lesswrong.com",
+              "uri": "https://lesswrong.com/posts/FG6icLPKizEaWHex5",
+              "extracted_on": "2026-07-20",
+              "last_seen_on": "2026-07-20",
+              "still_on_page": true
+            },
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20marius%20hobbhahn%20apolloresearch",
+              "extracted_on": "2025-01-07",
+              "last_seen_on": "2026-07-31",
+              "still_on_page": true
+            },
+            {
+              "domain": "mani.fund",
+              "uri": "https://mani.fund/projects/apollo-research-scale-up-interpretability--behavioral-model-evals-research",
+              "extracted_on": "2026-08-02",
+              "last_seen_on": "2026-08-02",
+              "still_on_page": true
+            },
+            {
+              "domain": "apolloresearch.ai",
+              "uri": "https://apolloresearch.ai/blog/we-need-a-science-of-evals",
+              "extracted_on": "2024-02-28",
+              "last_seen_on": "2025-09-22",
+              "still_on_page": false
+            },
+            {
+              "domain": "apolloresearch.ai",
+              "uri": "https://apolloresearch.ai/blog/announcing-apollo-research",
+              "extracted_on": "2024-02-28",
+              "last_seen_on": "2025-09-21",
+              "still_on_page": false
+            },
+            {
+              "domain": "apolloresearch.ai",
+              "uri": "https://apolloresearch.ai/blog/the-first-year-of-apollo-research",
+              "extracted_on": "2024-08-18",
+              "last_seen_on": "2025-09-21",
+              "still_on_page": false
+            },
+            {
+              "domain": "apolloresearch.ai",
+              "uri": "https://apolloresearch.ai/blog/announcement",
+              "extracted_on": "2023-05-31",
+              "last_seen_on": "2025-08-29",
+              "still_on_page": false
+            },
+            {
+              "domain": "safeai.org.uk",
+              "uri": "https://safeai.org.uk/team",
+              "extracted_on": "2023-11-13",
+              "last_seen_on": "2025-08-18",
+              "still_on_page": false
+            },
+            {
+              "domain": "safeai.org.uk",
+              "uri": "https://safeai.org.uk/about",
+              "extracted_on": "2024-02-13",
+              "last_seen_on": "2025-08-14",
+              "still_on_page": false
+            },
+            {
+              "domain": "safeai.org.uk",
+              "uri": "https://safeai.org.uk/about-us",
+              "extracted_on": "2024-02-19",
+              "last_seen_on": "2025-06-13",
+              "still_on_page": false
+            }
+          ],
+          "first_name": "Marius",
+          "last_name": "Hobbhahn",
+          "position": "Co-founder",
+          "position_raw": "Director and Co-founder",
+          "seniority": null,
+          "department": "executive",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/marius-hobbhahn-128927175",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-14",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "zen@apolloresearch.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20zen%20riel%20apolloresearch",
+              "extracted_on": "2026-06-28",
+              "last_seen_on": "2026-07-27",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Zen",
+          "last_name": "Riel",
+          "position": "Technical Staff Member",
+          "position_raw": "Member of Technical Staff",
+          "seniority": null,
+          "department": "operations",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/zen-van-riel",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        },
+        {
+          "value": "matteo@apolloresearch.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "apolloresearch.ai",
+              "uri": "https://apolloresearch.ai/blog/ndaa-ai-security-defense-intelligence",
+              "extracted_on": "2025-12-28",
+              "last_seen_on": "2026-07-01",
+              "still_on_page": true
+            },
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20matteo%20pistillo%20apolloresearch",
+              "extracted_on": "2025-04-01",
+              "last_seen_on": "2025-04-01",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Matteo",
+          "last_name": "Pistillo",
+          "position": "Senior AI Governance Researcher",
+          "position_raw": "Senior AI Governance Researcher and Advisor",
+          "seniority": "senior",
+          "department": "education",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/matteopistillo",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-12",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "CGA Simulation Ltd": {
+      "domain": "cga-simulation.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "HPi Verification Services Ltd": {
+      "domain": "hpi-verification.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Fieldwork Robotics Limited": {
+      "domain": "fieldworkrobotics.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "andrea@fieldworkrobotics.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20andrea%20p%20fieldworkrobotics",
+              "extracted_on": "2025-01-11",
+              "last_seen_on": "2025-01-11",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Andrea",
+          "last_name": "P",
+          "position": "Chief Technology Officer",
+          "position_raw": "Chief Technology Officer",
+          "seniority": "executive",
+          "department": "it",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/perticatiandrea",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-24",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "josh@fieldworkrobotics.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 98,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20josh%20mcateer%20fieldworkrobotics",
+              "extracted_on": "2026-03-25",
+              "last_seen_on": "2026-03-25",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Josh",
+          "last_name": "McAteer",
+          "position": "AI Engineer",
+          "position_raw": "AI and Computer Vision Engineer",
+          "seniority": null,
+          "department": "it",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/joshuamcateer",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        },
+        {
+          "value": "eduardo@fieldworkrobotics.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 94,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20eduardo%20grifo%20fieldworkrobotics",
+              "extracted_on": "2026-06-01",
+              "last_seen_on": "2026-07-04",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Eduardo",
+          "last_name": "Grifo",
+          "position": "Team Lead",
+          "position_raw": "Software Team Lead",
+          "seniority": null,
+          "department": "management",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/egrifo",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        }
+      ]
+    },
+    "Oxford Robotics Ltd": {
+      "domain": "oxfordrobotics.institute",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "yao@oxfordrobotics.institute",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 94,
+          "sources": [
+            {
+              "domain": "ori.ox.ac.uk",
+              "uri": "https://ori.ox.ac.uk/people/yao-yao",
+              "extracted_on": "2021-09-04",
+              "last_seen_on": "2026-08-08",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Yao",
+          "last_name": "Academia",
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        },
+        {
+          "value": "bechir@oxfordrobotics.institute",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 89,
+          "sources": [
+            {
+              "domain": "ori.ox.ac.uk",
+              "uri": "https://ori.ox.ac.uk/people/bechir-tabia",
+              "extracted_on": "2021-09-04",
+              "last_seen_on": "2026-07-09",
+              "still_on_page": true
+            }
+          ],
+          "first_name": null,
+          "last_name": null,
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        },
+        {
+          "value": "jyamada@oxfordrobotics.institute",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 88,
+          "sources": [
+            {
+              "domain": "wolfgangmerkt.com",
+              "uri": "https://wolfgangmerkt.com/publications/2023/ccn23braininspiredcontrol.pdf",
+              "extracted_on": "2023-06-07",
+              "last_seen_on": "2026-07-13",
+              "still_on_page": true
+            },
+            {
+              "domain": "ori.ox.ac.uk",
+              "uri": "https://ori.ox.ac.uk/people/jun-yamada",
+              "extracted_on": "2021-12-04",
+              "last_seen_on": "2026-06-14",
+              "still_on_page": true
+            }
+          ],
+          "first_name": null,
+          "last_name": null,
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        }
+      ]
+    },
+    "Prosper Robotics Ltd": {
+      "domain": "prosper-robotics.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Perceptual Robotics Limited": {
+      "domain": "perceptualrobotics.com",
+      "total_emails_found": 2,
+      "top_contacts": [
+        {
+          "value": "cooper@perceptualrobotics.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 84,
+          "sources": [
+            {
+              "domain": "cs.rochester.edu",
+              "uri": "https://cs.rochester.edu/dept/25th/gallery",
+              "extracted_on": "2026-04-18",
+              "last_seen_on": "2026-07-19",
+              "still_on_page": true
+            }
+          ],
+          "first_name": null,
+          "last_name": null,
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        },
+        {
+          "value": "lucia.roca@perceptualrobotics.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 17,
+          "sources": [
+            {
+              "domain": "mx.ivoox.com",
+              "uri": "https://mx.ivoox.com/es/audios-internet-tecnologia_sa_f445_p2_7.html",
+              "extracted_on": "2025-08-04",
+              "last_seen_on": "2025-08-04",
+              "still_on_page": false
+            },
+            {
+              "domain": "ivoox.com",
+              "uri": "https://ivoox.com/audios-internet-tecnologia_sa_f445_p2_1.html",
+              "extracted_on": "2025-07-31",
+              "last_seen_on": "2025-07-31",
+              "still_on_page": false
+            },
+            {
+              "domain": "mx.ivoox.com",
+              "uri": "https://mx.ivoox.com/es/audios-empresa-tecnologia_sa_f38_p2_1.html",
+              "extracted_on": "2025-07-30",
+              "last_seen_on": "2025-07-30",
+              "still_on_page": false
+            }
+          ],
+          "first_name": "Lucia",
+          "last_name": "Roca",
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        }
+      ]
+    },
+    "Extend Robotics Limited": {
+      "domain": "extendrobotics.com",
+      "total_emails_found": 9,
+      "top_contacts": [
+        {
+          "value": "azmat@extendrobotics.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20azmat%20h%20extendrobotics",
+              "extracted_on": "2025-01-14",
+              "last_seen_on": "2025-01-14",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Azmat",
+          "last_name": "H",
+          "position": "Business Development Director",
+          "position_raw": "Business Development Director",
+          "seniority": "executive",
+          "department": "sales",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/azmat-hossain",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        },
+        {
+          "value": "tom.queen@extendrobotics.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20tom%20queen%20extendrobotics",
+              "extracted_on": "2026-01-05",
+              "last_seen_on": "2026-08-01",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Tom",
+          "last_name": "Queen",
+          "position": "Principal Robotics Architect",
+          "position_raw": "Principle Robotics Architect",
+          "seniority": "senior",
+          "department": "education",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/tom-queen-267a6611b",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-29",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "azmat.hossain@extendrobotics.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "one6g.org",
+              "uri": "https://one6g.org/download/5562",
+              "extracted_on": "2025-05-22",
+              "last_seen_on": "2026-06-05",
+              "still_on_page": true
+            },
+            {
+              "domain": "one6g.org",
+              "uri": "https://one6g.org/download/4244",
+              "extracted_on": "2024-07-27",
+              "last_seen_on": "2026-05-22",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Azmat",
+          "last_name": "Hossain",
+          "position": "Business Development Director",
+          "position_raw": "Business Development Director",
+          "seniority": "executive",
+          "department": "sales",
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": null,
+            "status": null
+          }
+        }
+      ]
+    },
+    "Human Digital Twin Limited": {
+      "domain": "humandigitaltwin.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Mistral AI UK Limited": {
+      "domain": "mistral.ai",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "astoop@mistral.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20audrey%20stoop%20mistral",
+              "extracted_on": "2025-02-13",
+              "last_seen_on": "2026-07-30",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Audrey",
+          "last_name": "Stoop",
+          "position": "Vice President, Global Affairs",
+          "position_raw": "Senior Vice-President, Global Affairs",
+          "seniority": "executive",
+          "department": "executive",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/audreyherblinstoop",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-06",
+            "status": "accept_all"
+          }
+        },
+        {
+          "value": "jason.rute@mistral.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "discourse.rocq-prover.org",
+              "uri": "https://discourse.rocq-prover.org/t/ai-for-formal-math-researcher-at-mistral-ai/2831",
+              "extracted_on": "2026-07-29",
+              "last_seen_on": "2026-07-29",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Jason",
+          "last_name": "Rute",
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": false,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-06",
+            "status": "accept_all"
+          }
+        },
+        {
+          "value": "cbussler@mistral.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20christoph%20bussler%20mistral",
+              "extracted_on": "2026-05-26",
+              "last_seen_on": "2026-07-29",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Christoph",
+          "last_name": "Bussler",
+          "position": "AI Solution Architect",
+          "position_raw": "AI Solution Architect",
+          "seniority": null,
+          "department": "it",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/chbussler",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-05",
+            "status": "accept_all"
+          }
+        }
+      ]
+    },
+    "Stability AI Ltd": {
+      "domain": "stability.ai",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "patricia.wood@stability.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20patricia%20wood%20stability",
+              "extracted_on": "2026-06-26",
+              "last_seen_on": "2026-07-26",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Patricia",
+          "last_name": "Wood",
+          "position": "Head of Integrity Operations",
+          "position_raw": "Head of Integrity Operations & Harm Prevention",
+          "seniority": "executive",
+          "department": "management",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/patriciagwood",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-30",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "shimon.vainer@stability.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20shimon%20vainer%20stability",
+              "extracted_on": "2026-03-15",
+              "last_seen_on": "2026-07-30",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Shimon",
+          "last_name": "Vainer",
+          "position": "Co-Head of 3D & Image",
+          "position_raw": "Co-Head of 3D & Image at Stability AI",
+          "seniority": null,
+          "department": "design",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/sv3d",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-30",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "mark.boss@stability.ai",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20mark%20boss%20stability",
+              "extracted_on": "2026-03-06",
+              "last_seen_on": "2026-08-02",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Mark",
+          "last_name": "Boss",
+          "position": "Co-Head of 3D & Image",
+          "position_raw": "Co-Head of 3D & Image",
+          "seniority": null,
+          "department": "design",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/markbboss",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-30",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "Tecosim Technical Simulation Ltd.": {
+      "domain": "tecosim.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "a.backes@tecosim.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20andr%C3%A9%20backes%20tecosim",
+              "extracted_on": "2026-05-18",
+              "last_seen_on": "2026-07-29",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Andr\u00e9",
+          "last_name": "Backes",
+          "position": "Technical Manager",
+          "position_raw": "Technical Manager",
+          "seniority": "senior",
+          "department": "management",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/andrebackes",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-31",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "m.kiefner@tecosim.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20michael%20kiefner%20tecosim",
+              "extracted_on": "2026-01-11",
+              "last_seen_on": "2026-08-01",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Michael",
+          "last_name": "Kiefner",
+          "position": "Project Manager",
+          "position_raw": "Projektmanager",
+          "seniority": "senior",
+          "department": "management",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/michael-kiefner-804579171",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-16",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "p.fitz@tecosim.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 98,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20peter%20fitz%20tecosim",
+              "extracted_on": "2026-01-20",
+              "last_seen_on": "2026-07-27",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Peter",
+          "last_name": "Fitz",
+          "position": "Team Leader",
+          "position_raw": "Teamleiter",
+          "seniority": null,
+          "department": "management",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/peter-fitz-79637b119",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-26",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "The Simulator Company Limited": {
+      "domain": "thesimulatorcompany.com",
+      "total_emails_found": 1,
+      "top_contacts": []
+    },
+    "General Physics (UK) Ltd": {
+      "domain": "generalphysics.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Innovative Physics Limited": {
+      "domain": "innovativephysics.co.uk",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "NVIDIA": {
+      "domain": "nvidia.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "frank@nvidia.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20francis%20jiang%20nvidia",
+              "extracted_on": "2026-05-19",
+              "last_seen_on": "2026-07-01",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Francis",
+          "last_name": "Jiang",
+          "position": "Chief System Software Engineer",
+          "position_raw": "Chief System Software Engineer",
+          "seniority": null,
+          "department": "it",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/francis-jiang-2b112bb4",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-14",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "ant@nvidia.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20anthony%20bilotti%20nvidia",
+              "extracted_on": "2026-05-19",
+              "last_seen_on": "2026-07-30",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Anthony",
+          "last_name": "Bilotti",
+          "position": "Director of Autonomous Systems",
+          "position_raw": "Director Autonomous Systems",
+          "seniority": "executive",
+          "department": "it",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/anthony-bilotti-67223868",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-17",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "michelleh@nvidia.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20michelle%20henderson%20nvidia",
+              "extracted_on": "2025-08-08",
+              "last_seen_on": "2026-07-27",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Michelle",
+          "last_name": "Henderson",
+          "position": "Associate Director of Operations",
+          "position_raw": "Associate Director of Operations",
+          "seniority": "executive",
+          "department": "operations",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/michelle-henderson-09730631",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-03",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "Google DeepMind": {
+      "domain": "deepmind.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "tanno@deepmind.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "barbados2023.rl-community.org",
+              "uri": "https://barbados2023.rl-community.org/accomodations/barbados-fun",
+              "extracted_on": "2026-06-15",
+              "last_seen_on": "2026-06-15",
+              "still_on_page": true
+            }
+          ],
+          "first_name": null,
+          "last_name": null,
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-30",
+            "status": "invalid"
+          }
+        },
+        {
+          "value": "williamis@deepmind.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "carlyonaigroup.com",
+              "uri": "https://carlyonaigroup.com/_files/ugd/1b4f89_0e2ac6202b24437bbd9295f857364741.pdf",
+              "extracted_on": "2023-05-31",
+              "last_seen_on": "2026-08-03",
+              "still_on_page": true
+            },
+            {
+              "domain": "wsisaac.com",
+              "uri": "https://wsisaac.com/about",
+              "extracted_on": "2026-05-18",
+              "last_seen_on": "2026-05-21",
+              "still_on_page": true
+            },
+            {
+              "domain": "wsisaac.com",
+              "uri": "https://wsisaac.com/garden",
+              "extracted_on": "2026-05-18",
+              "last_seen_on": "2026-05-21",
+              "still_on_page": true
+            },
+            {
+              "domain": "wsisaac.com",
+              "uri": "https://wsisaac.com/research",
+              "extracted_on": "2026-05-18",
+              "last_seen_on": "2026-05-21",
+              "still_on_page": true
+            },
+            {
+              "domain": "wsisaac.com",
+              "uri": "https://wsisaac.com",
+              "extracted_on": "2026-05-18",
+              "last_seen_on": "2026-05-18",
+              "still_on_page": true
+            },
+            {
+              "domain": "economistafrica.com",
+              "uri": "https://economistafrica.com/2020/10",
+              "extracted_on": "2023-02-14",
+              "last_seen_on": "2024-02-14",
+              "still_on_page": false
+            },
+            {
+              "domain": "economistafrica.com",
+              "uri": "https://economistafrica.com/2020/10/ghana.html",
+              "extracted_on": "2023-02-14",
+              "last_seen_on": "2024-02-14",
+              "still_on_page": false
+            }
+          ],
+          "first_name": null,
+          "last_name": null,
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-30",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "nematzadeh@deepmind.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "aidanematzadeh.me",
+              "uri": "https://aidanematzadeh.me",
+              "extracted_on": "2021-06-18",
+              "last_seen_on": "2026-06-30",
+              "still_on_page": true
+            },
+            {
+              "domain": "zzun.app",
+              "uri": "https://zzun.app/repo/the-svoprobes-dataset-for-verb-understanding",
+              "extracted_on": "2025-06-13",
+              "last_seen_on": "2026-06-22",
+              "still_on_page": true
+            }
+          ],
+          "first_name": null,
+          "last_name": null,
+          "position": null,
+          "position_raw": null,
+          "seniority": null,
+          "department": null,
+          "decision_maker": null,
+          "linkedin": null,
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-30",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "Meta AI (FAIR)": {
+      "domain": "meta.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "micahpetty@meta.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20micah%20petty%20meta",
+              "extracted_on": "2026-08-05",
+              "last_seen_on": "2026-07-26",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Micah",
+          "last_name": "Petty",
+          "position": "Director of Operations",
+          "position_raw": "Director of Operations",
+          "seniority": "executive",
+          "department": "executive",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/micah-petty-3bb817338",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-09",
+            "status": "accept_all"
+          }
+        },
+        {
+          "value": "pedrorosa@meta.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20pedro%20rosa%20meta",
+              "extracted_on": "2026-08-04",
+              "last_seen_on": "2026-08-04",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Pedro",
+          "last_name": "Rosa",
+          "position": "Creative Director",
+          "position_raw": "Global Creative Director",
+          "seniority": "executive",
+          "department": "design",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/pedro-rosa-78756277",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-09",
+            "status": "accept_all"
+          }
+        },
+        {
+          "value": "ciarabrannigan@meta.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20ciara%20brannigan%20meta",
+              "extracted_on": "2026-08-03",
+              "last_seen_on": "2026-07-31",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Ciara",
+          "last_name": "Brannigan",
+          "position": "Director",
+          "position_raw": "Director and Associate General Counsel",
+          "seniority": "executive",
+          "department": "management",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/ciarabrannigan",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-09",
+            "status": "accept_all"
+          }
+        }
+      ]
+    },
+    "OpenAI": {
+      "domain": "openai.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "davida@openai.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 94,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20ade%20david%20openai",
+              "extracted_on": "2026-05-15",
+              "last_seen_on": "2026-07-27",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Ade",
+          "last_name": "David",
+          "position": "Technical Director, AI Quantitative Analytics",
+          "position_raw": "Technical Director, AI Quantitative Analytics Research Team",
+          "seniority": null,
+          "department": "it",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/ade-david-663402125",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-08",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "jasony@openai.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 94,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20jason%20yen%20openai",
+              "extracted_on": "2026-03-21",
+              "last_seen_on": "2026-07-09",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Jason",
+          "last_name": "Yen",
+          "position": "Head of Tax",
+          "position_raw": "Head of Tax Policy and Strategic Projects",
+          "seniority": "executive",
+          "department": "finance",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/jason-yen-029ba1",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-06",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "marc@openai.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 94,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20marc%20montanari%20openai",
+              "extracted_on": "2025-08-20",
+              "last_seen_on": "2026-07-30",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Marc",
+          "last_name": "Montanari",
+          "position": "Solutions Engineer",
+          "position_raw": "EMEA Partnerships & Solutions",
+          "seniority": "executive",
+          "department": "it",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/marcmontanari",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-08",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "Anthropic": {
+      "domain": "anthropic.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "elizabeth@anthropic.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20elizabeth%20kelly%20anthropic",
+              "extracted_on": "2025-08-10",
+              "last_seen_on": "2026-03-14",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Elizabeth",
+          "last_name": "Kelly",
+          "position": "Technical Director",
+          "position_raw": "Head of Technical Department",
+          "seniority": "executive",
+          "department": "management",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/elizabeth-kelly-b0307739a",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-08",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "libster@anthropic.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20ryan%20libster%20anthropic",
+              "extracted_on": "2025-03-09",
+              "last_seen_on": "2026-07-08",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Ryan",
+          "last_name": "Libster",
+          "position": "Sales Director",
+          "position_raw": "Head of Sales, Claude for Work",
+          "seniority": "executive",
+          "department": "sales",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/ryanlibster",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-09",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "cat@anthropic.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 85,
+          "sources": [
+            {
+              "domain": "linkedin.com",
+              "uri": "https://www.google.com/search?q=site:linkedin.com%20cat%20de+jong%20anthropic",
+              "extracted_on": "2025-01-07",
+              "last_seen_on": "2026-07-30",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Cat",
+          "last_name": "De Jong",
+          "position": "Director of Applied AI",
+          "position_raw": "Head of Applied AI",
+          "seniority": "executive",
+          "department": "management",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/cat-de-jong-65284b40",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-09",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "Tesla AI": {
+      "domain": "tesla.com",
+      "total_emails_found": 10,
+      "top_contacts": [
+        {
+          "value": "echen@tesla.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "files.cand.uscourts.gov",
+              "uri": "https://files.cand.uscourts.gov/files/18-cv-04865-emc%2520in%2520re%2520tesla%2520inc.%2520securities%2520litigation/trial%2520exhibit%25200511%2520-%25208.7.18%2520maron%2520email%2520.pdf",
+              "extracted_on": "2023-07-22",
+              "last_seen_on": "2026-07-02",
+              "still_on_page": true
+            }
+          ],
+          "first_name": "Erin",
+          "last_name": "Chen",
+          "position": "Data Engineer",
+          "position_raw": "Data Mining Engineer/Big Data Analytics Team Executive",
+          "seniority": null,
+          "department": "it",
+          "decision_maker": true,
+          "linkedin": "https://www.linkedin.com/in/erin-chen-2403a719b",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-23",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "mmatischak@tesla.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "apcoa.com",
+              "uri": "https://apcoa.com/wp-content/uploads/2024/10/241009_apcoa_tesla_riem-arcaden_pr_supercharger.pdf",
+              "extracted_on": "2024-12-18",
+              "last_seen_on": "2026-07-04",
+              "still_on_page": true
+            },
+            {
+              "domain": "pressewelle.de",
+              "uri": "https://pressewelle.de/handel-dienstleistungen/artikel-14294.html",
+              "extracted_on": "2024-05-11",
+              "last_seen_on": "2026-05-18",
+              "still_on_page": true
+            },
+            {
+              "domain": "citytunnelleipzig.de",
+              "uri": "https://citytunnelleipzig.de/presse-einladung-zur-eroeffnung-von-12-tesla-superchargern-im-apcoa-parkhaus-im-shoppingcenter-alexa-in-berlin",
+              "extracted_on": "2025-11-01",
+              "last_seen_on": "2025-11-01",
+              "still_on_page": true
+            },
+            {
+              "domain": "berlinernachrichten.com",
+              "uri": "https://berlinernachrichten.com/2024-04/alexa-parkhaus-mit-groesstem-schnellladehub-in-berlin-city-17415",
+              "extracted_on": "2025-12-01",
+              "last_seen_on": "2025-12-01",
+              "still_on_page": false
+            },
+            {
+              "domain": "pressemeldung-aktuell.de",
+              "uri": "https://pressemeldung-aktuell.de/alexa-parkhaus-mit-groesstem-schnellladehub-in-berlin-city-2",
+              "extracted_on": "2024-05-30",
+              "last_seen_on": "2025-11-29",
+              "still_on_page": false
+            },
+            {
+              "domain": "akte-ergo.de",
+              "uri": "https://akte-ergo.de/alexa-parkhaus-mit-groesstem-schnellladehub-in-berlin-city",
+              "extracted_on": "2024-07-06",
+              "last_seen_on": "2025-10-04",
+              "still_on_page": false
+            },
+            {
+              "domain": "presse-aktuell.com",
+              "uri": "https://presse-aktuell.com/alexa-parkhaus-mit-groesstem-schnellladehub-in-berlin-city",
+              "extracted_on": "2024-12-01",
+              "last_seen_on": "2025-03-07",
+              "still_on_page": false
+            },
+            {
+              "domain": "business-infos.com",
+              "uri": "https://business-infos.com/alexa-parkhaus-mit-groesstem-schnellladehub-in-berlin-city",
+              "extracted_on": "2024-06-02",
+              "last_seen_on": "2025-03-04",
+              "still_on_page": false
+            },
+            {
+              "domain": "frankfurter-journal.de",
+              "uri": "https://frankfurter-journal.de/presse-einladung-zur-eroeffnung-von-12-tesla-superchargern-im-apcoa-parkhaus-im-shoppingcenter-alexa-in-berlin",
+              "extracted_on": "2024-07-04",
+              "last_seen_on": "2024-07-04",
+              "still_on_page": false
+            }
+          ],
+          "first_name": "Maik",
+          "last_name": "Matischak",
+          "position": "Head of Communications",
+          "position_raw": "Heading Communications & Content in CEU incl. D/A/CH",
+          "seniority": "executive",
+          "department": "communication",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/maik-matischak-b842991a",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-08-03",
+            "status": "valid"
+          }
+        },
+        {
+          "value": "obaykal@tesla.com",
+          "type": "personal",
+          "source_type": "found",
+          "confidence": 99,
+          "sources": [
+            {
+              "domain": "fleet.be",
+              "uri": "https://fleet.be/fiche-fib/tesla",
+              "extracted_on": "2024-03-30",
+              "last_seen_on": "2026-01-13",
+              "still_on_page": false
+            },
+            {
+              "domain": "fleet.be",
+              "uri": "https://fleet.be/fiche-fib/tesla-motors-bvba",
+              "extracted_on": "2024-04-01",
+              "last_seen_on": "2026-01-02",
+              "still_on_page": false
+            }
+          ],
+          "first_name": "Onur",
+          "last_name": "Baykal",
+          "position": "Account Manager",
+          "position_raw": "Accountmanager",
+          "seniority": "senior",
+          "department": "sales",
+          "decision_maker": false,
+          "linkedin": "https://www.linkedin.com/in/onur-baykal-787516216",
+          "twitter": null,
+          "phone_number": null,
+          "verification": {
+            "date": "2026-07-24",
+            "status": "valid"
+          }
+        }
+      ]
+    },
+    "Waymo": {
+      "domain": "waymo.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Cruise": {
+      "domain": "getcruise.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Zoox": {
+      "domain": "zoox.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Nuro": {
+      "domain": "nuro.ai",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Boston Dynamics": {
+      "domain": "bostondynamics.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Agility Robotics": {
+      "domain": "agilityrobotics.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Figure AI": {
+      "domain": "figure.ai",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "1X Technologies": {
+      "domain": "1x.tech",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Apptronik": {
+      "domain": "apptronik.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Sanctuary AI": {
+      "domain": "sanctuary.ai",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Agibot": {
+      "domain": "agibot.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Fourier Intelligence": {
+      "domain": "fourierintelligence.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "NVIDIA Omniverse/Isaac": {
+      "domain": "nvidia.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Unity Technologies": {
+      "domain": "unity.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Mujoco (Google DeepMind)": {
+      "domain": "mujoco.org",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "DeepMind Robotics": {
+      "domain": "deepmind.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Intrinsic (Alphabet)": {
+      "domain": "intrinsic.ai",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Cohere": {
+      "domain": "cohere.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Hugging Face": {
+      "domain": "huggingface.co",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Weights & Biases": {
+      "domain": "wandb.ai",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Modal Labs": {
+      "domain": "modal.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Replicate": {
+      "domain": "replicate.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Together AI": {
+      "domain": "together.ai",
+      "total_emails_found": 0,
+      "top_contacts": []
+    },
+    "Lambda Labs": {
+      "domain": "lambdalabs.com",
+      "total_emails_found": 0,
+      "top_contacts": []
+    }
+  }
+}

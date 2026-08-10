@@ -42,3 +42,10 @@
 - **WhatsApp Bridge**: Port `18790`
 - **Persistence**: SQLite databases in `~/.hermes/` (`state.db`, `projects.db`, `kanban.db`)
 - **Code Execution**: Local Python / Bash execution environments
+
+## Sync Log
+
+- **2026-08-01**: Fresh professional activity verified via live pages and GitHub Events API.
+  - GitHub: 7 public push events on 2026-07-31. Portfolio repo (`DivineDemon/portfolio`) received 4 pushes finalizing enterprise AI automation portfolio transformation: blog section, case study modals, emailjs contact form, SEO OG assets, analytics. Coeus repo (`DivineDemon/coeus`) received 3 pushes: docs adding n8n creator profile, project structure initialization, and revamp. Additional pushes to legacy work repos (`adcp`, `brsc`, `fbf-re`, `oplftsf`, `rtfsp`, `ue-sc`, `faq-srp`, `agbsim`) on 2026-07-30.
+  - X/Twitter: 5 verifiable posts on 2026-07-29 from `@mohdmushood` detailing Haga evaluation methodology: fixed baseline (Panda arm + OSC_POSE in Robosuite/MuJoCo), evaluation limits (simulation-only, n=50 per condition across nominal/mild/moderate/severe), degradation results (Lift 1.00→0.26, Stack 0.96→0.20, PickPlaceCan 1.00→0.24, Door 0.60→0.52), and scoring framework (task completion, grasp failure, contact stability, Wilson 95% CI). Pinned post from 2026-07-18: "Building Haga Labs: I stress-test robot policies and world models for broken physics."
+  - LinkedIn: Profile `linkedin.com/in/mushood-hanif` shows 410 followers (up from prior snapshot), open-to-work for AI/GenAI/Full Stack roles. Notification feed shows two recent posts each reaching 63 and 53 impressions within the last 5 hours (as of 2026-08-01 05:33Z).

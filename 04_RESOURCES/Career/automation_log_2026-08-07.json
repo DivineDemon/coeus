@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-08-07",
+  "run_time": "2026-08-07T19:35:12.371699",
+  "companies_processed": 5,
+  "jobs_found": 2,
+  "contacts_enriched": 6,
+  "drafts_generated": 6,
+  "drafts": [
+    {
+      "draft_path": "/Users/mushood/Documents/code/personal/coeus/01_INBOX/outreach_drafts/Apollo_Research_AI_Ltd_Careers_2026-08-07.md",
+      "company": "Apollo Research AI Ltd",
+      "job_title": "Careers",
+      "contact_email": "felix@apolloresearch.ai",
+      "contact_name": "Felix Hofst\u00e4tter"
+    },
+    {
+      "draft_path": "/Users/mushood/Documents/code/personal/coeus/01_INBOX/outreach_drafts/Apollo_Research_AI_Ltd_Careers_2026-08-07.md",
+      "company": "Apollo Research AI Ltd",
+      "job_title": "Careers",
+      "contact_email": "matteo@apolloresearch.ai",
+      "contact_name": "Matteo Pistillo"
+    },
+    {
+      "draft_path": "/Users/mushood/Documents/code/personal/coeus/01_INBOX/outreach_drafts/Apollo_Research_AI_Ltd_Careers_2026-08-07.md",
+      "company": "Apollo Research AI Ltd",
+      "job_title": "Careers",
+      "contact_email": "rusheb@apolloresearch.ai",
+      "contact_name": "Rusheb Shah"
+    },
+    {
+      "draft_path": "/Users/mushood/Documents/code/personal/coeus/01_INBOX/outreach_drafts/Apollo_Research_AI_Ltd_A_Starter_Guide_For_Evals_2026-08-07.md",
+      "company": "Apollo Research AI Ltd",
+      "job_title": "A Starter Guide For Evals",
+      "contact_email": "felix@apolloresearch.ai",
+      "contact_name": "Felix Hofst\u00e4tter"
+    },
+    {
+      "draft_path": "/Users/mushood/Documents/code/personal/coeus/01_INBOX/outreach_drafts/Apollo_Research_AI_Ltd_A_Starter_Guide_For_Evals_2026-08-07.md",
+      "company": "Apollo Research AI Ltd",
+      "job_title": "A Starter Guide For Evals",
+      "contact_email": "matteo@apolloresearch.ai",
+      "contact_name": "Matteo Pistillo"
+    },
+    {
+      "draft_path": "/Users/mushood/Documents/code/personal/coeus/01_INBOX/outreach_drafts/Apollo_Research_AI_Ltd_A_Starter_Guide_For_Evals_2026-08-07.md",
+      "company": "Apollo Research AI Ltd",
+      "job_title": "A Starter Guide For Evals",
+      "contact_email": "rusheb@apolloresearch.ai",
+      "contact_name": "Rusheb Shah"
+    }
+  ]
+}

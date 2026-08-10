@@ -1,0 +1,2772 @@
+{
+  "updated": "2026-08-08T11:48:29.245394",
+  "total_a_rated_skilled": 122538,
+  "total_matched": 229,
+  "companies": [
+    {
+      "Organisation Name": "Data Physics (UK) Ltd",
+      "Town/City": "Hailsham",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bphysics\\s*(engine|simulation)?\\b",
+        "\\bphysics\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 6
+    },
+    {
+      "Organisation Name": "General Physics (UK) Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bphysics\\s*(engine|simulation)?\\b",
+        "\\bphysics\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 6
+    },
+    {
+      "Organisation Name": "Information Control and Planning Ltd",
+      "Town/City": "Milton Keynes",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b",
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 6
+    },
+    {
+      "Organisation Name": "Innovative Physics Limited",
+      "Town/City": "Shanklin",
+      "County": "Isle of Wight",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bphysics\\s*(engine|simulation)?\\b",
+        "\\bphysics\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 6
+    },
+    {
+      "Organisation Name": "PHYSICS-ASTRONOMY LTD",
+      "Town/City": "Manchester",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bphysics\\s*(engine|simulation)?\\b",
+        "\\bphysics\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 6
+    },
+    {
+      "Organisation Name": "Shadow Robot Company Ltd.",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b",
+        "\\bshadow\\s*robot\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 6
+    },
+    {
+      "Organisation Name": "The Institute of Physics",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bphysics\\s*(engine|simulation)?\\b",
+        "\\bphysics\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 6
+    },
+    {
+      "Organisation Name": "Control Techniques Dynamics Limited",
+      "Town/City": "Andover",
+      "County": "Hampshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [
+        "\\bdynamics\\b"
+      ],
+      "total_score": 4
+    },
+    {
+      "Organisation Name": "FirstClass Safety and Control Ltd",
+      "Town/City": "Colchester",
+      "County": "Essex",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [
+        "\\bsafety\\b"
+      ],
+      "total_score": 4
+    },
+    {
+      "Organisation Name": "JBS Applied A.I & Robotics Research Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [
+        "\\bresearch\\b"
+      ],
+      "total_score": 4
+    },
+    {
+      "Organisation Name": "247 PEST CONTROL LTD",
+      "Town/City": "Ilford",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "A W Control Systems Ltd",
+      "Town/City": "Armagh",
+      "County": "Armagh",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "A-One Control Services Ltd",
+      "Town/City": "Markethill",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "ACCOUNTING & TAX PLANNING UK LIMITED",
+      "Town/City": "Leytonstone",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "AIRBORNE ROBOTICS Ltd",
+      "Town/City": "London, United Kingdom",
+      "County": "-- State/Province --",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "ARB PLANNING LTD",
+      "Town/City": "Romford,",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "AUTONOMOUS ENTERPRISES LIMITED",
+      "Town/City": "Leicester",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bautonomous\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Academy of Robotics Ltd",
+      "Town/City": "Cardff",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Advanced Control Solutions Ltd",
+      "Town/City": "Pirbright",
+      "County": "Surrey",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Advanced Manufacturing Control Systems (UK) Ltd",
+      "Town/City": "Nuneaton",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Agaricus Robotics Ltd",
+      "Town/City": "Lincoln",
+      "County": "Lincolnshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Aman Pest Control Ltd",
+      "Town/City": "Bristol",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Astles Control Systems Ltd",
+      "Town/City": "Princes Risborough",
+      "County": "Buckinghamshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Autonomous International Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bautonomous\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Autonomous Manufacturing Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bautonomous\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Autonomous UK Operations Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bautonomous\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "BAC Corrosion Control Ltd",
+      "Town/City": "Telford",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "BATCH CONTROL SYSTEMS LTD",
+      "Town/City": "GLASGOW",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "BENJAMIN & ISAAC TAX CONSULTANTS LTD",
+      "Town/City": "Glasgow",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bisaac\\s*(sim|gym|lab)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "BROOKFIELD FINANCIAL PLANNING LTD",
+      "Town/City": "Altrincham",
+      "County": "Cheshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Bee Robotics Ltd",
+      "Town/City": "Caernarfon",
+      "County": "Gwynedd",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Bernstein Autonomous LLP",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bautonomous\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Bluestone Planning Partnership LLP",
+      "Town/City": "Wantage",
+      "County": "OXON",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Broady Flow Control Limited",
+      "Town/City": "Hull",
+      "County": "East Yorkshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Brook Street Planning Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Building Automation and control Ltd",
+      "Town/City": "Southall",
+      "County": "ealing",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "CGA Simulation Ltd",
+      "Town/City": "Liverpool",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bsimulation\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "CPC Planning Consultants Limited",
+      "Town/City": "Southbourne",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Cambrian Robotics Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Cameron Flow Control Technology (UK) Limited",
+      "Town/City": "Crawley",
+      "County": "West Sussex",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Cathodic Protection and Corrosion Control Company Ltd",
+      "Town/City": "Crewe",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Centaur Robotics Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Ceon Machinery Control Ltd",
+      "Town/City": "COOKSTOWN",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Cloud Construction Control Limited",
+      "Town/City": "Motherwell",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Cogeo Planning & Environmental Services Ltd",
+      "Town/City": "Glasgow",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "ComAp Control Limited",
+      "Town/City": "Oldbury",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Complete Building Control Ltd",
+      "Town/City": "Birmingham",
+      "County": "West Midlands",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control 2K Limited",
+      "Town/City": "Bridgend",
+      "County": "Bridgend",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Distributed Trading Branch UK Ltd",
+      "Town/City": "Newcastle Upon Tyne",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Electrical Engineers Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Flow Technologies Group Ltd",
+      "Town/City": "Sunderland",
+      "County": "Tyne and Wear",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Freaks Ltd",
+      "Town/City": "Spalding",
+      "County": "Lincolnshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Now Ltd",
+      "Town/City": "London ",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Risks Group Limited",
+      "Town/City": "London",
+      "County": "London",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Systems International (UK) Limited ",
+      "Town/City": "Chippenham ",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Technologies UK Ltd",
+      "Town/City": "Sharnbrook",
+      "County": "Bedfordshire ",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control Towers International",
+      "Town/City": "Hounslow",
+      "County": "Middlesex",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Control vs Exposed UK Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Core Control Solutions",
+      "Town/City": "Ilkeston",
+      "County": "Derbyshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Cyclone Robotics UK Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "DBI Control Limited",
+      "Town/City": "Deeside",
+      "County": "Flintshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "DWD Property and Planning Limited",
+      "Town/City": "London ",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Datix Ltd t/a RL Datix Ltd",
+      "Town/City": "London",
+      "County": "Greater London",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brl\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Define Planning and Design Limited",
+      "Town/City": "Birmingham",
+      "County": "West Midlands",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "DilMotion Control Limited",
+      "Town/City": "Milton Keynes",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Drone Amigos UK Limited t/a Skynamic",
+      "Town/City": "Derby",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bdrone\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Drone Defence Services",
+      "Town/City": "Retford",
+      "County": "Nottinghamshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bdrone\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Drone Evolution Ltd",
+      "Town/City": "Caerphilly",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bdrone\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "E.ON Control Solutions Ltd",
+      "Town/City": "Bury",
+      "County": "Greater Manchester",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "ELITE FLOW CONTROL UK LIMITED",
+      "Town/City": "Stoke on Trent",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "EMBODIED GENERAL INTELLIGENCE LTD",
+      "Town/City": "Stoke On Trent",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bembodied\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "ERG (Air Pollution Control) Ltd",
+      "Town/City": "Horsham",
+      "County": "West Sussex",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "ET Planning Ltd",
+      "Town/City": "Crowthorne",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Elite Control Systems Limited",
+      "Town/City": "Livingston",
+      "County": "West Lothian",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Energy Control Analysis Limited",
+      "Town/City": "Clydebank",
+      "County": "Glasgow",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Extend Robotics Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Fair Isaac Services Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bisaac\\s*(sim|gym|lab)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Fairfield Control Systems Limited",
+      "Town/City": "Retford",
+      "County": "Nottinghamshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Feed4ward Control Ltd",
+      "Town/City": "Portsmouth",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Fieldwork Robotics Limited",
+      "Town/City": "Cambridge",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Finesse Control Systems Ltd",
+      "Town/City": "Arbroath",
+      "County": "Angus",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Gormley Robotics Ltd",
+      "Town/City": "Dungannon",
+      "County": "Tyrone",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Ground Control Studios",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Ground Control Technologies UK Ltd",
+      "Town/City": "Churcham",
+      "County": "Gloucestershire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Gunnebo Entrance Control Limited",
+      "Town/City": "Uckfield",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "H S PLANNING LIMITED",
+      "Town/City": "Staines-Upon-Thames",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "HEAT AND CONTROL PTY LTD",
+      "Town/City": "LIVINGSTON",
+      "County": "WEST LOTHIAN",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "HIRANI RAX LTD",
+      "Town/City": "Sutton",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brax\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "HPi Verification Services Ltd",
+      "Town/City": "Wallingford",
+      "County": "Oxfordshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bverification\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Hai Robotics U.K. Limited",
+      "Town/City": "Northampton",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Harford Control Limited",
+      "Town/City": "Trowbridge",
+      "County": "Wiltshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Henley Retail RL Limited",
+      "Town/City": "Rugeley",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brl\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Hitachi Information Control Systems Europe Ltd.",
+      "Town/City": "Bradford on Avon",
+      "County": "Wiltshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Holloway Control Systems Ltd",
+      "Town/City": "Telford",
+      "County": "Shropshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Hounslow Enforcement Ltd trading as Parking Control",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Human Digital Twin Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bdigital\\s*twin\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Humberhill planning/construction solutions ltd",
+      "Town/City": "Tyne and Wear",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "IMA Transport Planning Ltd",
+      "Town/City": "Bath",
+      "County": "Somerset",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "IMPACT CONTROL SYSTEMS LTD",
+      "Town/City": "LIVERPOOL",
+      "County": "ENGLAND",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "INSTANT PEST CONTROL LTD",
+      "Town/City": "Greenford",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "INTEGRA CONTROL SOLUTIONS LIMITED",
+      "Town/City": "Uxbridge",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "ISAAC WHOLESALE LIMITED",
+      "Town/City": "Peterborough",
+      "County": "England",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bisaac\\s*(sim|gym|lab)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Impact Control Systems Ltd ",
+      "Town/City": "Liverpool",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Independent Control Systems Limited t/a Iconsys",
+      "Town/City": "Telford",
+      "County": "Shropshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Inn Control Management Services Limited T/A The Prince of Wales Baslow",
+      "Town/City": "Baslow ",
+      "County": "Derbyshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Instrument & Control Services Limited",
+      "Town/City": "Stoke On Trent",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Integrated Control Engineering Ltd",
+      "Town/City": "Malpas",
+      "County": "Cheshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Intrepid Control Systems Ltd",
+      "Town/City": "Nuneaton",
+      "County": "Warwickshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "JBC Control Systems Limited",
+      "Town/City": "Manchester",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "JG Pest Control",
+      "Town/City": "Uxbridge",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "JMS BFD Ltd t/a Copley Pest Control",
+      "Town/City": "Leeds",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Juno Planning and Environmental Ltd",
+      "Town/City": "Belfast",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "KAPPA PLANNING LTD",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "KISHOR PLANNING AND DELIVERY LIMITED",
+      "Town/City": "Stanmore",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "KMA Planning LLP",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "KONARK INSTRUMENTS & CONTROL SYSTEM LTD",
+      "Town/City": "Barnet",
+      "County": "Hertfordshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "KUKA Robotics UK Ltd",
+      "Town/City": "Wednesbury",
+      "County": "West Midlands",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Kanishk Swarup T/A Compound Wealth Planning",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Kraken Robotics Services UK Limited",
+      "Town/City": "Westhill",
+      "County": "Aberdeen",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "L3Harris Autonomous Surface Vehicles Limited",
+      "Town/City": "Portchester",
+      "County": "Hampshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bautonomous\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "LAUNCH ROBOTICS LTD",
+      "Town/City": "WORKSOP",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "LFH Fluid Control Limited",
+      "Town/City": "Ellon",
+      "County": "Aberdeenshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Landmark Planning Ltd.",
+      "Town/City": "Leicester",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Leith Planning Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Lester Control Systems Limited",
+      "Town/City": "Croydon",
+      "County": "Surrey",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Lloret Control Systems Ltd",
+      "Town/City": "Coulsdon",
+      "County": "Surrey",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "M&E PLANNING SOLUTIONS LTD",
+      "Town/City": "MANCHESTER ",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "M2 Control Systems Limited",
+      "Town/City": "Gosport",
+      "County": "Hampshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "MAHA RL LIMITED T/a Maha",
+      "Town/City": "BIRMINGHAM ",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brl\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "MDA Space and Robotics Limited",
+      "Town/City": "Didcot",
+      "County": "Oxfordshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "MESH Planning Tools LTD",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Machnet Medical Robotics (UK) Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Mage Control Systems Ltd",
+      "Town/City": "East Kilbride",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Mark Roberts Motion Control Limited",
+      "Town/City": "Blindley Heath",
+      "County": "Surrey",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Mark Roberts Motion Control limited",
+      "Town/City": "Blindley Heath",
+      "County": "Surrey",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Michael Isaac Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bisaac\\s*(sim|gym|lab)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Momentum Transport Planning Limited",
+      "Town/City": "London",
+      "County": "London",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Momentum Transport Planning Limited ",
+      "Town/City": "london",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "More Control (UK) Limited",
+      "Town/City": "Milton Keynes",
+      "County": "Buckinghamshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Motion Robotics Limited",
+      "Town/City": "Southampton",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Mr Richard Timothy Giles T/A Sir Isaac Newton Pub",
+      "Town/City": "Cambridgeshire",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bisaac\\s*(sim|gym|lab)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Nexdorf Electrical Control Engineering Ltd",
+      "Town/City": "Llantrisant",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Nexus Planning Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Nidec Control Techniques Limited",
+      "Town/City": "Newtown",
+      "County": "Powys",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Now Financial Planning Ltd",
+      "Town/City": "Cheshire ",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Online Oceans Robotics Limited",
+      "Town/City": "Christchurch",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Origin Control Solutions Limited",
+      "Town/City": "Preston",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Oxford Medical Simulation",
+      "Town/City": "London",
+      "County": "London, City of",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bsimulation\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Oxford Robotics Ltd trading as Dynium Robot",
+      "Town/City": "Reading",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "P TURLEY & SONS T/A FLAX@TURLEYS",
+      "Town/City": "CASTLEWELLAN",
+      "County": "NORTHERN IRELAND",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bflax\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "PEARL CONTROL SYSTEMS LIMITED",
+      "Town/City": "Peterborough",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "PEST CONTROL U.K LTD",
+      "Town/City": "Bolton",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "PHINXT Robotics LTD",
+      "Town/City": "LONDON",
+      "County": "--Select--",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "PLANNING GAIN SPECIALIST LTD",
+      "Town/City": "Harrow",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Paddington Robotics",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Paused Perception ",
+      "Town/City": "Hale",
+      "County": "Altrincham",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bperception\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Pegasus Planning Group Ltd",
+      "Town/City": "London",
+      "County": "Gloucestershire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Perception Events Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bperception\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Perceptual Robotics Limited",
+      "Town/City": "BRISTOL",
+      "County": "Avon",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Pesto Construction Planning LTD",
+      "Town/City": "Tyne and Wear",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Place Design and Planning",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Planning Additions Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Planning Dimensions Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Planning Manager Ltd",
+      "Town/City": "Cambridgeshire",
+      "County": "Cambridgeshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Planning Potential Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Program Planning Professionals Limited (Pcubed)",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Prosper Robotics Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "QUICK PEST CONTROL U.K LTD",
+      "Town/City": "Hayes",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Quick Pest Control Limited",
+      "Town/City": "Ilford",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Quick Pest Control London Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "RATTIC PEST CONTROL LTD",
+      "Town/City": "Slough",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "REDCIRCLE PEST CONTROL LIMITED",
+      "Town/City": "Edgware",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "RISK CONTROL LIMITED",
+      "Town/City": "LONDON",
+      "County": "LONDON",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "RL Capital Ltd ",
+      "Town/City": "Basingstoke",
+      "County": "Hampshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brl\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "RL Retail Services Limited",
+      "Town/City": "Watford",
+      "County": "Hertfordshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brl\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "RSE Control Systems Limited",
+      "Town/City": "Leeds",
+      "County": "Select state...",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Radamec Control Systems Ltd",
+      "Town/City": "Newbury ",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Rapidkill Pest Control Ltd",
+      "Town/City": "London",
+      "County": "Middlesex",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Re-Gen Robotics Limited",
+      "Town/City": "Newry",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Reimagine Robotics Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Retro Control Limited",
+      "Town/City": "Bolton",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Rig Control Products Ltd",
+      "Town/City": "Blackburn",
+      "County": "Aberdeenshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Right Temp Control Ltd",
+      "Town/City": "Croydon",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Robot Squid Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Rolfe Judd Planning",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Ross Robotics",
+      "Town/City": "Reading",
+      "County": "Berks",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "S&M Financial Planning Ltd",
+      "Town/City": "Watford",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "SCOTT HOBBS PLANNING LTD",
+      "Town/City": "Edinburgh",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "SF Planning Limited",
+      "Town/City": "Cheltenham",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "SKL ROBOTICS LTD",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "ST ROBOTICS LTD",
+      "Town/City": "Cambridge ",
+      "County": "Cambridgeshire CB4 0PP",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Saga Robotics Limited",
+      "Town/City": "Lincoln",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Samskip Multimodal B.V.",
+      "Town/City": "Ipswich",
+      "County": "Suffolk",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bmultimodal\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Silchester Control systems",
+      "Town/City": "Four Marks",
+      "County": "Hampshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Simkiss Control Systems Ltd",
+      "Town/City": "Manchester",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Smart Pest Control Ltd",
+      "Town/City": "Kent",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Smoke Control Services Ltd T/A Group SCS",
+      "Town/City": "Cardiff",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Softbank Robotics UK Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Source Code Control Limited",
+      "Town/City": "Reading",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Squashed Robot Films Ltd",
+      "Town/City": "Cheltenham",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Systems Planning and Analysis UK Limited",
+      "Town/City": "Bristol",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "TIME CONTROL TECHNICAL WORKS UK LTD",
+      "Town/City": "CHELTENHAM",
+      "County": "ENGLAND ",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "TSP Wills and Estate Planning Limited ",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "TV CONTROL LTD",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Tamaki Control Ltd",
+      "Town/City": "Belfast",
+      "County": "Antrim",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Technical Control Systems Ltd",
+      "Town/City": "Leeds",
+      "County": "West Yorkshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Tecosim Technical Simulation Ltd.",
+      "Town/City": "Basildon",
+      "County": "Essex",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bsimulation\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Tibbalds Planning and Urban Design Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Total Control Pro Limited",
+      "Town/City": "Northampton",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Toyota Gazoo Racing Simulation UK",
+      "Town/City": "Epsom",
+      "County": "Surrey",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bsimulation\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Transport Planning Practice Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "UAV Tactical Systems Limited",
+      "Town/City": "Leicester",
+      "County": "Leicestershire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\buav\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "UK Parking Control Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Union Jax LLC ",
+      "Town/City": "New Malden ",
+      "County": "Surrey",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bjax\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Universal Control Equipment Ltd",
+      "Town/City": "Ipswich",
+      "County": "England",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Variant Perception ",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bperception\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Variant Perception Limited",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bperception\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Varsity Town Planning Limited",
+      "Town/City": "Leighton Buzzard",
+      "County": "Bedfordshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "WEST CONTROL SERVICES (SCOTLAND) LIMITED",
+      "Town/City": "Glasgow",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Warrington Robotics Limited",
+      "Town/City": "Halesowen",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Web Control UK Limited",
+      "Town/City": "Towcester",
+      "County": "Northamptonshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Windermere Control Systems Limited",
+      "Town/City": "Ascot",
+      "County": "Berkshire",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Wren sterling Financial Planning",
+      "Town/City": "Nottingham",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bplanning\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Z-Tech Control Systems Limited",
+      "Town/City": "Swavesey",
+      "County": "Cambridge",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\bcontrol\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "i3d robotics limited (Operational Office)",
+      "Town/City": "Tonbridge",
+      "County": "Kent",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [
+        "\\brobot(ics)?\\b"
+      ],
+      "secondary_matches": [],
+      "total_score": 3
+    },
+    {
+      "Organisation Name": "Apollo Research AI Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [],
+      "secondary_matches": [
+        "\\bai\\b",
+        "\\bresearch\\b"
+      ],
+      "total_score": 2
+    },
+    {
+      "Organisation Name": "Drug Safety Research Trust",
+      "Town/City": "Southampton",
+      "County": "Hants",
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [],
+      "secondary_matches": [
+        "\\bresearch\\b",
+        "\\bsafety\\b"
+      ],
+      "total_score": 2
+    },
+    {
+      "Organisation Name": "Gen AI ML Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [],
+      "secondary_matches": [
+        "\\bai\\b",
+        "\\bml\\b"
+      ],
+      "total_score": 2
+    },
+    {
+      "Organisation Name": "Newham Tyres and 3D Alignment Ltd",
+      "Town/City": "London",
+      "County": NaN,
+      "Type & Rating": "Worker (A rating)",
+      "Route": "Skilled Worker",
+      "primary_matches": [],
+      "secondary_matches": [
+        "\\balignment\\b",
+        "\\b3d\\b"
+      ],
+      "total_score": 2
+    }
+  ]
+}

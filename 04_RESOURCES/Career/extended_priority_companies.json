@@ -1,0 +1,240 @@
+{
+  "companies": [
+    {
+      "name": "JBS Applied A.I & Robotics Research Ltd",
+      "location": "London",
+      "domain": "jbs-ai-robotics.com"
+    },
+    {
+      "name": "Shadow Robot Company Ltd.",
+      "location": "London",
+      "domain": "shadowrobot.com"
+    },
+    {
+      "name": "Apollo Research AI Ltd",
+      "location": "London",
+      "domain": "apolloresearch.ai"
+    },
+    {
+      "name": "CGA Simulation Ltd",
+      "location": "Liverpool",
+      "domain": "cga-simulation.com"
+    },
+    {
+      "name": "HPi Verification Services Ltd",
+      "location": "Wallingford",
+      "domain": "hpi-verification.com"
+    },
+    {
+      "name": "Fieldwork Robotics Limited",
+      "location": "Cambridge",
+      "domain": "fieldworkrobotics.com"
+    },
+    {
+      "name": "Oxford Robotics Ltd",
+      "location": "Reading",
+      "domain": "oxfordrobotics.institute"
+    },
+    {
+      "name": "Prosper Robotics Ltd",
+      "location": "London",
+      "domain": "prosper-robotics.com"
+    },
+    {
+      "name": "Perceptual Robotics Limited",
+      "location": "Bristol",
+      "domain": "perceptualrobotics.com"
+    },
+    {
+      "name": "Extend Robotics Limited",
+      "location": "London",
+      "domain": "extendrobotics.com"
+    },
+    {
+      "name": "Human Digital Twin Limited",
+      "location": "London",
+      "domain": "humandigitaltwin.com"
+    },
+    {
+      "name": "Mistral AI UK Limited",
+      "location": "London",
+      "domain": "mistral.ai"
+    },
+    {
+      "name": "Stability AI Ltd",
+      "location": "London",
+      "domain": "stability.ai"
+    },
+    {
+      "name": "Tecosim Technical Simulation Ltd.",
+      "location": "Basildon",
+      "domain": "tecosim.com"
+    },
+    {
+      "name": "The Simulator Company Limited",
+      "location": "London",
+      "domain": "thesimulatorcompany.com"
+    },
+    {
+      "name": "General Physics (UK) Ltd",
+      "location": "London",
+      "domain": "generalphysics.com"
+    },
+    {
+      "name": "Innovative Physics Limited",
+      "location": "Shanklin",
+      "domain": "innovativephysics.co.uk"
+    },
+    {
+      "name": "NVIDIA",
+      "location": "Remote (US-based)",
+      "domain": "nvidia.com"
+    },
+    {
+      "name": "Google DeepMind",
+      "location": "Remote (UK/US/CA)",
+      "domain": "deepmind.com"
+    },
+    {
+      "name": "Meta AI (FAIR)",
+      "location": "Remote (US/UK)",
+      "domain": "meta.com"
+    },
+    {
+      "name": "OpenAI",
+      "location": "Remote (US)",
+      "domain": "openai.com"
+    },
+    {
+      "name": "Anthropic",
+      "location": "Remote (US/UK)",
+      "domain": "anthropic.com"
+    },
+    {
+      "name": "Tesla AI",
+      "location": "Remote (US)",
+      "domain": "tesla.com"
+    },
+    {
+      "name": "Waymo",
+      "location": "Remote (US)",
+      "domain": "waymo.com"
+    },
+    {
+      "name": "Cruise",
+      "location": "Remote (US)",
+      "domain": "getcruise.com"
+    },
+    {
+      "name": "Zoox",
+      "location": "Remote (US)",
+      "domain": "zoox.com"
+    },
+    {
+      "name": "Nuro",
+      "location": "Remote (US)",
+      "domain": "nuro.ai"
+    },
+    {
+      "name": "Boston Dynamics",
+      "location": "Remote (US)",
+      "domain": "bostondynamics.com"
+    },
+    {
+      "name": "Agility Robotics",
+      "location": "Remote (US)",
+      "domain": "agilityrobotics.com"
+    },
+    {
+      "name": "Figure AI",
+      "location": "Remote (US)",
+      "domain": "figure.ai"
+    },
+    {
+      "name": "1X Technologies",
+      "location": "Remote (Norway/US)",
+      "domain": "1x.tech"
+    },
+    {
+      "name": "Apptronik",
+      "location": "Remote (US)",
+      "domain": "apptronik.com"
+    },
+    {
+      "name": "Sanctuary AI",
+      "location": "Remote (Canada)",
+      "domain": "sanctuary.ai"
+    },
+    {
+      "name": "Agibot",
+      "location": "Remote (China/Singapore)",
+      "domain": "agibot.com"
+    },
+    {
+      "name": "Fourier Intelligence",
+      "location": "Remote (Singapore/China)",
+      "domain": "fourierintelligence.com"
+    },
+    {
+      "name": "NVIDIA Omniverse/Isaac",
+      "location": "Remote (Global)",
+      "domain": "nvidia.com"
+    },
+    {
+      "name": "Unity Technologies",
+      "location": "Remote (Global)",
+      "domain": "unity.com"
+    },
+    {
+      "name": "Mujoco (Google DeepMind)",
+      "location": "Remote (Global)",
+      "domain": "mujoco.org"
+    },
+    {
+      "name": "DeepMind Robotics",
+      "location": "Remote (UK/US)",
+      "domain": "deepmind.com"
+    },
+    {
+      "name": "Intrinsic (Alphabet)",
+      "location": "Remote (US)",
+      "domain": "intrinsic.ai"
+    },
+    {
+      "name": "Cohere",
+      "location": "Remote (Canada/US/UK)",
+      "domain": "cohere.com"
+    },
+    {
+      "name": "Hugging Face",
+      "location": "Remote (Global)",
+      "domain": "huggingface.co"
+    },
+    {
+      "name": "Weights & Biases",
+      "location": "Remote (Global)",
+      "domain": "wandb.ai"
+    },
+    {
+      "name": "Modal Labs",
+      "location": "Remote (US)",
+      "domain": "modal.com"
+    },
+    {
+      "name": "Replicate",
+      "location": "Remote (US)",
+      "domain": "replicate.com"
+    },
+    {
+      "name": "Together AI",
+      "location": "Remote (US)",
+      "domain": "together.ai"
+    },
+    {
+      "name": "Lambda Labs",
+      "location": "Remote (US)",
+      "domain": "lambdalabs.com"
+    }
+  ],
+  "total": 47
+}

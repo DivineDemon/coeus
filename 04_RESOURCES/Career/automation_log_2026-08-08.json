@@ -1,0 +1,339 @@
+{
+  "date": "2026-08-08",
+  "timestamp": "2026-08-08T12:27:20.376691",
+  "companies_processed": 17,
+  "serper_out_of_credits": true,
+  "total_drafts_generated": 26,
+  "total_contacts_enriched": 82,
+  "log_entries": [
+    {
+      "timestamp": "2026-08-08T12:27:20.376704",
+      "company": "JBS Applied A.I & Robotics Research Ltd",
+      "domain": "jbs-ai-robotics.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:21.121238",
+      "company": "JBS Applied A.I & Robotics Research Ltd",
+      "step": "serper_out_of_credits",
+      "note": "Serper API credits exhausted"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:22.135810",
+      "company": "JBS Applied A.I & Robotics Research Ltd",
+      "step": "hunter_complete",
+      "emails_found": 0,
+      "top_contacts": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:22.135844",
+      "company": "JBS Applied A.I & Robotics Research Ltd",
+      "step": "drafts_generated",
+      "drafts_count": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:23.137553",
+      "company": "Shadow Robot Company Ltd.",
+      "domain": "shadowrobot.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:23.570125",
+      "company": "Shadow Robot Company Ltd.",
+      "step": "hunter_complete",
+      "emails_found": 10,
+      "top_contacts": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:23.572430",
+      "company": "Shadow Robot Company Ltd.",
+      "step": "drafts_generated",
+      "drafts_count": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:24.576263",
+      "company": "Apollo Research AI Ltd",
+      "domain": "apolloresearch.ai",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:25.002004",
+      "company": "Apollo Research AI Ltd",
+      "step": "hunter_complete",
+      "emails_found": 10,
+      "top_contacts": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:25.003327",
+      "company": "Apollo Research AI Ltd",
+      "step": "drafts_generated",
+      "drafts_count": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:26.005517",
+      "company": "CGA Simulation Ltd",
+      "domain": "cga-simulation.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:26.424117",
+      "company": "CGA Simulation Ltd",
+      "step": "hunter_complete",
+      "emails_found": 0,
+      "top_contacts": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:26.424131",
+      "company": "CGA Simulation Ltd",
+      "step": "drafts_generated",
+      "drafts_count": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:27.428003",
+      "company": "HPi Verification Services Ltd",
+      "domain": "hpi-verification.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:27.758609",
+      "company": "HPi Verification Services Ltd",
+      "step": "hunter_complete",
+      "emails_found": 0,
+      "top_contacts": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:27.758629",
+      "company": "HPi Verification Services Ltd",
+      "step": "drafts_generated",
+      "drafts_count": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:28.762270",
+      "company": "Fieldwork Robotics Limited",
+      "domain": "fieldworkrobotics.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:29.303487",
+      "company": "Fieldwork Robotics Limited",
+      "step": "hunter_complete",
+      "emails_found": 10,
+      "top_contacts": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:29.304775",
+      "company": "Fieldwork Robotics Limited",
+      "step": "drafts_generated",
+      "drafts_count": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:30.309527",
+      "company": "Oxford Robotics Ltd",
+      "domain": "oxfordrobotics.institute",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:30.842036",
+      "company": "Oxford Robotics Ltd",
+      "step": "hunter_complete",
+      "emails_found": 10,
+      "top_contacts": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:30.843559",
+      "company": "Oxford Robotics Ltd",
+      "step": "drafts_generated",
+      "drafts_count": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:31.848638",
+      "company": "Prosper Robotics Ltd",
+      "domain": "prosper-robotics.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:32.287702",
+      "company": "Prosper Robotics Ltd",
+      "step": "hunter_complete",
+      "emails_found": 0,
+      "top_contacts": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:32.287724",
+      "company": "Prosper Robotics Ltd",
+      "step": "drafts_generated",
+      "drafts_count": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:33.292804",
+      "company": "Perceptual Robotics Limited",
+      "domain": "perceptualrobotics.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:33.831904",
+      "company": "Perceptual Robotics Limited",
+      "step": "hunter_complete",
+      "emails_found": 2,
+      "top_contacts": 2
+    },
+    {
+      "timestamp": "2026-08-08T12:27:33.833552",
+      "company": "Perceptual Robotics Limited",
+      "step": "drafts_generated",
+      "drafts_count": 2
+    },
+    {
+      "timestamp": "2026-08-08T12:27:34.838648",
+      "company": "Extend Robotics Limited",
+      "domain": "extendrobotics.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:35.345757",
+      "company": "Extend Robotics Limited",
+      "step": "hunter_complete",
+      "emails_found": 9,
+      "top_contacts": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:35.346995",
+      "company": "Extend Robotics Limited",
+      "step": "drafts_generated",
+      "drafts_count": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:36.352087",
+      "company": "Human Digital Twin Limited",
+      "domain": "humandigitaltwin.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:36.778650",
+      "company": "Human Digital Twin Limited",
+      "step": "hunter_complete",
+      "emails_found": 0,
+      "top_contacts": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:36.778671",
+      "company": "Human Digital Twin Limited",
+      "step": "drafts_generated",
+      "drafts_count": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:37.783757",
+      "company": "Mistral AI UK Limited",
+      "domain": "mistral.ai",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:38.213021",
+      "company": "Mistral AI UK Limited",
+      "step": "hunter_complete",
+      "emails_found": 10,
+      "top_contacts": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:38.214686",
+      "company": "Mistral AI UK Limited",
+      "step": "drafts_generated",
+      "drafts_count": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:39.217760",
+      "company": "Stability AI Ltd",
+      "domain": "stability.ai",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:39.646170",
+      "company": "Stability AI Ltd",
+      "step": "hunter_complete",
+      "emails_found": 10,
+      "top_contacts": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:39.647246",
+      "company": "Stability AI Ltd",
+      "step": "drafts_generated",
+      "drafts_count": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:40.650641",
+      "company": "Tecosim Technical Simulation Ltd.",
+      "domain": "tecosim.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:41.081254",
+      "company": "Tecosim Technical Simulation Ltd.",
+      "step": "hunter_complete",
+      "emails_found": 10,
+      "top_contacts": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:41.082619",
+      "company": "Tecosim Technical Simulation Ltd.",
+      "step": "drafts_generated",
+      "drafts_count": 3
+    },
+    {
+      "timestamp": "2026-08-08T12:27:42.086888",
+      "company": "The Simulator Company Limited",
+      "domain": "thesimulatorcompany.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:42.820014",
+      "company": "The Simulator Company Limited",
+      "step": "hunter_complete",
+      "emails_found": 1,
+      "top_contacts": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:42.820033",
+      "company": "The Simulator Company Limited",
+      "step": "drafts_generated",
+      "drafts_count": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:43.824987",
+      "company": "General Physics (UK) Ltd",
+      "domain": "generalphysics.com",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:44.254744",
+      "company": "General Physics (UK) Ltd",
+      "step": "hunter_complete",
+      "emails_found": 0,
+      "top_contacts": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:44.254761",
+      "company": "General Physics (UK) Ltd",
+      "step": "drafts_generated",
+      "drafts_count": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:45.259533",
+      "company": "Innovative Physics Limited",
+      "domain": "innovativephysics.co.uk",
+      "step": "started"
+    },
+    {
+      "timestamp": "2026-08-08T12:27:45.687945",
+      "company": "Innovative Physics Limited",
+      "step": "hunter_complete",
+      "emails_found": 0,
+      "top_contacts": 0
+    },
+    {
+      "timestamp": "2026-08-08T12:27:45.687985",
+      "company": "Innovative Physics Limited",
+      "step": "drafts_generated",
+      "drafts_count": 0
+    }
+  ]
+}
