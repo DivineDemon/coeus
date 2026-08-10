@@ -1297,6 +1297,7 @@ def main():
         "drafts_generated": 0,
         "drafts_skipped_duplicate": 0,
         "drafts_skipped_no_contacts": 0,
+        "drafts_skipped_no_email": 0,
         "searxng_searches": 0,
         "leadfinder_calls": 0,
         "hunter_calls": 0,
@@ -1429,6 +1430,13 @@ def main():
         # Generate drafts for top 3 contacts per job context
         for job in job_contexts:
             for contact in relevant[:3]:
+                # Skip contacts without email - drafts are useless without recipient
+                contact_email = contact.get('email', '').strip()
+                if not contact_email:
+                    print(f"      ⏭️  Skipping draft - no email for {contact.get('first_name', '')} {contact.get('last_name', '')}")
+                    stats["drafts_skipped_no_email"] = stats.get("drafts_skipped_no_email", 0) + 1
+                    continue
+                
                 # Upsert contact
                 contact_id = upsert_contact(pg_conn, company_id, contact)
 
@@ -1445,7 +1453,7 @@ def main():
                 draft_id = save_draft(pg_conn, company_id, contact_id, job, contact, draft_path, content_hash)
                 
                 # Send email via Yahoo Mail (if contact has email)
-                if contact.get('email'):
+                if contact_email:
                     print(f"  📧 Sending email via Yahoo Mail...")
                     email_sent = send_email_yahoo(
                         contact=contact,
@@ -1464,12 +1472,12 @@ def main():
                     "draft_path": draft_path,
                     "company": company["name"],
                     "job_title": job.get("title"),
-                    "contact_email": contact.get("email"),
+                    "contact_email": contact_email,
                     "contact_name": f"{contact.get('first_name', '')} {contact.get('last_name', '')}",
                     "draft_id": draft_id
                 })
 
-                log_application(pg_conn, draft_id, contact.get('email'), f"{job.get('title', 'Role')} at {company['name']}")
+                log_application(pg_conn, draft_id, contact_email, f"{job.get('title', 'Role')} at {company['name']}")
                 stats["drafts_generated"] += 1
                 print(f"      ✍️  Draft created: {Path(draft_path).name}")
 

@@ -1,6 +1,46 @@
+# Credentials & Secrets (NEVER COMMIT)
 00_SYSTEM/Credentials/
-.DS_Store
 *.env
 *.env.local
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.crt
+
+# OS & Editor
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Dependencies
 node_modules/
 __pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Logs & Outputs
+*.log
+*.out
+logs/
+outputs/
+*.tmp
+*.temp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Local IDE/OS
+.DS_Store
+Thumbs.db
