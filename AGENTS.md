@@ -138,18 +138,11 @@ Prefixes (`00_`, `01_`, etc.) enforce **sort order** in file explorers and `ls` 
 ```
 04_RESOURCES/
 ├── Career/                    # Job hunting, investor/partner outreach, CRM
-│   ├── automation_scripts/    # All Python automation (moved from root)
-│   ├── followup_drafts/       # Generated follow-up emails (BREAKUP, FOLLOWUP1, 2...)
-│   ├── outreach_drafts/       # Generated initial outreach emails
-│   ├── enriched_contacts/     # Per-date JSON exports from enrichment
 │   ├── investor_partner_outreach/  # Haga-specific fundraising collateral
-│   ├── job_matches/           # Scored job matches from automation
 │   ├── logos/                 # Company logos for docs/deck
 │   ├── skill-logos/           # Tech stack badges for portfolio
 │   ├── *.json                 # CRM state, sponsor lists, priority companies
-│   ├── *.py                   # Main automation entry points
 │   ├── resume.pdf/.tex        # Current CV
-│   └── JOB_HUNTING_LEAD_GEN_CONTEXT.md  # Master context for job hunt agents
 ├── Codebases/                 # Registry of all code repos (external)
 │   ├── Freelance_Projects.md
 │   ├── Haga_Ecosystem.md
@@ -167,7 +160,7 @@ Prefixes (`00_`, `01_`, etc.) enforce **sort order** in file explorers and `ls` 
 
 **Resource Criteria**:
 - Reference-only (no actions required)
-- Versioned or dated (e.g., `automation_log_2026-08-09.json`)
+- Versioned or dated
 - Linked *from* Projects/Areas, never the reverse
 
 ### 05_ARCHIVE/ — Cold Storage
@@ -234,7 +227,7 @@ Prefixes (`00_`, `01_`, etc.) enforce **sort order** in file explorers and `ls` 
    ---
    ```
 3. **Link, Don't Copy**: Use `[[wiki-links]]` or relative paths; never duplicate content.
-4. **Date-Stamp Data Files**: `automation_log_YYYY-MM-DD.json`, `enriched_contacts_YYYY-MM-DD.json`
+4. **Date-Stamp Data Files**: Versioned reference files only
 5. **No Secrets in Repo**: `.env.local` is gitignored; credentials reference external stores.
 
 ### Migration Protocol (When Structure Changes)
@@ -285,8 +278,8 @@ Prefixes (`00_`, `01_`, etc.) enforce **sort order** in file explorers and `ls` 
 | Project subfolders | `kebab-case` | `competitors/` |
 | Markdown files | `snake_case.md` | `grant_tracker.md` |
 | Dated files | `YYYY-MM-DD-descriptor.md` | `2026-08-09-competitor-intel.md` |
-| JSON exports | `descriptor_YYYY-MM-DD.json` | `enriched_contacts_2026-08-09.json` |
-| Python scripts | `snake_case.py` | `run_automation.py` |
+| JSON exports | `descriptor_YYYY-MM-DD.json` | `reference_data_2026-08-09.json` |
+| Python scripts | `snake_case.py` | `data_processing.py` |
 | Tags (YAML) | `kebab-case` | `haga`, `outreach`, `investor` |
 
 ### Linking Strategy
@@ -410,8 +403,8 @@ mv 02_PROJECTS/old-project 05_ARCHIVE/2026-08-10_old-project
 - ❌ Edit automation outputs manually (re-run the script instead)
 - ❌ Hardcode absolute paths (except in `hermes_context.md`)
 
-### 🔧 AUTOMATION BEST PRACTICES
-1. **Scripts output to dated files** → `04_RESOURCES/Career/automation_log_YYYY-MM-DD.json`
+### ����� AUTOMATION BEST PRACTICES
+1. **Scripts output to versioned files** → `04_RESOURCES/Career/reference_data_YYYY-MM-DD.json`
 2. **Scripts read from vault** → use relative paths from repo root
 3. **Scripts write to vault** → only `04_RESOURCES/Career/` and `01_INBOX/`
 4. **Cron jobs are idempotent** → safe to re-run
@@ -427,7 +420,6 @@ mv 02_PROJECTS/old-project 05_ARCHIVE/2026-08-10_old-project
 | `04_RESOURCES/codebase_registry.md` | All external repos index | 2026-08-10 |
 | `02_PROJECTS/haga/haga_index.md` | Haga master dashboard | 2026-08-10 |
 | `02_PROJECTS/ai_services/client_pipeline.md` | Consultancy pipeline | 2026-08-10 |
-| `04_RESOURCES/Career/JOB_HUNTING_LEAD_GEN_CONTEXT.md` | Job hunt agent context | 2026-08-10 |
 | `03_AREAS/Social_Profiles.md` | Unified bio for outreach | 2026-07-31 |
 
 ---

@@ -1,0 +1,390 @@
+{
+  "name": "Billion Dollar Mental Models Toolkit",
+  "description": "Tools and skills derived from 89 documents that moved billions in capital",
+  "version": "1.0",
+  "categories": {
+    "investment_decision_making": {
+      "name": "Investment Decision Making",
+      "tools": [
+        {
+          "name": "Expectations Investing Reverse DCF",
+          "source": "Michael Mauboussin (Position 52)",
+          "description": "Reverse-engineer market expectations from stock price to find gaps",
+          "steps": [
+            "Input current stock price and financials",
+            "Run reverse DCF to find implied growth/margin expectations",
+            "Compare to base rates and historical analogs",
+            "Assess if expectations are realistic or over/under-priced",
+            "Size position based on conviction and margin of safety"
+          ],
+          "mental_models": [
+            "Expectations investing",
+            "Reverse DCF",
+            "Base rates",
+            "Reference class forecasting"
+          ]
+        },
+        {
+          "name": "Magic Formula Screen",
+          "source": "Joel Greenblatt (Position 69)",
+          "description": "Mechanical screen for good businesses at bargain prices",
+          "steps": [
+            "Rank universe by Earnings Yield (EBIT/EV)",
+            "Rank universe by Return on Capital (EBIT/(NFA+WC))",
+            "Combine ranks; buy top 20-30",
+            "Hold 1 year; rebalance annually",
+            "Ignore macro; trust the process"
+          ],
+          "mental_models": [
+            "Magic formula",
+            "Earnings yield",
+            "Return on capital",
+            "Mechanical investing"
+          ]
+        },
+        {
+          "name": "Howard Marks Cycle Positioning",
+          "source": "Howard Marks (Positions 47, 71)",
+          "description": "Assess where we are in market cycle and position accordingly",
+          "steps": [
+            "Identify current cycle phase: excess/correction/recovery",
+            "Assess risk: permanent loss vs volatility",
+            "Second-level thinking: what does consensus miss?",
+            "Counter-cyclical: buy when others are fearful",
+            "Patient opportunism: wait for fat pitches"
+          ],
+          "mental_models": [
+            "Market cycles",
+            "Second-level thinking",
+            "Risk as permanent loss",
+            "Counter-cyclical investing"
+          ]
+        },
+        {
+          "name": "Grantham Mean Reversion / Blood in Streets",
+          "source": "Jeremy Grantham (Position 75)",
+          "description": "Deploy capital at maximum pessimism into quality assets",
+          "steps": [
+            "Identify assets at multi-year lows with quality fundamentals",
+            "Verify 'blood in streets' sentiment (max fear)",
+            "Check career risk: institutions can't buy; you can",
+            "Size position for conviction",
+            "Hold through recovery; mean reversion is iron law"
+          ],
+          "mental_models": [
+            "Mean reversion",
+            "Blood in streets",
+            "Career risk",
+            "Individual edge"
+          ]
+        }
+      ]
+    },
+    "startup_company_building": {
+      "name": "Startup & Company Building",
+      "tools": [
+        {
+          "name": "Zero to One Monopoly Finder",
+          "source": "Peter Thiel (Positions 17, 21, 42)",
+          "description": "Find secrets and build monopolies, not competitive businesses",
+          "steps": [
+            "Identify secrets: important truths few agree with",
+            "Start small: dominate a niche 10x better",
+            "Check monopoly traits: proprietary tech, network effects, scale, brand",
+            "Expand concentrically: niche \u2192 adjacent \u2192 broad",
+            "Avoid competition: it's for losers"
+          ],
+          "mental_models": [
+            "Zero to one",
+            "Monopoly theory",
+            "Secrets",
+            "Power law",
+            "Definite optimism"
+          ]
+        },
+        {
+          "name": "Do Things That Don't Scale Engine",
+          "source": "Paul Graham (Positions 19, 20, 43)",
+          "description": "Manual user acquisition and product discovery before automation",
+          "steps": [
+            "Identify early adopters with acute pain",
+            "Manually onboard/serve each one (consulting mode)",
+            "Learn exactly what they need; build that",
+            "Document every interaction; find patterns",
+            "Automate only after product-market fit proven"
+          ],
+          "mental_models": [
+            "Manual \u2192 automated",
+            "Organic ideas",
+            "Founder-led sales",
+            "Product-market fit"
+          ]
+        },
+        {
+          "name": "Blitzscaling vs Adapting to Endure Selector",
+          "source": "Reid Hoffman (25) vs Sequoia (18)",
+          "description": "Choose the right scaling strategy for your market and era",
+          "steps": [
+            "Assess market: winner-take-all + network effects? \u2192 Blitzscale",
+            "Assess capital environment: ZIRP? \u2192 Blitzscale; Rising rates? \u2192 Endure",
+            "Blitzscale: raise > need, hire for trajectory, accept chaos",
+            "Endure: extend runway 36mo, profitability = optionality, cut burn",
+            "Reassess quarterly; switch modes if regime changes"
+          ],
+          "mental_models": [
+            "Blitzscaling",
+            "Winner-take-all",
+            "Network effects",
+            "Runway management",
+            "Default alive"
+          ]
+        },
+        {
+          "name": "Founder Mode Operating System",
+          "source": "Brian Chesky (59), Elon Musk (64), Jensen Huang (60)",
+          "description": "Stay in details; avoid manager mode abstraction layers",
+          "steps": [
+            "Review product details weekly (pixels, specs, UX)",
+            "Interview IC candidates personally for key roles",
+            "Write specs/memos; don't delegate thinking",
+            "Lead crises personally (COVID, production hell)",
+            "Resist board pressure to 'professionalize' prematurely"
+          ],
+          "mental_models": [
+            "Founder mode vs manager mode",
+            "Details are product",
+            "Context loss",
+            "Crisis leadership"
+          ]
+        },
+        {
+          "name": "Audience-First Product Builder",
+          "source": "Nathan Barry (76), Pieter Levels (77), Daniel Vassallo (79)",
+          "description": "Build audience \u2192 launch products \u2192 compound income streams",
+          "steps": [
+            "Teach everything you know publicly (write, video, tweet)",
+            "Build email list / following around expertise",
+            "Launch micro-products to audience (courses, tools, SaaS)",
+            "Charge from day 1; no free tiers",
+            "Diversify: portfolio of small bets > all-in on one"
+          ],
+          "mental_models": [
+            "Audience-first",
+            "Public building",
+            "Portfolio entrepreneurship",
+            "Small bets",
+            "Financial independence"
+          ]
+        }
+      ]
+    },
+    "ai_technology_strategy": {
+      "name": "AI & Technology Strategy",
+      "tools": [
+        {
+          "name": "Scaling Laws Compute Allocator",
+          "source": "Kaplan (33), Hoffmann/Chinchilla (34), Sutton (13)",
+          "description": "Optimize compute/data/model allocation for AI training",
+          "steps": [
+            "Determine compute budget (FLOPs)",
+            "Apply Chinchilla: N ~ C^0.5, D ~ C^0.5 (20 tokens/param)",
+            "Invest in data quality/curation > model size",
+            "Bet on scaling: no saturation observed",
+            "The Bitter Lesson: general methods + compute > human knowledge"
+          ],
+          "mental_models": [
+            "Scaling laws",
+            "Chinchilla scaling",
+            "Compute-optimal",
+            "Bitter lesson",
+            "Power laws"
+          ]
+        },
+        {
+          "name": "Software 2.0 Architecture Designer",
+          "source": "Andrej Karpathy (36), Jensen Huang (60)",
+          "description": "Design differentiable, data-centric, GPU-native systems",
+          "steps": [
+            "Replace explicit logic (if/else) with learned functions",
+            "Make entire pipeline differentiable end-to-end",
+            "Curate datasets; design loss functions (not code)",
+            "Target GPU/TPU/NPU compilation",
+            "Debug via data inspection, loss analysis, adversarial examples"
+          ],
+          "mental_models": [
+            "Software 2.0",
+            "Differentiable programming",
+            "Data-centric AI",
+            "Accelerated computing",
+            "AI factories"
+          ]
+        },
+        {
+          "name": "AI Moat Evaluator (New Moats)",
+          "source": "Jerry Chen/Greylock (30), DeepSeek-R1 (35)",
+          "description": "Assess defensibility of AI companies beyond model access",
+          "steps": [
+            "Check data network effects: usage \u2192 training data \u2192 better model",
+            "Verify closed-loop: model improves automatically with use",
+            "Assess workflow integration: AI embedded in core business process",
+            "Evaluate proprietary data moat vs public data",
+            "Cost disruption check: can RL/ distillation replicate at 1/100th cost?"
+          ],
+          "mental_models": [
+            "Data network effects",
+            "Closed-loop systems",
+            "Software 2.0",
+            "RL for reasoning",
+            "Cost disruption"
+          ]
+        }
+      ]
+    },
+    "macro_geopolitical": {
+      "name": "Macro & Geopolitical Navigation",
+      "tools": [
+        {
+          "name": "Dalio Big Cycle Navigator",
+          "source": "Ray Dalio (48, 74)",
+          "description": "Navigate 250-year empire cycles and 50-75 year debt cycles",
+          "steps": [
+            "Identify cycle stage: new order \u2192 prosperity \u2192 excess \u2192 conflict \u2192 revolution",
+            "US position: late stage (high debt, polarization, rising China)",
+            "Diversify: 15+ uncorrelated return streams (Holy Grail)",
+            "Hedge currency debasement: gold, bitcoin, real assets",
+            "Study history: patterns rhyme; don't fight the cycle"
+          ],
+          "mental_models": [
+            "Big debt cycles",
+            "Empire rise/fall",
+            "Holy Grail portfolio",
+            "Diversification",
+            "Historical rhymes"
+          ]
+        },
+        {
+          "name": "Fiscal Dominance / 1940s Playbook",
+          "source": "Lyn Alden (73), Druckenmiller (72)",
+          "description": "Position for fiscal dominance: debt/GDP > 120% \u2192 yield curve control \u2192 inflation",
+          "steps": [
+            "Monitor debt/GDP and fiscal deficit trajectory",
+            "Identify yield curve control / financial repression signals",
+            "Allocate to hard assets: energy, commodities, bitcoin",
+            "Avoid long-duration nominal bonds (negative real yields)",
+            "Expect structural inflation, not transitory"
+          ],
+          "mental_models": [
+            "Fiscal dominance",
+            "Financial repression",
+            "1940s playbook",
+            "Hard assets",
+            "Structural inflation"
+          ]
+        },
+        {
+          "name": "Reflexivity Trade Finder",
+          "source": "George Soros (50), Stan Druckenmiller (49)",
+          "description": "Trade narrative inflection points where beliefs shape fundamentals",
+          "steps": [
+            "Identify trend + misconception reinforcing each other",
+            "Watch for 'this time is different' narrative",
+            "Trade the reflexive loop inflection (not static value)",
+            "Concentrated bets: 1-3 positions = 80% portfolio",
+            "Cut losses instantly; let winners run"
+          ],
+          "mental_models": [
+            "Reflexivity",
+            "Narrative trading",
+            "Concentrated bets",
+            "Asymmetric risk/reward",
+            "Feedback loops"
+          ]
+        }
+      ]
+    },
+    "personal_productivity_wealth": {
+      "name": "Personal Productivity & Wealth Building",
+      "tools": [
+        {
+          "name": "Munger Latticework Decision Checklist",
+          "source": "Charlie Munger (46, 66)",
+          "description": "Multi-disciplinary mental model checklist to avoid stupidity",
+          "steps": [
+            "Invert: how could this go wrong? (avoid stupidity > seek brilliance)",
+            "Check incentives: 'show me the incentive, I'll show you the outcome'",
+            "Run base rates: reference class forecasting, not single case",
+            "Apply 25 cognitive biases checklist (social proof, availability, etc.)",
+            "Lollapalooza check: multiple biases combining?"
+          ],
+          "mental_models": [
+            "Latticework",
+            "Inversion",
+            "Incentives",
+            "Base rates",
+            "25 biases",
+            "Lollapalooza effect"
+          ]
+        },
+        {
+          "name": "Antifragile Life Designer",
+          "source": "Nassim Taleb (67)",
+          "description": "Build life that gains from disorder, not just survives it",
+          "steps": [
+            "Barbell strategy: 90% safe (cash, skills, health) + 10% speculative",
+            "Via negativa: remove fragilities (debt, single points of failure)",
+            "Skin in the game: only take advice from those with downside",
+            "Lindy effect: prefer time-tested (books, habits, relationships)",
+            "Optionality: maximize future choices, minimize obligations"
+          ],
+          "mental_models": [
+            "Antifragility",
+            "Barbell",
+            "Via negativa",
+            "Skin in the game",
+            "Lindy effect",
+            "Optionality"
+          ]
+        },
+        {
+          "name": "Psychology of Money Wealth Builder",
+          "source": "Morgan Housel (87)",
+          "description": "Build sustainable wealth via behavior, not brilliance",
+          "steps": [
+            "Wealth = what you don't see (savings rate > returns)",
+            "Room for error: survive to let compounding work",
+            "Reasonable > rational: sustainable behavior beats optimal theory",
+            "Tails drive outcomes: few decisions = most impact",
+            "Freedom = highest form of wealth (control over time)"
+          ],
+          "mental_models": [
+            "Invisible wealth",
+            "Saving rate > returns",
+            "Compounding time",
+            "Tails drive outcomes",
+            "Room for error",
+            "Reasonable > rational"
+          ]
+        },
+        {
+          "name": "Energy Reality Check",
+          "source": "Vaclav Smil (89)",
+          "description": "Ground techno-optimism in physical constraints",
+          "steps": [
+            "Energy transitions take decades (not years)",
+            "Power density: fossils dense, renewables diffuse",
+            "4 pillars of civilization: cement, steel, ammonia, plastics",
+            "No silver bullet; innovation is incremental",
+            "Numbers don't lie: growth has thermodynamic limits"
+          ],
+          "mental_models": [
+            "Energy transition timelines",
+            "Power density",
+            "Material pillars",
+            "Physical limits",
+            "Incremental innovation"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,447 @@
+[
+  {
+    "position": 1,
+    "name": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+    "url": "https://billiondollarpdf.com/entry/bitcoin-whitepaper/"
+  },
+  {
+    "position": 2,
+    "name": "Attention Is All You Need",
+    "url": "https://billiondollarpdf.com/entry/attention-is-all-you-need/"
+  },
+  {
+    "position": 3,
+    "name": "Situational Awareness: The Decade Ahead",
+    "url": "https://billiondollarpdf.com/entry/situational-awareness/"
+  },
+  {
+    "position": 4,
+    "name": "The Pricing of Options and Corporate Liabilities",
+    "url": "https://billiondollarpdf.com/entry/black-scholes/"
+  },
+  {
+    "position": 5,
+    "name": "Why Software Is Eating the World",
+    "url": "https://billiondollarpdf.com/entry/software-eating-world/"
+  },
+  {
+    "position": 6,
+    "name": "The Secret Tesla Motors Master Plan (just between you and me)",
+    "url": "https://billiondollarpdf.com/entry/tesla-master-plan/"
+  },
+  {
+    "position": 7,
+    "name": "Ethereum Whitepaper: A Next-Generation Smart Contract Platform",
+    "url": "https://billiondollarpdf.com/entry/ethereum-whitepaper/"
+  },
+  {
+    "position": 8,
+    "name": "The Internet Tidal Wave",
+    "url": "https://billiondollarpdf.com/entry/internet-tidal-wave/"
+  },
+  {
+    "position": 9,
+    "name": "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+    "url": "https://billiondollarpdf.com/entry/anatomy-web-search/"
+  },
+  {
+    "position": 10,
+    "name": "RIP Good Times",
+    "url": "https://billiondollarpdf.com/entry/rip-good-times/"
+  },
+  {
+    "position": 11,
+    "name": "The Superinvestors of Graham-and-Doddsville",
+    "url": "https://billiondollarpdf.com/entry/superinvestors-graham-doddsville/"
+  },
+  {
+    "position": 12,
+    "name": "ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)",
+    "url": "https://billiondollarpdf.com/entry/alexnet/"
+  },
+  {
+    "position": 13,
+    "name": "The Bitter Lesson",
+    "url": "https://billiondollarpdf.com/entry/bitter-lesson/"
+  },
+  {
+    "position": 14,
+    "name": "Language Models are Few-Shot Learners (GPT-3)",
+    "url": "https://billiondollarpdf.com/entry/gpt-3/"
+  },
+  {
+    "position": 15,
+    "name": "Information Management: A Proposal",
+    "url": "https://billiondollarpdf.com/entry/information-management-proposal/"
+  },
+  {
+    "position": 16,
+    "name": "Scion Capital Letters (Subprime Short)",
+    "url": "https://billiondollarpdf.com/entry/burry-scion-subprime/"
+  },
+  {
+    "position": 17,
+    "name": "Zero to One",
+    "url": "https://billiondollarpdf.com/entry/zero-to-one/"
+  },
+  {
+    "position": 18,
+    "name": "Adapting to Endure",
+    "url": "https://billiondollarpdf.com/entry/adapting-to-endure/"
+  },
+  {
+    "position": 19,
+    "name": "Do Things That Don't Scale",
+    "url": "https://billiondollarpdf.com/entry/do-things-that-dont-scale/"
+  },
+  {
+    "position": 20,
+    "name": "How to Get Startup Ideas",
+    "url": "https://billiondollarpdf.com/entry/how-to-get-startup-ideas/"
+  },
+  {
+    "position": 21,
+    "name": "Competition Is for Losers",
+    "url": "https://billiondollarpdf.com/entry/competition-is-for-losers/"
+  },
+  {
+    "position": 22,
+    "name": "Aggregation Theory",
+    "url": "https://billiondollarpdf.com/entry/aggregation-theory/"
+  },
+  {
+    "position": 23,
+    "name": "All Markets Are Not Created Equal / Note to Self on TAM",
+    "url": "https://billiondollarpdf.com/entry/all-markets-not-created-equal/"
+  },
+  {
+    "position": 24,
+    "name": "1,000 True Fans",
+    "url": "https://billiondollarpdf.com/entry/1000-true-fans/"
+  },
+  {
+    "position": 25,
+    "name": "Blitzscaling",
+    "url": "https://billiondollarpdf.com/entry/blitzscaling/"
+  },
+  {
+    "position": 26,
+    "name": "The Next Big Thing Will Start Out Looking Like a Toy",
+    "url": "https://billiondollarpdf.com/entry/next-big-thing-toy/"
+  },
+  {
+    "position": 27,
+    "name": "Why Decentralization Matters",
+    "url": "https://billiondollarpdf.com/entry/why-decentralization-matters/"
+  },
+  {
+    "position": 28,
+    "name": "Invisible Asymptotes",
+    "url": "https://billiondollarpdf.com/entry/invisible-asymptotes/"
+  },
+  {
+    "position": 29,
+    "name": "What Happened to the Future?",
+    "url": "https://billiondollarpdf.com/entry/what-happened-to-the-future/"
+  },
+  {
+    "position": 30,
+    "name": "The New Moats",
+    "url": "https://billiondollarpdf.com/entry/new-moats/"
+  },
+  {
+    "position": 31,
+    "name": "SaaS Metrics 2.0",
+    "url": "https://billiondollarpdf.com/entry/saas-metrics-skok/"
+  },
+  {
+    "position": 32,
+    "name": "Uniswap Whitepaper (Automated Market Maker)",
+    "url": "https://billiondollarpdf.com/entry/uniswap-whitepaper/"
+  },
+  {
+    "position": 33,
+    "name": "Scaling Laws for Neural Language Models",
+    "url": "https://billiondollarpdf.com/entry/scaling-laws/"
+  },
+  {
+    "position": 34,
+    "name": "Training Compute-Optimal Large Language Models (Chinchilla)",
+    "url": "https://billiondollarpdf.com/entry/chinchilla/"
+  },
+  {
+    "position": 35,
+    "name": "DeepSeek-R1: Incentivizing Reasoning Capability via RL",
+    "url": "https://billiondollarpdf.com/entry/deepseek-r1/"
+  },
+  {
+    "position": 36,
+    "name": "Software 2.0",
+    "url": "https://billiondollarpdf.com/entry/software-2-0/"
+  },
+  {
+    "position": 37,
+    "name": "Moore's Law for Everything",
+    "url": "https://billiondollarpdf.com/entry/moores-law-for-everything/"
+  },
+  {
+    "position": 38,
+    "name": "Why AI Will Save the World",
+    "url": "https://billiondollarpdf.com/entry/why-ai-will-save-the-world/"
+  },
+  {
+    "position": 39,
+    "name": "Machines of Loving Grace",
+    "url": "https://billiondollarpdf.com/entry/machines-of-loving-grace/"
+  },
+  {
+    "position": 40,
+    "name": "Sea Change",
+    "url": "https://billiondollarpdf.com/entry/marks-sea-change/"
+  },
+  {
+    "position": 41,
+    "name": "The Race to the Bottom",
+    "url": "https://billiondollarpdf.com/entry/marks-race-to-bottom/"
+  },
+  {
+    "position": 42,
+    "name": "Bretton Woods III",
+    "url": "https://billiondollarpdf.com/entry/pozsar-bretton-woods-iii/"
+  },
+  {
+    "position": 43,
+    "name": "The Changing World Order",
+    "url": "https://billiondollarpdf.com/entry/dalio-changing-world-order/"
+  },
+  {
+    "position": 44,
+    "name": "Waiting for the Last Dance",
+    "url": "https://billiondollarpdf.com/entry/grantham-last-dance/"
+  },
+  {
+    "position": 45,
+    "name": "Buy American. I Am.",
+    "url": "https://billiondollarpdf.com/entry/buffett-buy-american/"
+  },
+  {
+    "position": 46,
+    "name": "The Fraying of the US Global Currency Reserve System",
+    "url": "https://billiondollarpdf.com/entry/lyn-alden-petrodollar/"
+  },
+  {
+    "position": 47,
+    "name": "Who Wants to Be a Millionaire? (Herbalife Short)",
+    "url": "https://billiondollarpdf.com/entry/ackman-herbalife/"
+  },
+  {
+    "position": 48,
+    "name": "Lehman Brothers Short Thesis (Ira Sohn)",
+    "url": "https://billiondollarpdf.com/entry/einhorn-lehman/"
+  },
+  {
+    "position": 49,
+    "name": "Enron Short Thesis",
+    "url": "https://billiondollarpdf.com/entry/chanos-enron/"
+  },
+  {
+    "position": 50,
+    "name": "Sino-Forest Corporation (Strong Sell)",
+    "url": "https://billiondollarpdf.com/entry/muddy-waters-sino-forest/"
+  },
+  {
+    "position": 51,
+    "name": "Nikola: How to Parlay an Ocean of Lies",
+    "url": "https://billiondollarpdf.com/entry/hindenburg-nikola/"
+  },
+  {
+    "position": 52,
+    "name": "Adani Group: How the World's 3rd Richest Man Is Pulling the Largest Con",
+    "url": "https://billiondollarpdf.com/entry/hindenburg-adani/"
+  },
+  {
+    "position": 53,
+    "name": "Valeant: The Pharmaceutical Enron?",
+    "url": "https://billiondollarpdf.com/entry/citron-valeant/"
+  },
+  {
+    "position": 54,
+    "name": "Internet Trends Report",
+    "url": "https://billiondollarpdf.com/entry/meeker-internet-trends/"
+  },
+  {
+    "position": 55,
+    "name": "Trends \u2013 Artificial Intelligence",
+    "url": "https://billiondollarpdf.com/entry/meeker-ai-trends-2025/"
+  },
+  {
+    "position": 56,
+    "name": "Mobile Is Eating the World",
+    "url": "https://billiondollarpdf.com/entry/benedict-evans-mobile-eating-world/"
+  },
+  {
+    "position": 57,
+    "name": "Big Ideas",
+    "url": "https://billiondollarpdf.com/entry/ark-big-ideas/"
+  },
+  {
+    "position": 58,
+    "name": "Airbnb Series A Pitch Deck",
+    "url": "https://billiondollarpdf.com/entry/airbnb-pitch-deck/"
+  },
+  {
+    "position": 59,
+    "name": "UberCab Pitch Deck",
+    "url": "https://billiondollarpdf.com/entry/uber-pitch-deck/"
+  },
+  {
+    "position": 60,
+    "name": "YouTube Investment Memo",
+    "url": "https://billiondollarpdf.com/entry/sequoia-youtube-memo/"
+  },
+  {
+    "position": 61,
+    "name": "The Sovereign Individual",
+    "url": "https://billiondollarpdf.com/entry/sovereign-individual/"
+  },
+  {
+    "position": 62,
+    "name": "The Techno-Optimist Manifesto",
+    "url": "https://billiondollarpdf.com/entry/techno-optimist-manifesto/"
+  },
+  {
+    "position": 63,
+    "name": "The Most Important Century",
+    "url": "https://billiondollarpdf.com/entry/most-important-century/"
+  },
+  {
+    "position": 64,
+    "name": "Meditations on Moloch",
+    "url": "https://billiondollarpdf.com/entry/meditations-on-moloch/"
+  },
+  {
+    "position": 65,
+    "name": "What We Owe the Future",
+    "url": "https://billiondollarpdf.com/entry/what-we-owe-the-future/"
+  },
+  {
+    "position": 66,
+    "name": "AGI Ruin: A List of Lethalities",
+    "url": "https://billiondollarpdf.com/entry/agi-ruin/"
+  },
+  {
+    "position": 67,
+    "name": "We Need a New Science of Progress",
+    "url": "https://billiondollarpdf.com/entry/progress-studies/"
+  },
+  {
+    "position": 68,
+    "name": "The Scaling Hypothesis",
+    "url": "https://billiondollarpdf.com/entry/scaling-hypothesis/"
+  },
+  {
+    "position": 69,
+    "name": "Fat Protocols",
+    "url": "https://billiondollarpdf.com/entry/fat-protocols/"
+  },
+  {
+    "position": 70,
+    "name": "The Bullish Case for Bitcoin",
+    "url": "https://billiondollarpdf.com/entry/bullish-case-for-bitcoin/"
+  },
+  {
+    "position": 71,
+    "name": "The Rise of the Solo Capitalists",
+    "url": "https://billiondollarpdf.com/entry/solo-capitalists/"
+  },
+  {
+    "position": 72,
+    "name": "IPO 2.0 / SPAC Investor Letters",
+    "url": "https://billiondollarpdf.com/entry/chamath-spac-letter/"
+  },
+  {
+    "position": 73,
+    "name": "The Lean Startup / Minimum Viable Product",
+    "url": "https://billiondollarpdf.com/entry/minimum-viable-product-ries/"
+  },
+  {
+    "position": 74,
+    "name": "Principles for Navigating Big Debt Crises",
+    "url": "https://billiondollarpdf.com/entry/dalio-big-debt-crises/"
+  },
+  {
+    "position": 75,
+    "name": "Reinvesting When Terrified",
+    "url": "https://billiondollarpdf.com/entry/grantham-reinvesting-when-terrified/"
+  },
+  {
+    "position": 76,
+    "name": "Fooling Some of the People All of the Time (Allied Capital Short)",
+    "url": "https://billiondollarpdf.com/entry/einhorn-allied-capital/"
+  },
+  {
+    "position": 77,
+    "name": "Luckin Coffee (Anonymous Report Distributed by Muddy Waters)",
+    "url": "https://billiondollarpdf.com/entry/muddy-waters-luckin/"
+  },
+  {
+    "position": 78,
+    "name": "Facebook (thefacebook) Media Kit / Early Pitch",
+    "url": "https://billiondollarpdf.com/entry/facebook-pitch-deck/"
+  },
+  {
+    "position": 79,
+    "name": "OpenCloud Report",
+    "url": "https://billiondollarpdf.com/entry/battery-opencloud/"
+  },
+  {
+    "position": 80,
+    "name": "Deep Residual Learning for Image Recognition (ResNet)",
+    "url": "https://billiondollarpdf.com/entry/resnet/"
+  },
+  {
+    "position": 81,
+    "name": "Efficient Estimation of Word Representations (word2vec)",
+    "url": "https://billiondollarpdf.com/entry/word2vec/"
+  },
+  {
+    "position": 82,
+    "name": "Solana: A New Architecture for a High Performance Blockchain",
+    "url": "https://billiondollarpdf.com/entry/solana-whitepaper/"
+  },
+  {
+    "position": 83,
+    "name": "Superintelligence: Paths, Dangers, Strategies",
+    "url": "https://billiondollarpdf.com/entry/superintelligence-bostrom/"
+  },
+  {
+    "position": 84,
+    "name": "Increasing Returns and the New World of Business",
+    "url": "https://billiondollarpdf.com/entry/increasing-returns/"
+  },
+  {
+    "position": 85,
+    "name": "A Mathematical Theory of Communication",
+    "url": "https://billiondollarpdf.com/entry/mathematical-theory-communication/"
+  },
+  {
+    "position": 86,
+    "name": "The World's Largest Hedge Fund Is a Fraud",
+    "url": "https://billiondollarpdf.com/entry/madoff-fraud-memo/"
+  },
+  {
+    "position": 87,
+    "name": "Block Goes Intelligence-Native",
+    "url": "https://billiondollarpdf.com/entry/block-intelligence-native/"
+  },
+  {
+    "position": 88,
+    "name": "Fairchild Semiconductor Founding",
+    "url": "https://billiondollarpdf.com/entry/fairchild-founding/"
+  },
+  {
+    "position": 89,
+    "name": "A Proposal to American Research and Development",
+    "url": "https://billiondollarpdf.com/entry/dec-ard-proposal/"
+  }
+]

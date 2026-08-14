@@ -1,0 +1,1144 @@
+[
+  {
+    "position": 1,
+    "name": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/bitcoin-whitepaper/",
+    "original_url": "https://bitcoin.org/bitcoin.pdf",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 2,
+    "name": "Attention Is All You Need",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/attention-is-all-you-need/",
+    "original_url": "https://arxiv.org/abs/1706.03762",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 3,
+    "name": "Situational Awareness: The Decade Ahead",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/situational-awareness/",
+    "original_url": "https://situational-awareness.ai/",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 4,
+    "name": "The Pricing of Options and Corporate Liabilities",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/black-scholes/",
+    "original_url": "https://www.journals.uchicago.edu/doi/10.1086/260062",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 5,
+    "name": "Why Software Is Eating the World",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/software-eating-world/",
+    "original_url": "https://a16z.com/why-software-is-eating-the-world/",
+    "thesis": "Capital shift",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 6,
+    "name": "The Secret Tesla Motors Master Plan (just between you and me)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/tesla-master-plan/",
+    "original_url": "https://www.tesla.com/en_in/secret-master-plan",
+    "thesis": "Why it counts \u2014",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 7,
+    "name": "Ethereum Whitepaper: A Next-Generation Smart Contract Platform",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/ethereum-whitepaper/",
+    "original_url": "https://ethereum.org/en/whitepaper/",
+    "thesis": "A Turing-complete blockchain enabling arbitrary smart contracts and decentralized applications.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 8,
+    "name": "The Internet Tidal Wave",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/internet-tidal-wave/",
+    "original_url": "http://news.bbc.co.uk/2/shared/bsp/hi/pdfs/18_06_08_internet%20tidal%20wave.pdf",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 9,
+    "name": "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/anatomy-web-search/",
+    "original_url": "https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 10,
+    "name": "RIP Good Times",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/rip-good-times/",
+    "original_url": "https://www.sequoiacap.com/article/rip-good-times/",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 11,
+    "name": "The Superinvestors of Graham-and-Doddsville",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/superinvestors-graham-doddsville/",
+    "original_url": "https://www.superinvesting.com/pdf/The-Superinvestors-of-Graham-and-Doddsville-by-Warren-Buffett.pdf",
+    "thesis": "The concentrated success of value investors from a shared intellectual 'village' refutes efficient markets.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 12,
+    "name": "ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/alexnet/",
+    "original_url": "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+    "thesis": "Deep CNNs trained on GPUs shatter the ImageNet benchmark, igniting the modern deep-learning era.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 13,
+    "name": "The Bitter Lesson",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/bitter-lesson/",
+    "original_url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+    "thesis": "General methods that leverage computation ultimately beat human-knowledge-engineered approaches in AI.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 14,
+    "name": "Language Models are Few-Shot Learners (GPT-3)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/gpt-3/",
+    "original_url": "https://arxiv.org/abs/2005.14165",
+    "thesis": "Scaling language models to 175B parameters yields emergent few-shot task performance without fine-tuning.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 15,
+    "name": "Information Management: A Proposal",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/information-management-proposal/",
+    "original_url": "https://w3.org/History/1989/proposal.html",
+    "thesis": "A linked hypertext system over a network would let information at CERN (and everywhere) be shared without central control.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 16,
+    "name": "Scion Capital Letters (Subprime Short)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/burry-scion-subprime/",
+    "original_url": "https://www.michael-burry.com/scion-capital-michael-burrys-letters-to-investors/",
+    "thesis": "Subprime mortgage-backed securities will collapse; buy CDS protection against the housing bubble.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 17,
+    "name": "Zero to One",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/zero-to-one/",
+    "original_url": "https://blakemasters.tumblr.com/peter-thiels-cs183-startup",
+    "thesis": "True progress is vertical (0 to 1) via monopoly-creating innovation, not horizontal copying (1 to n).",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 18,
+    "name": "Adapting to Endure",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/adapting-to-endure/",
+    "original_url": "https://www.sequoiacap.com/wp-content/uploads/sites/6/2022/06/Adapting-to-Endure_Sequoia-Capital-2022.pdf",
+    "thesis": "The era of free capital is over; founders must pivot to profitability as rates rise and multiples compress.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 19,
+    "name": "Do Things That Don't Scale",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/do-things-that-dont-scale/",
+    "original_url": "https://paulgraham.com/ds.html",
+    "thesis": "Early startups should manually recruit users and do unscalable work; growth comes from effort, not automation.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 20,
+    "name": "How to Get Startup Ideas",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/how-to-get-startup-ideas/",
+    "original_url": "https://paulgraham.com/startupideas.html",
+    "thesis": "The best startup ideas are things founders themselves want that sound like bad ideas but are good; live in the future and build what's missing.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 21,
+    "name": "Competition Is for Losers",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/competition-is-for-losers/",
+    "original_url": "https://www.wsj.com/articles/peter-thiel-competition-is-for-losers-1410535536",
+    "thesis": "Monopolies, not competition, create durable value; founders should seek to build category-defining monopolies.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 22,
+    "name": "Aggregation Theory",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/aggregation-theory/",
+    "original_url": "https://stratechery.com/2015/aggregation-theory/",
+    "thesis": "Internet-era winners aggregate demand by owning the user relationship and commoditizing suppliers.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 23,
+    "name": "All Markets Are Not Created Equal / Note to Self on TAM",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/all-markets-not-created-equal/",
+    "original_url": "https://abovethecrowd.com/2012/11/13/all-markets-are-not-created-equal-10-factors-to-consider-when-evaluating-digital-marketplaces/",
+    "thesis": "Ten factors determine whether a digital marketplace can become large and durable; not all TAMs are equal.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 24,
+    "name": "1,000 True Fans",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/1000-true-fans/",
+    "original_url": "https://kk.org/thetechnium/1000-true-fans/",
+    "thesis": "A creator needs only 1,000 true fans paying ~$100/year to make a living; the long tail enables niche businesses.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 25,
+    "name": "Blitzscaling",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/blitzscaling/",
+    "original_url": "https://hbr.org/2016/04/blitzscaling",
+    "thesis": "Prioritize speed over efficiency in winner-take-all markets to achieve massive scale before competitors.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 26,
+    "name": "The Next Big Thing Will Start Out Looking Like a Toy",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/next-big-thing-toy/",
+    "original_url": "https://cdixon.org/2010/01/03/the-next-big-thing-will-start-out-looking-like-a-toy",
+    "thesis": "Disruptive innovations are dismissed as toys because they underperform on established metrics while excelling on new ones.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 27,
+    "name": "Why Decentralization Matters",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/why-decentralization-matters/",
+    "original_url": "https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e",
+    "thesis": "Decentralized crypto networks can beat centralized platforms by aligning incentives with users and developers.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 28,
+    "name": "Invisible Asymptotes",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/invisible-asymptotes/",
+    "original_url": "https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes",
+    "thesis": "Every growth curve has an invisible ceiling; great companies identify and route around theirs before hitting it.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 29,
+    "name": "What Happened to the Future?",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/what-happened-to-the-future/",
+    "original_url": "https://foundersfund.com/the-future/",
+    "thesis": "Venture abandoned hard technology for trivial consumer apps; 'we wanted flying cars, instead we got 140 characters.'",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 30,
+    "name": "The New Moats",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/new-moats/",
+    "original_url": "https://greylock.com/greymatter/the-new-moats/",
+    "thesis": "Systems of intelligence built on proprietary data and AI/ML form the durable competitive moats of the next era.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 31,
+    "name": "SaaS Metrics 2.0",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/saas-metrics-skok/",
+    "original_url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+    "thesis": "A definitive dashboard of SaaS unit economics (CAC, LTV, churn, magic number) for building and funding SaaS.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 32,
+    "name": "Uniswap Whitepaper (Automated Market Maker)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/uniswap-whitepaper/",
+    "original_url": "https://hackmd.io/@HaydenAdams/HJ9jLsfTz",
+    "thesis": "A constant-product automated market maker (x*y=k) enabling permissionless on-chain token swaps without order books.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 33,
+    "name": "Scaling Laws for Neural Language Models",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/scaling-laws/",
+    "original_url": "https://arxiv.org/abs/2001.08361",
+    "thesis": "Model performance scales predictably as a power law with compute, data, and parameters.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 34,
+    "name": "Training Compute-Optimal Large Language Models (Chinchilla)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/chinchilla/",
+    "original_url": "https://arxiv.org/abs/2203.15556",
+    "thesis": "For a fixed compute budget, models should be smaller and trained on far more data than prior practice.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 35,
+    "name": "DeepSeek-R1: Incentivizing Reasoning Capability via RL",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/deepseek-r1/",
+    "original_url": "https://arxiv.org/abs/2501.12948",
+    "thesis": "Reinforcement learning can elicit strong reasoning in LLMs at a fraction of frontier training cost.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 36,
+    "name": "Software 2.0",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/software-2-0/",
+    "original_url": "https://karpathy.medium.com/software-2-0-a64152b37c35",
+    "thesis": "Neural networks are a new software paradigm where code is learned from data, not written by hand.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 37,
+    "name": "Moore's Law for Everything",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/moores-law-for-everything/",
+    "original_url": "https://moores.samaltman.com/",
+    "thesis": "AI will drive the cost of goods and labor toward zero, requiring a new social contract to distribute the wealth.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 38,
+    "name": "Why AI Will Save the World",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/why-ai-will-save-the-world/",
+    "original_url": "https://a16z.com/ai-will-save-the-world/",
+    "thesis": "AI will augment human intelligence and improve nearly everything it touches, and fears of civilizational risk are misplaced.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 39,
+    "name": "Machines of Loving Grace",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/machines-of-loving-grace/",
+    "original_url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "thesis": "Powerful AI could compress a century of scientific progress into a decade, curing disease and transforming society.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 40,
+    "name": "Sea Change",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/marks-sea-change/",
+    "original_url": "https://www.oaktreecapital.com/insights/memo/sea-change",
+    "thesis": "A generational shift from falling to elevated rates ends the 40-year tailwind; credit and value are the new winners.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 41,
+    "name": "The Race to the Bottom",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/marks-race-to-bottom/",
+    "original_url": "https://www.oaktreecapital.com/insights/memo/the-race-to-the-bottom",
+    "thesis": "Investors competing to accept ever-worse terms and lower returns are sowing the seeds of the next crisis.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 42,
+    "name": "Bretton Woods III",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/pozsar-bretton-woods-iii/",
+    "original_url": "https://static.bullionstar.com/blogs/uploads/2022/03/Bretton-Woods-III-Zoltan-Pozsar.pdf",
+    "thesis": "Weaponized reserves after Russia's invasion usher in a new monetary order backed by commodities, not fiat.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 43,
+    "name": "The Changing World Order",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/dalio-changing-world-order/",
+    "original_url": "https://asiabusinesscouncil.org/wp-content/uploads/2020/10/The-Changing-World-Order_Ray-Dalio.pdf",
+    "thesis": "Long-term debt, currency, and empire cycles explain the relative decline of the US and rise of China.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 44,
+    "name": "Waiting for the Last Dance",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/grantham-last-dance/",
+    "original_url": "https://www.gmo.com/americas/research-library/waiting-for-the-last-dance/",
+    "thesis": "US equities are in a full-blown epic bubble that will end badly, comparable to 1929 and 2000.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 45,
+    "name": "Buy American. I Am.",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/buffett-buy-american/",
+    "original_url": "https://www.nytimes.com/2008/10/17/opinion/17buffett.html",
+    "thesis": "Amid GFC panic, US stocks are cheap; be greedy when others are fearful.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 46,
+    "name": "The Fraying of the US Global Currency Reserve System",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/lyn-alden-petrodollar/",
+    "original_url": "https://www.lynalden.com/fraying-petrodollar-system/",
+    "thesis": "Structural imbalances in the dollar reserve system are straining and will drive a long-term monetary shift.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 47,
+    "name": "Who Wants to Be a Millionaire? (Herbalife Short)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/ackman-herbalife/",
+    "original_url": "https://factsaboutherbalife.com/",
+    "thesis": "Herbalife is a pyramid scheme that will be shut down by regulators; the stock is worth zero.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 48,
+    "name": "Lehman Brothers Short Thesis (Ira Sohn)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/einhorn-lehman/",
+    "original_url": "https://www.marketfolly.com/2010/05/david-einhorns-ira-sohn-presentation.html",
+    "thesis": "David Einhorn / Greenlight",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 49,
+    "name": "Enron Short Thesis",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/chanos-enron/",
+    "original_url": "https://www.govinfo.gov/content/pkg/CHRG-107hhrg77986/pdf/CHRG-107hhrg77986.pdf",
+    "thesis": "Jim Chanos / Kynikos",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 50,
+    "name": "Sino-Forest Corporation (Strong Sell)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/muddy-waters-sino-forest/",
+    "original_url": "https://muddywatersresearch.com/wp-content/uploads/2011/06/MW_TRE_060211.pdf",
+    "thesis": "Sino-Forest is a fraud that overstates its timber assets; the equity is worth a fraction of its price.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 51,
+    "name": "Nikola: How to Parlay an Ocean of Lies",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/hindenburg-nikola/",
+    "original_url": "https://hindenburgresearch.com/nikola/",
+    "thesis": "Nikola is an 'intricate fraud' built on false claims about its technology, including a truck rolling downhill in a video.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 52,
+    "name": "Adani Group: How the World's 3rd Richest Man Is Pulling the Largest Con",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/hindenburg-adani/",
+    "original_url": "https://hindenburgresearch.com/adani/",
+    "thesis": "The Adani Group engaged in brazen stock manipulation and accounting fraud over decades.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 53,
+    "name": "Valeant: The Pharmaceutical Enron?",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/citron-valeant/",
+    "original_url": "https://citronresearch.com/wp-content/uploads/2015/10/Valeant-Philador-and-RandO-final-a.pdf",
+    "thesis": "Valeant used a specialty pharmacy (Philidor) to fabricate sales, echoing Enron-style channel stuffing.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 54,
+    "name": "Internet Trends Report",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/meeker-internet-trends/",
+    "original_url": "https://www.bondcap.com/report/pdf/Internet_Trends_2019.pdf",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 55,
+    "name": "Trends \u2013 Artificial Intelligence",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/meeker-ai-trends-2025/",
+    "original_url": "https://www.bondcap.com/report/pdf/Trends_Artificial_Intelligence.pdf",
+    "thesis": "AI adoption and capex are scaling faster than any prior technology wave in history.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 56,
+    "name": "Mobile Is Eating the World",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/benedict-evans-mobile-eating-world/",
+    "original_url": "https://www.ben-evans.com/presentations",
+    "thesis": "Mobile is the largest computing platform ever and is subsuming every other technology and industry.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 57,
+    "name": "Big Ideas",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/ark-big-ideas/",
+    "original_url": "https://www.ark-invest.com/big-ideas-2024",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 58,
+    "name": "Airbnb Series A Pitch Deck",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/airbnb-pitch-deck/",
+    "original_url": "https://www.slideshare.net/PitchDeckCoach/airbnb-first-pitch-deck-editable",
+    "thesis": "A web platform to book rooms with locals rather than hotels.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 59,
+    "name": "UberCab Pitch Deck",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/uber-pitch-deck/",
+    "original_url": "https://www.slideshare.net/slideshow/uber-pitch-deck-49157401/49157401",
+    "thesis": "On-demand black-car service summoned from a phone, pitched as 'NextGen car service.'",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 60,
+    "name": "YouTube Investment Memo",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/sequoia-youtube-memo/",
+    "original_url": "https://sriramk.com/memos/roelof-youtube.pdf",
+    "thesis": "YouTube is capturing explosive user-generated video growth and will define online video.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 61,
+    "name": "The Sovereign Individual",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/sovereign-individual/",
+    "original_url": "https://en.wikipedia.org/wiki/The_Sovereign_Individual",
+    "thesis": "The Information Age will dissolve the nation-state's power and empower mobile, digitally-sovereign individuals.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 62,
+    "name": "The Techno-Optimist Manifesto",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/techno-optimist-manifesto/",
+    "original_url": "https://a16z.com/the-techno-optimist-manifesto/",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 63,
+    "name": "The Most Important Century",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/most-important-century/",
+    "original_url": "https://www.cold-takes.com/most-important-century/",
+    "thesis": "Transformative AI could make this the most pivotal century in human history, warranting outsized attention.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 64,
+    "name": "Meditations on Moloch",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/meditations-on-moloch/",
+    "original_url": "https://slatestarcodex.com/2014/07/30/meditations-on-moloch/",
+    "thesis": "Multipolar traps and coordination failures ('Moloch') drive races to the bottom across civilization.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 65,
+    "name": "What We Owe the Future",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/what-we-owe-the-future/",
+    "original_url": "https://whatweowethefuture.com/",
+    "thesis": "Future people matter morally; positively influencing the long-term future is a key moral priority (longtermism).",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 66,
+    "name": "AGI Ruin: A List of Lethalities",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/agi-ruin/",
+    "original_url": "https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities",
+    "thesis": "Aligning superintelligent AI is unsolved and likely fatal by default; current efforts are inadequate.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 67,
+    "name": "We Need a New Science of Progress",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/progress-studies/",
+    "original_url": "https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/",
+    "thesis": "We should study the causes of scientific and economic progress as a rigorous discipline to accelerate it.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 68,
+    "name": "The Scaling Hypothesis",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/scaling-hypothesis/",
+    "original_url": "https://gwern.net/scaling-hypothesis",
+    "thesis": "Gwern Branwen",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 69,
+    "name": "Fat Protocols",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/fat-protocols/",
+    "original_url": "https://www.usv.com/writing/2016/08/fat-protocols/",
+    "thesis": "Unlike the web, in crypto value accrues to the protocol layer, not the application layer.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 70,
+    "name": "The Bullish Case for Bitcoin",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/bullish-case-for-bitcoin/",
+    "original_url": "https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1",
+    "thesis": "Bitcoin is monetizing as a store of value along the path collectible \u2192 SoV \u2192 medium of exchange \u2192 money.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 71,
+    "name": "The Rise of the Solo Capitalists",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/solo-capitalists/",
+    "original_url": "https://www.nbt.vc/blog/the-rise-of-the-solo-capitalists",
+    "thesis": "Solo GPs writing large checks are a new competitive force disrupting traditional multi-partner VC firms.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 72,
+    "name": "IPO 2.0 / SPAC Investor Letters",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/chamath-spac-letter/",
+    "original_url": "https://www.socialcapital.com/",
+    "thesis": "SPACs democratize access to high-growth pre-IPO companies and are a superior path to public markets.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 73,
+    "name": "The Lean Startup / Minimum Viable Product",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/minimum-viable-product-ries/",
+    "original_url": "https://theleanstartup.com/",
+    "thesis": "Startups should build-measure-learn with a minimum viable product to find product-market fit before scaling.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 74,
+    "name": "Principles for Navigating Big Debt Crises",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/dalio-big-debt-crises/",
+    "original_url": "https://www.bridgewater.com/big-debt-crises",
+    "thesis": "Debt crises follow a repeating, mechanical template of leveraging and deleveraging that can be navigated.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 75,
+    "name": "Reinvesting When Terrified",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/grantham-reinvesting-when-terrified/",
+    "original_url": "https://www.gmo.com/americas/research-library/reinvesting-when-terrified/",
+    "thesis": "Investors must deploy capital into cheap markets precisely when it feels most terrifying to do so.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 76,
+    "name": "Fooling Some of the People All of the Time (Allied Capital Short)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/einhorn-allied-capital/",
+    "original_url": "https://aletteraday.substack.com/p/letter-42-david-einhorn-2002",
+    "thesis": "Allied Capital used aggressive accounting to overstate the value of its illiquid investments.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 77,
+    "name": "Luckin Coffee (Anonymous Report Distributed by Muddy Waters)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/muddy-waters-luckin/",
+    "original_url": "https://cdn.gmtresearch.com/public-ckfinder/Short-sellers/Unknown%20author/Luckin%20Coffee_Anonymous.pdf",
+    "thesis": "Luckin Coffee fabricated sales figures; the growth story is a fraud.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 78,
+    "name": "Facebook (thefacebook) Media Kit / Early Pitch",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/facebook-pitch-deck/",
+    "original_url": "https://www.slideshare.net/slideshow/facebooks-original-pitch-deckpdf/259577117",
+    "thesis": "A college social network with dense engagement and a captive, targetable young audience for advertisers.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 79,
+    "name": "OpenCloud Report",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/battery-opencloud/",
+    "original_url": "https://www.battery.com/powered/",
+    "thesis": "Open-source and cloud infrastructure are reshaping enterprise software economics and buying.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 80,
+    "name": "Deep Residual Learning for Image Recognition (ResNet)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/resnet/",
+    "original_url": "https://arxiv.org/abs/1512.03385",
+    "thesis": "Residual connections let networks train to unprecedented depths, driving a leap in vision performance.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 81,
+    "name": "Efficient Estimation of Word Representations (word2vec)",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/word2vec/",
+    "original_url": "https://arxiv.org/abs/1301.3781",
+    "thesis": "Words can be embedded in vector space where semantic relationships become linear arithmetic.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 82,
+    "name": "Solana: A New Architecture for a High Performance Blockchain",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/solana-whitepaper/",
+    "original_url": "https://solana.com/solana-whitepaper.pdf",
+    "thesis": "Proof-of-History plus a fast runtime enables a high-throughput, low-latency blockchain.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 83,
+    "name": "Superintelligence: Paths, Dangers, Strategies",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/superintelligence-bostrom/",
+    "original_url": "https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies",
+    "thesis": "A machine superintelligence could rapidly become uncontrollable and poses an existential risk to humanity.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 84,
+    "name": "Increasing Returns and the New World of Business",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/increasing-returns/",
+    "original_url": "https://sites.santafe.edu/~wbarthur/Papers/HBR.pdf",
+    "thesis": "Knowledge-based industries run on increasing returns, not diminishing ones. The firm that gets ahead tends to get further ahead, producing winner-take-all markets.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 85,
+    "name": "A Mathematical Theory of Communication",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/mathematical-theory-communication/",
+    "original_url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+    "thesis": "Information can be quantified in bits and transmitted reliably over noisy channels up to a hard capacity limit, regardless of meaning.",
+    "why_it_counts": "cultural",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 86,
+    "name": "The World's Largest Hedge Fund Is a Fraud",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/madoff-fraud-memo/",
+    "original_url": "https://www.sec.gov/news/studies/2009/oig-509/exhibit-0293.pdf",
+    "thesis": "Bernard Madoff's impossibly smooth returns are mathematically inconsistent with any real strategy; the fund is either front-running or a Ponzi scheme.",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 87,
+    "name": "Block Goes Intelligence-Native",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/block-intelligence-native/",
+    "original_url": "https://x.com/jack/status/2027129697092731343",
+    "thesis": "Intelligence tools have changed what it means to run a company: a much smaller team paired with AI can do more and do it better, so Block cut ~40% of staff (10,000+ to under 6,000) to rebuild 'intelligence-native.'",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 88,
+    "name": "Fairchild Semiconductor Founding",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/fairchild-founding/",
+    "original_url": "http://archive.computerhistory.org/resources/access/text/2012/10/102746515-05-01-acc.pdf",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "position": 89,
+    "name": "A Proposal to American Research and Development",
+    "billion_dollar_pdf_url": "https://billiondollarpdf.com/entry/dec-ard-proposal/",
+    "original_url": "https://www.computerhistory.org/pdp-1/_media/pdf/DEC.pdp_1.1957.102664472.pdf",
+    "why_it_counts": "strict",
+    "tags": [
+      "#",
+      "#",
+      "#"
+    ]
+  }
+]

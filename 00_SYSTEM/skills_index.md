@@ -18,7 +18,6 @@
 | :--- | :--- | :--- | :--- |
 | `morning_briefing` | `0 13 * * *` | `whatsapp_notifier` | Delivers 5-bullet digest (1:00 PM) |
 | `inbox_triage` | `15 13,17,21 * * *` | `coeus_crm_sync` | Moves processed inbox items into projects (1:15 PM, 5:15 PM, 9:15 PM) |
-| `job_application` | `30 13 * * *` | `outreach_drafter` | Letters/applications for Senior AI Engineer roles (1:30 PM) |
 | `investor_outreach` | `0 14 * * 2,4` | `outreach_drafter` | Physical AI/Robotics VCs/angels (2:00 PM Tue/Thu) |
 | `agency_lead_gen` | `30 14 * * 1,3` | `outreach_drafter` | 2nd Brain/AI automation leads (2:30 PM Mon/Wed) |
 | `competitor_research` | `0 15 * * 5` | — | Standalone research run (3:00 PM Fridays) |
@@ -38,11 +37,6 @@ schedules:
   - id: inbox_triage
     cron: "15 13,17,21 * * *"
     prompt: "Scan 01_INBOX in coeus vault, classify new notes/leads, and move to appropriate 02_PROJECTS subfolder."
-    enabled: true
-
-  - id: job_application
-    cron: "30 13 * * *" # Every Afternoon at 1:30 PM
-    prompt: "Scrape remote job boards for 'Senior AI Engineer' ($3k-$3.5k/mo min, remote, USD), tailor resume.tex from /resume/, and autonomously apply or prepare drafts."
     enabled: true
 
   - id: investor_outreach
