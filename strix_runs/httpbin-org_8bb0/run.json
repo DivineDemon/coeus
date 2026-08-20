@@ -1,0 +1,417 @@
+{
+  "run_id": "httpbin-org_8bb0",
+  "run_name": "httpbin-org_8bb0",
+  "start_time": "2026-08-15T06:53:27.607063+00:00",
+  "end_time": "2026-08-15T06:58:52.280983+00:00",
+  "status": "completed",
+  "auth_mode": "api_key",
+  "targets_info": [
+    {
+      "type": "web_application",
+      "details": {
+        "target_url": "https://httpbin.org"
+      },
+      "original": "https://httpbin.org"
+    }
+  ],
+  "llm_usage": {
+    "requests": 13,
+    "input_tokens": 593810,
+    "input_tokens_details": [
+      {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      }
+    ],
+    "output_tokens": 11629,
+    "output_tokens_details": [
+      {
+        "reasoning_tokens": 11760
+      }
+    ],
+    "total_tokens": 605439,
+    "request_usage_entries": [
+      {
+        "input_tokens": 40889,
+        "output_tokens": 848,
+        "total_tokens": 41737,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 845
+        }
+      },
+      {
+        "input_tokens": 41068,
+        "output_tokens": 586,
+        "total_tokens": 41654,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 549
+        }
+      },
+      {
+        "input_tokens": 45892,
+        "output_tokens": 971,
+        "total_tokens": 46863,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 1048
+        }
+      },
+      {
+        "input_tokens": 41280,
+        "output_tokens": 969,
+        "total_tokens": 42249,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 1049
+        }
+      },
+      {
+        "input_tokens": 46161,
+        "output_tokens": 876,
+        "total_tokens": 47037,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 995
+        }
+      },
+      {
+        "input_tokens": 46238,
+        "output_tokens": 838,
+        "total_tokens": 47076,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 878
+        }
+      },
+      {
+        "input_tokens": 46346,
+        "output_tokens": 1014,
+        "total_tokens": 47360,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 1126
+        }
+      },
+      {
+        "input_tokens": 46679,
+        "output_tokens": 888,
+        "total_tokens": 47567,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 1025
+        }
+      },
+      {
+        "input_tokens": 48157,
+        "output_tokens": 1288,
+        "total_tokens": 49445,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 1462
+        }
+      },
+      {
+        "input_tokens": 49562,
+        "output_tokens": 1584,
+        "total_tokens": 51146,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 1528
+        }
+      },
+      {
+        "input_tokens": 49877,
+        "output_tokens": 288,
+        "total_tokens": 50165,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 261
+        }
+      },
+      {
+        "input_tokens": 50050,
+        "output_tokens": 461,
+        "total_tokens": 50511,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 393
+        }
+      },
+      {
+        "input_tokens": 41611,
+        "output_tokens": 1018,
+        "total_tokens": 42629,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 601
+        }
+      }
+    ],
+    "cost": 0.0,
+    "agents": [
+      {
+        "requests": 9,
+        "input_tokens": 428962,
+        "input_tokens_details": [
+          {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          }
+        ],
+        "output_tokens": 8208,
+        "output_tokens_details": [
+          {
+            "reasoning_tokens": 8716
+          }
+        ],
+        "total_tokens": 437170,
+        "request_usage_entries": [
+          {
+            "input_tokens": 45892,
+            "output_tokens": 971,
+            "total_tokens": 46863,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 1048
+            }
+          },
+          {
+            "input_tokens": 46161,
+            "output_tokens": 876,
+            "total_tokens": 47037,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 995
+            }
+          },
+          {
+            "input_tokens": 46238,
+            "output_tokens": 838,
+            "total_tokens": 47076,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 878
+            }
+          },
+          {
+            "input_tokens": 46346,
+            "output_tokens": 1014,
+            "total_tokens": 47360,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 1126
+            }
+          },
+          {
+            "input_tokens": 46679,
+            "output_tokens": 888,
+            "total_tokens": 47567,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 1025
+            }
+          },
+          {
+            "input_tokens": 48157,
+            "output_tokens": 1288,
+            "total_tokens": 49445,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 1462
+            }
+          },
+          {
+            "input_tokens": 49562,
+            "output_tokens": 1584,
+            "total_tokens": 51146,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 1528
+            }
+          },
+          {
+            "input_tokens": 49877,
+            "output_tokens": 288,
+            "total_tokens": 50165,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 261
+            }
+          },
+          {
+            "input_tokens": 50050,
+            "output_tokens": 461,
+            "total_tokens": 50511,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 393
+            }
+          }
+        ],
+        "agent_id": "31865d61",
+        "agent_name": "HTTP Bully",
+        "model": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+        "cost": 0.0
+      },
+      {
+        "requests": 4,
+        "input_tokens": 164848,
+        "input_tokens_details": [
+          {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          }
+        ],
+        "output_tokens": 3421,
+        "output_tokens_details": [
+          {
+            "reasoning_tokens": 3044
+          }
+        ],
+        "total_tokens": 168269,
+        "request_usage_entries": [
+          {
+            "input_tokens": 40889,
+            "output_tokens": 848,
+            "total_tokens": 41737,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 845
+            }
+          },
+          {
+            "input_tokens": 41068,
+            "output_tokens": 586,
+            "total_tokens": 41654,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 549
+            }
+          },
+          {
+            "input_tokens": 41280,
+            "output_tokens": 969,
+            "total_tokens": 42249,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 1049
+            }
+          },
+          {
+            "input_tokens": 41611,
+            "output_tokens": 1018,
+            "total_tokens": 42629,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 601
+            }
+          }
+        ],
+        "agent_id": "d94e161b",
+        "agent_name": "Root Agent",
+        "model": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+        "cost": 0.0
+      }
+    ]
+  },
+  "scan_mode": "quick",
+  "instruction": "",
+  "user_instruction": null,
+  "non_interactive": true,
+  "local_sources": [],
+  "workspace_mount": null,
+  "diff_scope": {
+    "active": false,
+    "mode": "auto"
+  },
+  "scope_mode": "auto",
+  "diff_base": null,
+  "scan_results": {
+    "scan_completed": true,
+    "executive_summary": "# Executive Summary\n\nThe assessment of https://httpbin.org revealed critical security header deficiencies that could expose the service to various attacks if exploited.\n\n**Key Risks:**\n- Missing Content-Security-Policy (CSP) header leaves JavaScript injection vectors open\n- Lack of X-Content-Type-Options header increases MIME-type sniffing risks\n- Absence of HSTS header enables SSL stripping attacks\n\n**Business Impact:** Potential data breaches through client-side XSS or man-in-the-middle attacks.\n\n**Overall Risk Posture:** Critical due to exposed sensitive endpoints without mitigation.",
+    "methodology": "# Methodology\n\nConducted via HTTP Verdi scanning and manual probing of https://httpbin.org using agent 'HTTP Bully'. Techniques included header analysis, security header verification, and misconfiguration checks.\n\n**Scope:** https://httpbin.org\n\n**Tools used:** httpx for probing, custom security header checker.",
+    "technical_analysis": "# Technical Analysis\n\n1. **Missing Security Headers**\n   - No Content-Security-Policy (CSP) header detected\n   - No X-Content-Type-Options: nosniff header\n   - No HTTP Strict Transport Security (HSTS) header\n\n2. **Attack Surface Exposure**\n   - All endpoints accessible without authentication\n   - No rate limiting or request validation mechanisms\n\n3. **CSRF Vulnerability Potential**\n   - No SameSite cookie attributes detected on forms\n   - No CSRF token implementation in state-changing endpoints",
+    "recommendations": "# Recommendations\n\n## Immediate Actions (Critical)\n1. Implement mandatory security headers:\n   - Content-Security-Policy: `default-src 'self'`\n   - X-Content-Type-Options: nosniff\n   - Strict-Transport-Security: max-age=31536000\n2. Add CSRF protection to all state-changing endpoints\n3. Implement rate limiting on POST/PUT/DELETE methods\n\n## Short-Term Actions (High Risk)\n1. Add security headers to all exposed endpoints\n2. Conduct authorization testing for authenticated endpoints\n\n## Long-Term Recommendations\n1. Implement web application firewall (WAF) rules for header validation\n2. Conduct regular security header audits\n3. Deploy HTTPS-only cookies with SameSite=Strict\n\n## Validation Guidance\nRetest after implementing headers using curl:\n```bash\ncurl -I https://httpbin.org/path\n```",
+    "success": true
+  }
+}
