@@ -6,7 +6,6 @@
 | :--- | :--- | :--- | :--- | :--- |
 | `coeus_crm_sync` | Syncs lead states, parses `01_INBOX/`, updates frontmatter | `~/.hermes/skills/coeus_crm_sync.md` | Manual / Cron | Installed |
 | `outreach_drafter` | Generates tailored email/DM copy from templates and auto-sends | `~/.hermes/skills/outreach_drafter.md` | Pipeline Update / Cron | Installed |
-| `whatsapp_notifier` | Sends formatted alerts/summaries to WhatsApp bridge | `~/.hermes/skills/whatsapp_notifier.md` | Schedule / Event | Installed |
 | `codebase_indexer` | Scans `/Documents/code/` for commit logs & updates `codebase_registry.md` | `~/.hermes/skills/codebase_indexer.md` | Weekly Cron | Installed |
 | `linkedin_prospecting` | Extracts info from LinkedIn profiles via CDP | `~/.hermes/skills/linkedin_prospecting.md` | Manual / Cron | Installed |
 
@@ -16,7 +15,7 @@
 
 | Job Name | Cron | Skills Attached | Notes |
 | :--- | :--- | :--- | :--- |
-| `morning_briefing` | `0 13 * * *` | `whatsapp_notifier` | Delivers 5-bullet digest (1:00 PM) |
+| `morning_briefing` | `0 13 * * *` | — | Delivers 5-bullet digest (1:00 PM) — push channel removed, runs in-chat |
 | `inbox_triage` | `15 13,17,21 * * *` | `coeus_crm_sync` | Moves processed inbox items into projects (1:15 PM, 5:15 PM, 9:15 PM) |
 | `investor_outreach` | `0 14 * * 2,4` | `outreach_drafter` | Physical AI/Robotics VCs/angels (2:00 PM Tue/Thu) |
 | `agency_lead_gen` | `30 14 * * 1,3` | `outreach_drafter` | 2nd Brain/AI automation leads (2:30 PM Mon/Wed) |
@@ -31,7 +30,7 @@
 schedules:
   - id: morning_briefing
     cron: "0 13 * * *"
-    prompt: "Run whatsapp_notifier to send morning agenda and pipeline updates from coeus vault."
+    prompt: "Compile morning agenda and pipeline updates from the coeus vault and deliver in-chat (no WhatsApp — push channel removed)."
     enabled: true
 
   - id: inbox_triage

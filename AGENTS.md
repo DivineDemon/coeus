@@ -256,7 +256,7 @@ Prefixes (`00_`, `01_`, etc.) enforce **sort order** in file explorers and `ls` 
 | **Context Loading** | Reads `00_SYSTEM/hermes_context.md` + this AGENTS.md on session start | `hermes_context.md` |
 | **Cron Jobs** | Scheduled automation (outreach, enrichment, CRM sync) | `~/.hermes/cron/` + `cronjob` tool |
 | **Browser Automation** | CDP at `http://127.0.0.1:9222` for Gmail/LinkedIn | `hermes_context.md:41` |
-| **WhatsApp Alerts** | Port `18790` gateway | `hermes_context.md:22` |
+| **Alerts** | Saved to vault logs (no push channel) | — |
 | **Code Execution** | Local Python/Bash via terminal tool | Native |
 | **Memory Persistence** | SQLite in `~/.hermes/` + this vault's memory | `hermes_context.md:43` |
 
@@ -456,7 +456,7 @@ mv 02_PROJECTS/old-project 05_ARCHIVE/2026-08-10_old-project
 | GitHub (`DivineDemon/coeus`) | Version control + backup | HTTPS/SSH |
 | Hermes Agent | AI automation layer | Desktop app |
 | Chrome CDP (`:9222`) | Browser automation | Local browser |
-| WhatsApp Gateway (`:18790`) | Alert delivery | Local bridge |
+| Hermes Gateway | Cron job execution | Local daemon |
 | 1Password / Keychain | Secret storage | CLI (`op`) |
 
 ### C. Glossary

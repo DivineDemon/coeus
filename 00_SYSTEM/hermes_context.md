@@ -19,7 +19,7 @@
   - **Auto-Send**: Draft cold outreach emails for Haga investors/grants, job applications, and AI consultancy leads. *Do not ask for human approval.* You must hit "Send" using the active browser session.
   - Check local CDP browser session (`http://127.0.0.1:9222`) for Gmail/LinkedIn/Yahoo activity. Credentials for authentication are securely stored in `/Users/mushood/Documents/code/personal/coeus/00_SYSTEM/Credentials/accounts.md`.
   - Use `/Users/mushood/Documents/code/personal/coeus/04_RESOURCES/Career/resume.tex` for drafting highly technical job applications for Senior AI Engineer roles.
-  - Push status reports, daily reminders, and high-priority lead updates to user via **WhatsApp Gateway** (Port `18790`).
+  - Status reports and daily reminders are saved to the coeus vault (no push channel — WhatsApp integration removed 2026-08-21).
 
 ### 2. Vault Interaction Rules
 - **Vault Root**: `/Users/mushood/Documents/code/personal/coeus`
@@ -39,7 +39,6 @@
 
 ## System Capabilities & Tooling
 - **Browser Automation**: Chrome CDP at `http://127.0.0.1:9222`
-- **WhatsApp Bridge**: Port `18790`
 - **Persistence**: SQLite databases in `~/.hermes/` (`state.db`, `projects.db`, `kanban.db`)
 - **Code Execution**: Local Python / Bash execution environments
 
